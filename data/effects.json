@@ -1,0 +1,151 @@
+{
+    "AirQuality": {
+        "HighAirQuality": {
+            "MainEffect": [
+                "EnableAirPurifierSystemAction"
+            ],
+            "SideEffect": [
+                "OpenWindowFrameAction",
+                "CloseWindowFrameAction"
+            ]
+        },
+        "LowAirQuality": {
+            "MainEffect": [
+                "DisableAirPurifierSystemAction"
+            ],
+            "SideEffect": [
+                "OpenWindowFrameAction",
+                "CloseWindowFrameAction"
+            ]
+        }
+    },
+    "Brightness": {
+        "HighBrightness": {
+            "MainEffect": [
+                "EnableLightingSystemAction",
+                "OpenWindowFrameAction",
+                "SetLightingAction"
+            ],
+            "SideEffect": [
+                "StartWatchingTvAction"
+            ]
+        },
+        "LowBrightness": {
+            "MainEffect": [
+                "CloseWindowFrameAction",
+                "DisableLightingSystemAction",
+                "SetLightingAction"
+            ],
+            "SideEffect": [
+                "StopWatchingTvAction"
+            ]
+        }
+    },
+    "Humidity": {
+        "HighHumidity": {
+            "MainEffect": [
+                "DisableDehumidifierSystemAction",
+                "EnableHumidifierSystemAction",
+                "EnableWateringSystemAction",
+                "SetHumidityAction"
+            ],
+            "SideEffect": [
+                "OpenWindowFrameAction",
+                "CloseWindowFrameAction"
+            ]
+        },
+        "LowHumidity": {
+            "MainEffect": [
+                "DisableHumidifierSystemAction",
+                "DisableWateringSystemAction",
+                "EnableDehumidifierSystemAction",
+                "SetHumidityAction"
+            ],
+            "SideEffect": [
+                "OpenWindowFrameAction",
+                "CloseWindowFrameAction"
+            ]
+        }
+    },
+    "Noise": {
+        "HighNoise": {
+            "MainEffect": [
+                "AddAlarmAction",
+                "StartListeningMusicAction",
+                "StartWatchingTvAction",
+                "IncreaseVolumeAction"
+            ],
+            "SideEffect": [
+                "EnableCoolingSystemAction",
+                "EnableAirPurifierSystemAction",
+                "StartVacuumAction",
+                "StartDishwashingAction",
+                "StartDryingAction",
+                "StartWashingClothesAction"
+            ]
+        },
+        "LowNoise": {
+            "MainEffect": [
+                "TurnAlarmOffAction",
+                "StopListeningMusicAction",
+                "StopWatchingTvAction",
+                "DecreaseVolumeAction"
+            ],
+            "SideEffect": [
+                "DisableCoolingSystemAction",
+                "DisableAirPurifierSystemAction",
+                "StopVacuumAction",
+                "StopDishwashingAction",
+                "StopDryingAction",
+                "StopWashingClothesAction"
+            ]
+        }
+    },
+    "Security": {
+        "HighSecurity": {
+            "MainEffect": [
+                "EnableSecuritySystemAction"
+            ],
+            "SideEffect": [
+                "CloseWindowFrameAction",
+                "EnableLightingSystemAction",
+                "SetLightingAction"
+            ]
+        },
+        "LowSecurity": {
+            "MainEffect": [
+                "DisableSecuritySystemAction",
+                "TurnAlarmOffAction"
+            ],
+            "SideEffect": [
+                "OpenWindowFrameAction",
+                "DisableLightingSystemAction",
+                "SetLightingAction"
+            ]
+        }
+    },
+    "Temperature": {
+        "HighTemperature": {
+            "MainEffect": [
+                "CloseWindowFrameAction",
+                "DisableCoolingSystemAction",
+                "EnableHeatingSystemAction",
+                "SetTemperatureAction"
+            ],
+            "SideEffect": [
+                "EnableDehumidifierSystemAction"
+            ]
+        },
+        "LowTemperature": {
+            "MainEffect": [
+                "OpenWindowFrameAction",
+                "EnableCoolingSystemAction",
+                "DisableHeatingSystemAction",
+                "SetTemperatureAction"
+            ],
+            "SideEffect": [
+                "DisableDehumidifierSystemAction"
+            ]
+        }
+    }
+}

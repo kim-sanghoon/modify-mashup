@@ -1,0 +1,380 @@
+{
+    "TurnAlarmOffAction": {
+        "inverseOf": "AddAlarmAction",
+        "type": "bool",
+        "values": [],
+        "language": {
+            "past": "the alarm was turned off",
+            "gerund": "turning the alarm off",
+            "infinitive": "turn the alarm off"
+        }
+    }, 
+    "StartDishwashingAction": {
+        "inverseOf": "StopDishwashingAction",
+        "type": "bool",
+        "values": [],
+        "language": {
+            "past": "washing dishes was started",
+            "gerund": "starting washing dishes",
+            "infinitive": "start washing dishes"
+        }
+    }, 
+    "DisableAirPurifierSystemAction": {
+        "inverseOf": "EnableAirPurifierSystemAction",
+        "type": "bool",
+        "values": [],
+        "language": {
+            "past": "the air purifier was turned off",
+            "gerund": "turning the air purifier off",
+            "infinitive": "turn the air purifier off"
+        }
+    }, 
+    "StopWashingClothesAction": {
+        "inverseOf": "StartWashingClothesAction",
+        "type": "bool",
+        "values": [],
+        "language": {
+            "past": "washing clothes was stopped",
+            "gerund": "stopping washing clothes",
+            "infinitive": "stop washing dishes"
+        }
+    }, 
+    "StopVacuumAction": {
+        "inverseOf": "StartVacuumAction",
+        "type": "bool",
+        "values": [],
+        "language": {
+            "past": "vacuum cleaning was stopped",
+            "gerund": "stopping vacuum cleaning",
+            "infinitive": "stop vacuum cleaning"
+        }
+    }, 
+    "AddAlarmAction": {
+        "inverseOf": "TurnAlarmOffAction",
+        "type": "bool",
+        "values": [],
+        "language": {
+            "past": "the alarm was added",
+            "gerund": "adding an alarm",
+            "infinitive": "add an alarm"
+        }
+    }, 
+    "EnableHeatingSystemAction": {
+        "inverseOf": "DisableHeatingSystemAction",
+        "type": "bool",
+        "values": [],
+        "language": {
+            "past": "the heater was turned on",
+            "gerund": "turning the heater on",
+            "infinitive": "turn the heater on"
+        }
+    }, 
+    "DisableDehumidifierSystemAction": {
+        "inverseOf": "EnableDehumidifierSystemAction",
+        "type": "bool",
+        "values": [],
+        "language": {
+            "past": "the de-humidifier was turned off",
+            "gerund": "turning the de-humidifier off",
+            "infinitive": "turn the de-humidifier off"
+        }
+    }, 
+    "DisableHumidifierSystemAction": {
+        "inverseOf": "EnableHumidifierSystemAction",
+        "type": "bool",
+        "values": [],
+        "language": {
+            "past": "the humidifier was turned off",
+            "gerund": "turning the humidifier off",
+            "infinitive": "turn the humidifier off"
+        }
+    }, 
+    "EnableWateringSystemAction": {
+        "inverseOf": "DisableWateringSystemAction",
+        "type": "bool",
+        "values": [],
+        "language": {
+            "past": "the watering system was turned on",
+            "gerund": "turning the watering system on",
+            "infinitive": "turn the watering system on"
+        }
+    }, 
+    "StartWashingClothesAction": {
+        "inverseOf": "StopWashingClothesAction",
+        "type": "bool",
+        "values": [],
+        "language": {
+            "past": "washing clothes was started",
+            "gerund": "starting washing clothes",
+            "infinitive": "start washing clothes"
+        }
+    }, 
+    "StartVacuumAction": {
+        "inverseOf": "StopVacuumAction",
+        "type": "bool",
+        "values": [],
+        "language": {
+            "past": "vacuum cleaning was started",
+            "gerund": "starting vacuum cleaning",
+            "infinitive": "start vacuum cleaning"
+        }
+    }, 
+    "DisableCoolingSystemAction": {
+        "inverseOf": "EnableCoolingSystemAction",
+        "type": "bool",
+        "values": [],
+        "language": {
+            "past": "the air conditioner was turned off",
+            "gerund": "turning the air conditioner off",
+            "infinitive": "turn the air conditioner off"
+        }
+    }, 
+    "DisableHeatingSystemAction": {
+        "inverseOf": "EnableHeatingSystemAction",
+        "type": "bool",
+        "values": [],
+        "language": {
+            "past": "the heater was turned off",
+            "gerund": "turning the heater off",
+            "infinitive": "turn the heater off"
+        }
+    }, 
+    "CloseWindowFrameAction": {
+        "inverseOf": "OpenWindowFrameAction",
+        "type": "bool",
+        "values": [],
+        "language": {
+            "past": "the window was closed",
+            "gerund": "closing the window",
+            "infinitive": "close the window"
+        }
+    }, 
+    "SetTemperatureAction": {
+        "inverseOf": "SetTemperatureAction",
+        "type": "number",
+        "values": ["temperature"],
+        "language": {
+            "past": "the temperature was set to {temperature} degrees",
+            "gerund": "setting the temperature to {temperature} degrees",
+            "increase": "increasing the temperature to {temperature} degrees",
+            "decrease": "decreasing the temperature to {temperature} degrees",
+            "infinitive": "set the temperature to {temperature} degrees"
+        }
+    }, 
+    "StartDryingAction": {
+        "inverseOf": "StopDryingAction",
+        "type": "bool",
+        "values": [],
+        "language": {
+            "past": "drying clothes was started",
+            "gerund": "starting drying clothes",
+            "infinitive": "start drying clothes"
+        }
+    }, 
+    "EnableSecuritySystemAction": {
+        "inverseOf": "DisableSecuritySystemAction",
+        "type": "bool",
+        "values": [],
+        "language": {
+            "past": "the security system was activated",
+            "gerund": "activating the security system",
+            "infinitive": "activate the security system"
+        }
+    }, 
+    "DisableWateringSystemAction": {
+        "inverseOf": "EnableWateringSystemAction",
+        "type": "bool",
+        "values": [],
+        "language": {
+            "past": "the watering system was turned off",
+            "gerund": "turning the watering system off",
+            "infinitive": "turn the watering system off"
+        }
+    }, 
+    "SetLightingAction": {
+        "inverseOf": "SetLightingAction",
+        "type": "number",
+        "values": ["brightness"],
+        "language": {
+            "past": "the brightness was set to {brightness} percent",
+            "gerund": "setting the brightness to {brightness} percent",
+            "increase": "increasing the brightness to {brightness} percent",
+            "decrease": "decreasing the brightness to {brightness} percent",
+            "infinitive": "set the brightness to {brightness} percent"
+        }
+    }, 
+    "OpenWindowFrameAction": {
+        "inverseOf": "CloseWindowFrameAction",
+        "type": "bool",
+        "values": [],
+        "language": {
+            "past": "the window was opened",
+            "gerund": "opening the window",
+            "infinitive": "open the window"
+        }
+    }, 
+    "EnableDehumidifierSystemAction": {
+        "inverseOf": "DisableDehumidifierSystemAction",
+        "type": "bool",
+        "values": [],
+        "language": {
+            "past": "the de-humidifier was turned on",
+            "gerund": "turning the de-humidifier on",
+            "infinitive": "turn the de-humidifier on"
+        }
+    }, 
+    "IncreaseVolumeAction": {
+        "inverseOf": "DecreaseVolumeAction",
+        "type": "number",
+        "values": ["volume"],
+        "language": {
+            "past": "the volume was increased to {volume} percent",
+            "gerund": "increasing the volume to {volume} percent",
+            "increase": "increasing the volume to {volume} percent",
+            "infinitive": "increase the volume to {volume} percent"
+        }
+    }, 
+    "EnableHumidifierSystemAction": {
+        "inverseOf": "DisableHumidifierSystemAction",
+        "type": "bool",
+        "values": [],
+        "language": {
+            "past": "the humidifier was turned on",
+            "gerund": "turning the humidifier on",
+            "infinitive": "turn the humidifier on"
+        }
+    }, 
+    "DisableSecuritySystemAction": {
+        "inverseOf": "EnableSecuritySystemAction",
+        "type": "bool",
+        "values": [],
+        "language": {
+            "past": "the security system was de-activated",
+            "gerund": "de-activating the security system",
+            "infinitive": "de-activate the security system"
+        }
+    }, 
+    "DisableLightingSystemAction": {
+        "inverseOf": "EnableLightingSystemAction",
+        "type": "bool",
+        "values": [],
+        "language": {
+            "past": "the lights were turned off",
+            "gerund": "turning the lights off",
+            "infinitive": "turn the lights off"
+        }
+    }, 
+    "EnableLightingSystemAction": {
+        "inverseOf": "DisableLightingSystemAction",
+        "type": "bool",
+        "values": [],
+        "language": {
+            "past": "the lights were turned on",
+            "gerund": "turning the lights on",
+            "infinitive": "turn the lights on"
+        }
+    }, 
+    "EnableAirPurifierSystemAction": {
+        "inverseOf": "DisableAirPurifierSystemAction",
+        "type": "bool",
+        "values": [],
+        "language": {
+            "past": "the air purifier was turned off",
+            "gerund": "turning the air purifier off",
+            "infinitive": "turn the air purifier off"
+        }
+    }, 
+    "StopListeningMusicAction": {
+        "inverseOf": "StartListeningMusicAction",
+        "type": "bool",
+        "values": [],
+        "language": {
+            "past": "the music was stopped playing",
+            "gerund": "stopping the music playback",
+            "infinitive": "stop playing the music"
+        }
+    }, 
+    "DecreaseVolumeAction": {
+        "inverseOf": "IncreaseVolumeAction",
+        "type": "number",
+        "values": ["volume"],
+        "language": {
+            "past": "the volume was decreased to {volume} percent",
+            "gerund": "decreasing the volume to {volume} percent",
+            "decrease": "decreasing the volume to {volume} percent",
+            "infinitive": "decrease the volume to {volume} percent"
+        }
+    }, 
+    "StartListeningMusicAction": {
+        "inverseOf": "StopListeningMusicAction",
+        "type": "bool",
+        "values": [],
+        "language": {
+            "past": "the music was started playing",
+            "gerund": "starting the music playback",
+            "infinitive": "start playing the music"
+        }
+    }, 
+    "StopDryingAction": {
+        "inverseOf": "StartDryingAction",
+        "type": "bool",
+        "values": [],
+        "language": {
+            "past": "drying clothes was stopped",
+            "gerund": "stopping drying clothes",
+            "infinitive": "stop drying clothes"
+        }
+    }, 
+    "StartWatchingTvAction": {
+        "inverseOf": "StopWatchingTvAction",
+        "type": "bool",
+        "values": [],
+        "language": {
+            "past": "the TV was turned on",
+            "gerund": "turning the TV on",
+            "infinitive": "turn the TV on"
+        }
+    }, 
+    "SetHumidityAction": {
+        "inverseOf": "SetHumidityAction",
+        "type": "number",
+        "values": ["humidity"],
+        "language": {
+            "past": "the humidity was set to {humidity} percent",
+            "gerund": "setting the humidity to {humidity} percent",
+            "increase": "increasing the humidity to {humidity} percent",
+            "decrease": "decreasing the humidity to {humidity} percent",
+            "infinitive": "set the humidity to {humidity} percent"
+        }
+    }, 
+    "StopWatchingTvAction": {
+        "inverseOf": "StartWatchingTvAction",
+        "type": "bool",
+        "values": [],
+        "language": {
+            "past": "the TV was turned off",
+            "gerund": "turning the TV off",
+            "infinitive": "turn the TV off"
+        }
+    }, 
+    "EnableCoolingSystemAction": {
+        "inverseOf": "DisableCoolingSystemAction",
+        "type": "bool",
+        "values": [],
+        "language": {
+            "past": "the air conditioner was turned on",
+            "gerund": "turning the air conditioner on",
+            "infinitive": "turn the air conditioner on"
+        }
+    }, 
+    "StopDishwashingAction": {
+        "inverseOf": "StartDishwashingAction",
+        "type": "bool",
+        "values": [],
+        "language": {
+            "past": "washing dishes was started",
+            "gerund": "starting washing dishes",
+            "infinitive": "start washing dishes"
+        }
+    }
+}
