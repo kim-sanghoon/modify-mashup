@@ -153,6 +153,9 @@
         "inverseOf": "SetTemperatureAction",
         "type": "number",
         "values": ["temperature"],
+        "valuesRange": {
+            "temperature": [18, 30]
+        },
         "language": {
             "past": "the temperature was set to {temperature} degrees",
             "gerund": "setting the temperature to {temperature} degrees",
@@ -195,6 +198,9 @@
         "inverseOf": "SetLightingAction",
         "type": "number",
         "values": ["brightness"],
+        "valuesRange": {
+            "brightness": [0, 100]
+        },
         "language": {
             "past": "the brightness was set to {brightness} percent",
             "gerund": "setting the brightness to {brightness} percent",
@@ -227,6 +233,9 @@
         "inverseOf": "DecreaseVolumeAction",
         "type": "number",
         "values": ["volume"],
+        "valuesRange": {
+            "volume": [10, 100]
+        },
         "language": {
             "past": "the volume was increased to {volume} percent",
             "gerund": "increasing the volume to {volume} percent",
@@ -298,6 +307,9 @@
         "inverseOf": "IncreaseVolumeAction",
         "type": "number",
         "values": ["volume"],
+        "valuesRange": {
+            "volume": [10, 100]
+        },
         "language": {
             "past": "the volume was decreased to {volume} percent",
             "gerund": "decreasing the volume to {volume} percent",
@@ -339,6 +351,9 @@
         "inverseOf": "SetHumidityAction",
         "type": "number",
         "values": ["humidity"],
+        "valuesRange": {
+            "humidity": [5, 95]
+        },
         "language": {
             "past": "the humidity was set to {humidity} percent",
             "gerund": "setting the humidity to {humidity} percent",
