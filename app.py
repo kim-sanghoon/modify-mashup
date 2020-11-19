@@ -5,6 +5,9 @@ from datetime import datetime
 
 import sys, json
 
+# Define intent handlers here
+# from src.handler.testHandler import testHandler
+
 app = Flask(__name__)
 
 @app.route('/', methods=['POST'])
@@ -35,6 +38,7 @@ def main():
 
     switch = {
         # 'intent' : function
+        # 'test': testHandler
     }
 
     handler = switch[intent]

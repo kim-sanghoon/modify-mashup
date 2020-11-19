@@ -63,7 +63,8 @@
             ],
             "SideEffect": [
                 "OpenWindowFrameAction",
-                "CloseWindowFrameAction"
+                "CloseWindowFrameAction",
+                "EnableCoolingSystemAction"
             ]
         }
     },
