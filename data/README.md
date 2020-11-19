@@ -146,7 +146,6 @@ This file contains properties of each nominal trigger.
 A trigger specified in the file is shown as follows:
 ```json
 {
-    ...
 
     "EveryYearTrigger": {
         "params": {
@@ -174,7 +173,6 @@ A trigger specified in the file is shown as follows:
         }
     },
 
-    ...
 }
 ```
 - Dict `params` (mandatory)
