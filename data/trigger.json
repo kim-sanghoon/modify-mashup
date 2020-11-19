@@ -1,0 +1,516 @@
+{
+    "AddedReminderTrigger": {
+        "params": {},
+        "paramsRange": {},
+        "language": {
+            "present": "a reminder is added",
+            "past": "a reminder was added"
+        }
+    },
+    "ConnectionToNetworkTrigger": {
+        "params": {
+            "name": {
+                "type": "string",
+                "followup": "What is the name of the device?"
+            }
+        },
+        "paramsRange": {
+            "name": ["cell phone", "laptop", "tablet"]
+        },
+        "language": {
+            "present": "your {name} device is connected to the home network",
+            "past": "your {name} device was connected to the home network"
+        }
+    },
+    "DeviceTurnedOffTrigger": {
+        "params": {
+            "name": {
+                "type": "string",
+                "followup": "What is the name of the device?"
+            }
+        },
+        "paramsRange": {
+            "name": ["cell phone", "laptop", "tablet"]
+        },
+        "language": {
+            "present": "your {name} device is turned off",
+            "past": "your {name} device was turned off"
+        }
+    },
+    "DeviceTurnedOnTrigger": {
+        "params": {
+            "name": {
+                "type": "string",
+                "followup": "What is the name of the device?"
+            }
+        },
+        "paramsRange": {
+            "name": ["cell phone", "laptop", "tablet"]
+        },
+        "language": {
+            "present": "your {name} device is turned on",
+            "past": "your {name} device was turned on"
+        }
+    },
+    "DisconnectedFromNetworkTrigger": {
+        "params": {
+            "name": {
+                "type": "string",
+                "followup": "What is the name of the device?"
+            }
+        },
+        "paramsRange": {
+            "name": ["cell phone", "laptop", "tablet"]
+        },
+        "language": {
+            "present": "your {name} device is dis-connected from the home network",
+            "past": "your {name} device was dis-connected from the home network"
+        }
+    },
+    "EveryDayTrigger": {
+        "params": {
+            "time": {
+                "type": "time",
+                "followup": "What time do you want to trigger at?"
+            }
+        },
+        "paramsRange": {
+            "time": [0, 23]
+        },
+        "language": {
+            "present": "the time is {time}",
+            "past": "the time was {time}",
+            "short": "at {time}"
+        }
+    },
+    "EveryYearTrigger": {
+        "params": {
+            "month": {
+                "type": "string",
+                "followup": "Which month do you want to trigger in?"
+            },
+            "day": {
+                "type": "number",
+                "followup": "Which day do you want to trigger at?"
+            }
+        },
+        "paramsRange": {
+            "month": [
+                "January", "February", "March", "April", 
+                "May", "June", "July", "August", 
+                "September", "October", "November", "December"
+            ],
+            "day": [1, 28]
+        },
+        "language": {
+            "present": "the date is {month} {day}",
+            "past": "the date was {month} {day}",
+            "short": "on {month} {day}"
+        }
+    },
+    "GPSEnterAreaTrigger": {
+        "params": {
+            "place": {
+                "type": "string",
+                "followup": "Which place are you going to enter?"
+            }
+        },
+        "paramsRange": {
+            "place": ["home", "office", "living room", "garage"]
+        },
+        "language": {
+            "present": "you enter the {place} area",
+            "past": "you entered the {place} area"
+        }
+    },
+    "GPSExitAreaTrigger": {
+        "params": {
+            "place": {
+                "type": "string",
+                "followup": "Which place are you going to leave?"
+            }
+        },
+        "paramsRange": {
+            "place": ["home", "office", "living room", "garage"]
+        },
+        "language": {
+            "present": "you leave the {place} area",
+            "past": "you left the {place} area"
+        }
+    },
+    "HeatingSystemDisabledTrigger": {
+        "params": {},
+        "paramsRange": {},
+        "language": {
+            "present": "the heater is turned off",
+            "past": "the heater was turned off"
+        }
+    },
+    "HeatingSystemEnabledTrigger": {
+        "params": {},
+        "paramsRange": {},
+        "language": {
+            "present": "the heater is turned on",
+            "past": "the heater was turned on"
+        }
+    },
+    "LightingSystemDisabledTrigger": {
+        "params": {},
+        "paramsRange": {},
+        "language": {
+            "present": "the lights are turned off",
+            "past": "the lights were turned off"
+        }
+    },
+    "LightingSystemEnabledTrigger": {
+        "params": {},
+        "paramsRange": {},
+        "language": {
+            "present": "the lights are turned on",
+            "past": "the lights were turned on"
+        }
+    },
+    "ReceivedBreakingNewsTrigger": {
+        "params": {
+            "weather": {
+                "type": "string",
+                "followup": "Which weather do you want to trigger at?"
+            }
+        },
+        "paramsRange": {
+            "weather": ["sunny", "cloudy", "rainy", "snowy", "windy", "foggy"]
+        },
+        "language": {
+            "present": "the weather is expected to be {weather}",
+            "past": "the weather was expected to be {weather}"
+        }
+    },
+    "ReceivedIncomingCallTrigger": {
+        "params": {
+            "who": {
+                "type": "string",
+                "followup": "Who are you going to receive a call from?"
+            }
+        },
+        "paramsRange": {
+            "who": ["mother", "father", "sister", "brother"]
+        },
+        "language": {
+            "present": "you receive a call from {who}",
+            "past": "you received a call from {who}"
+        }
+    },
+    "ReceivedMessageTrigger": {
+        "params": {
+            "who": {
+                "type": "string",
+                "followup": "Who are you going to receive a message from?"
+            }
+        },
+        "paramsRange": {
+            "who": ["mother", "father", "sister", "brother"]
+        },
+        "language": {
+            "present": "you receive a message from {who}",
+            "past": "you received a message from {who}"
+        }
+    },
+    "ReceivedRemindNotificationTrigger": {
+        "params": {},
+        "paramsRange": {},
+        "language": {
+            "present": "a reminder is notified to you",
+            "past": "a reminder was notified to you"
+        }
+    },
+    "SecuritySystemDisabledTrigger": {
+        "params": {},
+        "paramsRange": {},
+        "language": {
+            "present": "the security system is de-activated",
+            "past": "the security system was de-activated"
+        }
+    },
+    "SecuritySystemEnabledTrigger": {
+        "params": {},
+        "paramsRange": {},
+        "language": {
+            "present": "the security system is activated",
+            "past": "the security system was activated"
+        }
+    },
+    "SensedAirQualityDecreasedTrigger": {
+        "params": {
+            "airquality": {
+                "type": "number",
+                "followup": "What percent of air quality do you want to trigger at?"
+            }
+        },
+        "paramsRange": {
+            "airquality": [10, 90]
+        },
+        "language": {
+            "present": "the room air quality is decreased to {airquality} percent",
+            "past": "the room air quality was decreased to {airquality} percent"
+        }
+    },
+    "SensedAirQualityIncreasedTrigger": {
+        "params": {
+            "airquality": {
+                "type": "number",
+                "followup": "What percent of air quality do you want to trigger at?"
+            }
+        },
+        "paramsRange": {
+            "airquality": [10, 90]
+        },
+        "language": {
+            "present": "the room air quality is increased to {airquality} percent",
+            "past": "the room air quality was increased to {airquality} percent"
+        }
+    },
+    "SensedHumidityDecreasedTrigger": {
+        "params": {
+            "humidity": {
+                "type": "number",
+                "followup": "What percent of humidity do you want to trigger at?"
+            }
+        },
+        "paramsRange": {
+            "humidity": [10, 70]
+        },
+        "language": {
+            "present": "the room humidity is decreased to {humidity} percent",
+            "past": "the room humidity was decreased to {humidity} percent"
+        }
+    },
+    "SensedHumidityIncreasedTrigger": {
+        "params": {
+            "humidity": {
+                "type": "number",
+                "followup": "What percent of humidity do you want to trigger at?"
+            }
+        },
+        "paramsRange": {
+            "humidity": [30, 90]
+        },
+        "language": {
+            "present": "the room humidity is increased to {humidity} percent",
+            "past": "the room humidity was increased to {humidity} percent"
+        }
+    },
+    "SensedLightingIncreasedTrigger": {
+        "params": {
+            "brightness": {
+                "type": "number",
+                "followup": "What percent of brightness do you want to trigger at?"
+            }
+        },
+        "paramsRange": {
+            "brightness": [10, 90]
+        },
+        "language": {
+            "present": "the room brightness is increased to {brightness} percent",
+            "past": "the room brightness was increased to {brightness} percent"
+        }
+    },
+    "SensedLightingDecreasedTrigger": {
+        "params": {
+            "brightness": {
+                "type": "number",
+                "followup": "What percent of brightness do you want to trigger at?"
+            }
+        },
+        "paramsRange": {
+            "brightness": [10, 90]
+        },
+        "language": {
+            "present": "the room brightness is decreased to {brightness} percent",
+            "past": "the room brightness was decreased to {brightness} percent"
+        }
+    },
+    "SensedNoiseLevelDecreasedTrigger": {
+        "params": {
+            "noiselevel": {
+                "type": "number",
+                "followup": "What decibel of noise level do you want to trigger at?"
+            }
+        },
+        "paramsRange": {
+            "noiselevel": [30, 80]
+        },
+        "language": {
+            "present": "the room noise level is decreased to {noiselevel} decibel",
+            "past": "the room noise level was decreased to {noiselevel} decibel"
+        }
+    },
+    "SensedNoiseLevelIncreasedTrigger": {
+        "params": {
+            "noiselevel": {
+                "type": "number",
+                "followup": "What decibel of noise level do you want to trigger at?"
+            }
+        },
+        "paramsRange": {
+            "noiselevel": [30, 80]
+        },
+        "language": {
+            "present": "the room noise level is increased to {noiselevel} decibel",
+            "past": "the room noise level was increased to {noiselevel} decibel"
+        }
+    },
+    "SensedRainDetectedTrigger": {
+        "params": {},
+        "paramsRange": {},
+        "language": {
+            "present": "raindrops are detected",
+            "past": "raindrops were detected"
+        }
+    },
+    "SensedRainNoLongerDetectedTrigger": {
+        "params": {},
+        "paramsRange": {},
+        "language": {
+            "present": "raindrops are no longer detected",
+            "past": "raindrops were no longer detected"
+        }
+    },
+    "SensedTemperatureDecreasedTrigger": {
+        "params": {
+            "temperature": {
+                "type": "number",
+                "followup": "What temperature do you want to trigger at?"
+            }
+        },
+        "paramsRange": {
+            "temperature": [18, 30]
+        },
+        "language": {
+            "present": "the room temperature is decreased to {temperature} degrees",
+            "past": "the room temperature was decreased to {temperature} degrees"
+        }
+    },
+    "SensedTemperatureIncreasedTrigger": {
+        "params": {
+            "temperature": {
+                "type": "number",
+                "followup": "What temperature do you want to trigger at?"
+            }
+        },
+        "paramsRange": {
+            "temperature": [18, 30]
+        },
+        "language": {
+            "present": "the room temperature is increased to {temperature} degrees",
+            "past": "the room temperature was increased to {temperature} degrees"
+        }
+    },
+    "SensorPresenceDetectedTrigger": {
+        "params": {
+            "place": {
+                "type": "string",
+                "followup":"Which place do you want to detect presence in?"
+            }
+        },
+        "paramsRange": {
+            "place": ["home", "office", "living room", "garage", "bedroom"]
+        },
+        "language": {
+            "present": "the presence is detected in the {place} area",
+            "past": "the presence was detected in the {place} area"
+        }
+    },
+    "SensorPresenceNoLongerDetectedTrigger": {
+        "params": {
+            "place": {
+                "type": "string",
+                "followup":"Which place do you want to detect presence in?"
+            }
+        },
+        "paramsRange": {
+            "place": ["home", "office", "living room", "garage", "bedroom"]
+        },
+        "language": {
+            "present": "the presence is no longer detected in the {place} area",
+            "past": "the presence was no longer detected in the {place} area"
+        }
+    },
+    "SentMessageTrigger": {
+        "params": {
+            "who": {
+                "type": "string",
+                "followup": "Who are you going to send a message to?"
+            }
+        },
+        "paramsRange": {
+            "who": ["mother", "father", "sister", "brother"]
+        },
+        "language": {
+            "present": "you send a message to {who}",
+            "past": "you sent a message to {who}"
+        }
+    },
+    "StartedListeningMusicTrigger": {
+        "params": {},
+        "paramsRange": {},
+        "language": {
+            "present": "a music playback is started",
+            "past": "a music playback was started"
+        }
+    },
+    "StoppedListeningMusicTrigger": {
+        "params": {},
+        "paramsRange": {},
+        "language": {
+            "present": "a music playback is stopped",
+            "past": "a music playback was stopped"
+        }
+    },
+    "StartedSleepingTrigger": {
+        "params": {},
+        "paramsRange": {},
+        "language": {
+            "present": "you go sleep",
+            "past": "you went sleep"
+        }
+    },
+    "StoppedSleepingTrigger": {
+        "params": {},
+        "paramsRange": {},
+        "language": {
+            "present": "you wake up",
+            "past": "you woke up"
+        }
+    },
+    "TapButtonActivityTrigger": {
+        "params": {
+            "place": {
+                "type": "string",
+                "followup": "Where is the tap button located?"
+            }
+        },
+        "paramsRange": {
+            "place": ["living room", "office", "bedroom"]
+        },
+        "language": {
+            "present": "the tap button in the {place} is pressed",
+            "past": "the tap button in the {place} was pressed"
+        }
+    },
+    "WindowFrameOpenedTrigger": {
+        "params": {},
+        "paramsRange": {},
+        "language": {
+            "present": "the windows are opened",
+            "past": "the windows were opened"
+        }
+    },
+    "WindowFrameClosedTrigger": {
+        "params": {},
+        "paramsRange": {},
+        "language": {
+            "present": "the windows are closed",
+            "past": "the windows were closed"
+        }
+    }
+}
