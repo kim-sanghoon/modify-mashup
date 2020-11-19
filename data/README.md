@@ -10,7 +10,6 @@ This file contains properties of each nominal action.
 An action specified in the file is shown as follows:
 ```json
 {
-    ...
 
     "IncreaseVolumeAction": {
         "inverseOf": "DecreaseVolumeAction",
@@ -27,7 +26,6 @@ An action specified in the file is shown as follows:
         }
     },
 
-    ...
 }
 ```
 - Property `inverseOf` (mandatory)
@@ -92,7 +90,6 @@ An environmental variable specified in the file is shown as follows:
 
 ```json
 {
-    ...
 
     "AirQuality": {
         "HighAirQuality": {
@@ -115,7 +112,6 @@ An environmental variable specified in the file is shown as follows:
         }
     },
 
-    ...
 }
 ```
 
