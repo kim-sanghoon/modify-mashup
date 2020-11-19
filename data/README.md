@@ -80,7 +80,7 @@ if __name__ == "__main__":
     for k, v in action_j.items():
         NominalAction(name=k, json_info=v)
 
-    print(action_dict)
+    print(NominalAction.actionDict)
 ```
 
 ## `effects.json`
@@ -135,8 +135,8 @@ if __name__ == "__main__":
     
     effect_f = open('./data/effects.json')
 
-    effect_dict = init_effect(effect_f)
-    print(effect_dict)
+    init_effect(effect_f)
+    print(NominalAction.effectDict)
 ```
 
 ## `trigger.json`
@@ -225,15 +225,15 @@ from src.Trigger import *
 import json
 
 if __name__ == "__main__":
-    trigger_f = open('/home/seiker/modify-mashup/data/trigger.json')
+    trigger_f = open('./data/trigger.json')
     trigger_j = json.load(trigger_f)
 
     for k, v in trigger_j.items():
         NominalTrigger(name=k, json_info=v)
     
-    print(trigger_dict)
+    print(NominalTrigger.triggerDict)
     
-    for k, v in trigger_dict.items():
+    for k, v in NominalTrigger.triggerDict.items():
         iActions = [InstantiatedTrigger(v, _random=True) for _ in range(5)]
         print(iActions)
 ```

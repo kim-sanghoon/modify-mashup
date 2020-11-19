@@ -2,16 +2,16 @@ from random import choice, randint
 
 from .Time import Time
 
-trigger_dict = {}
-
 class NominalTrigger():
+    triggerDict = {}
+
     def __init__(self, name: str, json_info: dict):
         self.name = name
         self.params = json_info['params']
         self.paramsRange = json_info['paramsRange']
         self.language = json_info['language']
 
-        trigger_dict[name] = self
+        self.triggerDict[name] = self
 
     def __repr__(self):
         return '<{}>'.format(self.name)

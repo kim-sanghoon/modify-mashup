@@ -1,11 +1,9 @@
 from .Action import *
 import json
 
-effect_dict = {}
-
 def init_effect(file):
-    if not bool(action_dict):
-        raise AttributeError("Initialize action_dict first.")
+    if not bool(NominalAction.actionDict):
+        raise AttributeError("Initialize NominalAction.actionDict first.")
 
     j = json.load(file)
     d = {}
@@ -19,14 +17,15 @@ def init_effect(file):
             }
 
             for action_str in v_sub['MainEffect']:
-                action_dict[action_str].mainEffect.append(k_sub)
-                d[k_top][k_sub]['MainEffect'].append(action_dict[action_str])
+                NominalAction.actionDict[action_str].mainEffect.append(k_sub)
+                d[k_top][k_sub]['MainEffect'].append(NominalAction.actionDict[action_str])
 
             for action_str in v_sub['SideEffect']:
-                action_dict[action_str].sideEffect.append(k_sub)
-                d[k_top][k_sub]['SideEffect'].append(action_dict[action_str])
+                NominalAction.actionDict[action_str].sideEffect.append(k_sub)
+                d[k_top][k_sub]['SideEffect'].append(NominalAction.actionDict[action_str])
     
-    return d
+    NominalAction.effectDict = d
+
 
 def strip_str(s):
     if 'High' in s:

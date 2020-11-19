@@ -1,8 +1,8 @@
 from random import randint
 
-action_dict = {}
-
 class NominalAction():
+    actionDict = {}
+
     def __init__(self, name: str, json_info: dict):
         self.name = name
         self.inverseOf = json_info['inverseOf']
@@ -13,7 +13,7 @@ class NominalAction():
         self.mainEffect = []
         self.sideEffect = []
 
-        action_dict[name] = self
+        self.actionDict[name] = self
     
     def __repr__(self):
         return '<{}>'.format(self.name)
