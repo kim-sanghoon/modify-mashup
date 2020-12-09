@@ -1,4 +1,5 @@
 src/__pycache__
+test/__pycache__
 log/
 
 *.pyc
@@ -8,4 +9,4 @@ log/
 server.key
 server.crt
 
-test*
+test.py
