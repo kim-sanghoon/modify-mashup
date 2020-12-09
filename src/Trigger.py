@@ -18,29 +18,28 @@ class NominalTrigger():
 
 
 class InstantiatedTrigger():
-    def __init__(self, _type: NominalTrigger, _params: dict):
+    def __init__(self, _type: NominalTrigger, _random: bool, _params=None):        
         self.type = _type
         self.params = {}
-        for k in _type.params:
-            self.params[k] = _params[k]
-    
-    def __init__(self, _type: NominalTrigger, _random: bool):
+
         if not _random:
-            raise RuntimeError("You cannot instantiate actions without random flag!")
-        
-        self.type = _type
-        self.params = {}
-        for k in _type.params:
-            paramType = _type.params[k]['type']
-            paramRange = _type.paramsRange[k]
+            assert _params != None
 
-            pTypeHandler = {
-                "string": lambda pRange: choice(pRange),
-                "number": lambda pRange: randint(pRange[0], pRange[1]),
-                "time": lambda pRange: Time(randint(pRange[0], pRange[1]))
-            }
+            for k in _type.params:
+                self.params[k] = _params[k]
 
-            self.params[k] = pTypeHandler[paramType](paramRange)
+        else:
+            for k in _type.params:
+                paramType = _type.params[k]['type']
+                paramRange = _type.paramsRange[k]
+
+                pTypeHandler = {
+                    "string": lambda pRange: choice(pRange),
+                    "number": lambda pRange: randint(pRange[0], pRange[1]),
+                    "time": lambda pRange: Time(randint(pRange[0], pRange[1]))
+                }
+
+                self.params[k] = pTypeHandler[paramType](paramRange)
     
     def __repr__(self):
         return '<{0} with {1}>'.format(self.type.name, self.params)
