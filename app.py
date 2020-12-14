@@ -6,7 +6,7 @@ from datetime import datetime
 import sys, json
 
 # Define intent handlers here
-# from src.handler.testHandler import testHandler
+from src.handler.expressionHandler import expressionHandler
 
 app = Flask(__name__)
 
@@ -38,11 +38,11 @@ def main():
 
     switch = {
         # 'intent' : function
-        # 'test': testHandler
+        'expression': expressionHandler
     }
 
     handler = switch[intent]
-    ret = handler()
+    ret = handler(data)
 
     sys.stdout.flush()
     return jsonify(ret)
