@@ -10,6 +10,7 @@ class NominalTrigger():
         self.params = json_info['params']
         self.paramsRange = json_info['paramsRange']
         self.language = json_info['language']
+        self.envCondition = json_info['envCondition'] if 'envCondition' in json_info else None
 
         self.triggerDict[name] = self
 

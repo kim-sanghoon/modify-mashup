@@ -229,7 +229,8 @@
         "language": {
             "present": "the security system is de-activated",
             "past": "the security system was de-activated"
-        }
+        },
+        "envCondition": "LowSecurity"
     },
     "SecuritySystemEnabledTrigger": {
         "params": {},
@@ -237,7 +238,8 @@
         "language": {
             "present": "the security system is activated",
             "past": "the security system was activated"
-        }
+        },
+        "envCondition": "HighSecurity"
     },
     "SensedAirQualityDecreasedTrigger": {
         "params": {
@@ -252,7 +254,8 @@
         "language": {
             "present": "the room air quality is decreased to {airquality} percent",
             "past": "the room air quality was decreased to {airquality} percent"
-        }
+        },
+        "envCondition": "LowAirQuality"
     },
     "SensedAirQualityIncreasedTrigger": {
         "params": {
@@ -267,7 +270,8 @@
         "language": {
             "present": "the room air quality is increased to {airquality} percent",
             "past": "the room air quality was increased to {airquality} percent"
-        }
+        },
+        "envCondition": "HighAirQuality"
     },
     "SensedHumidityDecreasedTrigger": {
         "params": {
@@ -282,7 +286,8 @@
         "language": {
             "present": "the room humidity is decreased to {humidity} percent",
             "past": "the room humidity was decreased to {humidity} percent"
-        }
+        },
+        "envCondition": "LowHumidity"
     },
     "SensedHumidityIncreasedTrigger": {
         "params": {
@@ -297,7 +302,8 @@
         "language": {
             "present": "the room humidity is increased to {humidity} percent",
             "past": "the room humidity was increased to {humidity} percent"
-        }
+        },
+        "envCondition": "HighHumidity"
     },
     "SensedLightingIncreasedTrigger": {
         "params": {
@@ -312,7 +318,8 @@
         "language": {
             "present": "the room brightness is increased to {brightness} percent",
             "past": "the room brightness was increased to {brightness} percent"
-        }
+        },
+        "envCondition": "HighBrightness"
     },
     "SensedLightingDecreasedTrigger": {
         "params": {
@@ -327,7 +334,8 @@
         "language": {
             "present": "the room brightness is decreased to {brightness} percent",
             "past": "the room brightness was decreased to {brightness} percent"
-        }
+        },
+        "envCondition": "LowBrightness"
     },
     "SensedNoiseLevelDecreasedTrigger": {
         "params": {
@@ -342,7 +350,8 @@
         "language": {
             "present": "the room noise level is decreased to {noiselevel} decibel",
             "past": "the room noise level was decreased to {noiselevel} decibel"
-        }
+        },
+        "envCondition": "LowNoise"
     },
     "SensedNoiseLevelIncreasedTrigger": {
         "params": {
@@ -357,7 +366,8 @@
         "language": {
             "present": "the room noise level is increased to {noiselevel} decibel",
             "past": "the room noise level was increased to {noiselevel} decibel"
-        }
+        },
+        "envCondition": "HighNoise"
     },
     "SensedRainDetectedTrigger": {
         "params": {},
@@ -388,7 +398,8 @@
         "language": {
             "present": "the room temperature is decreased to {temperature} degrees",
             "past": "the room temperature was decreased to {temperature} degrees"
-        }
+        },
+        "envCondition": "LowTemperature"
     },
     "SensedTemperatureIncreasedTrigger": {
         "params": {
@@ -403,7 +414,8 @@
         "language": {
             "present": "the room temperature is increased to {temperature} degrees",
             "past": "the room temperature was increased to {temperature} degrees"
-        }
+        },
+        "envCondition": "HighTemperature"
     },
     "SensorPresenceDetectedTrigger": {
         "params": {
