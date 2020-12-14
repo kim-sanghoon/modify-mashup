@@ -10,6 +10,7 @@ class NominalAction():
         self.values = json_info['values']
         self.valuesRange = json_info['valuesRange'] if len(self.values) > 0 else {}
         self.language = json_info['language']
+        self.device = json_info['device']
         self.mainEffect = []
         self.sideEffect = []
 

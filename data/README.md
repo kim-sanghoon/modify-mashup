@@ -23,7 +23,8 @@ An action specified in the file is shown as follows:
             "gerund": "increasing the volume to {volume} percent",
             "increase": "increasing the volume to {volume} percent",
             "infinitive": "increase the volume to {volume} percent"
-        }
+        },
+        "device": ["audio", "tv"]
     },
 
 }
@@ -67,6 +68,10 @@ An action specified in the file is shown as follows:
     - `increase` (optional, only shown in numeric-type actions)
 
     - `decrease` (optional, only shown in numeric-type actions)
+
+- List `device` (mandatory)
+
+    This list contains the related IoT devices to the action. An element of the list shall be an entity of `devices` Dialogflow entities.
 
 ### Test Code
 ```python

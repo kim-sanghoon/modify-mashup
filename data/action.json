@@ -7,7 +7,8 @@
             "past": "the alarm was turned off",
             "gerund": "turning the alarm off",
             "infinitive": "turn the alarm off"
-        }
+        },
+        "device": ["alarm"]
     }, 
     "StartDishwashingAction": {
         "inverseOf": "StopDishwashingAction",
@@ -17,7 +18,8 @@
             "past": "washing dishes was started",
             "gerund": "starting washing dishes",
             "infinitive": "start washing dishes"
-        }
+        },
+        "device": ["dish washer"]
     }, 
     "DisableAirPurifierSystemAction": {
         "inverseOf": "EnableAirPurifierSystemAction",
@@ -27,7 +29,8 @@
             "past": "the air purifier was turned off",
             "gerund": "turning the air purifier off",
             "infinitive": "turn the air purifier off"
-        }
+        },
+        "device": ["air purifier"]
     }, 
     "StopWashingClothesAction": {
         "inverseOf": "StartWashingClothesAction",
@@ -37,7 +40,8 @@
             "past": "washing clothes was stopped",
             "gerund": "stopping washing clothes",
             "infinitive": "stop washing dishes"
-        }
+        },
+        "device": ["washing machine"]
     }, 
     "StopVacuumAction": {
         "inverseOf": "StartVacuumAction",
@@ -47,7 +51,8 @@
             "past": "vacuum cleaning was stopped",
             "gerund": "stopping vacuum cleaning",
             "infinitive": "stop vacuum cleaning"
-        }
+        },
+        "device": ["vacuum"]
     }, 
     "AddAlarmAction": {
         "inverseOf": "TurnAlarmOffAction",
@@ -57,7 +62,8 @@
             "past": "the alarm was added",
             "gerund": "adding an alarm",
             "infinitive": "add an alarm"
-        }
+        },
+        "device": ["alarm"]
     }, 
     "EnableHeatingSystemAction": {
         "inverseOf": "DisableHeatingSystemAction",
@@ -67,7 +73,8 @@
             "past": "the heater was turned on",
             "gerund": "turning the heater on",
             "infinitive": "turn the heater on"
-        }
+        },
+        "device": ["heater"]
     }, 
     "DisableDehumidifierSystemAction": {
         "inverseOf": "EnableDehumidifierSystemAction",
@@ -77,7 +84,8 @@
             "past": "the de-humidifier was turned off",
             "gerund": "turning the de-humidifier off",
             "infinitive": "turn the de-humidifier off"
-        }
+        },
+        "device": ["dehumidifier"]
     }, 
     "DisableHumidifierSystemAction": {
         "inverseOf": "EnableHumidifierSystemAction",
@@ -87,7 +95,8 @@
             "past": "the humidifier was turned off",
             "gerund": "turning the humidifier off",
             "infinitive": "turn the humidifier off"
-        }
+        },
+        "device": ["humidifier"]
     }, 
     "EnableWateringSystemAction": {
         "inverseOf": "DisableWateringSystemAction",
@@ -97,7 +106,8 @@
             "past": "the watering system was turned on",
             "gerund": "turning the watering system on",
             "infinitive": "turn the watering system on"
-        }
+        },
+        "device": ["watering"]
     }, 
     "StartWashingClothesAction": {
         "inverseOf": "StopWashingClothesAction",
@@ -107,7 +117,8 @@
             "past": "washing clothes was started",
             "gerund": "starting washing clothes",
             "infinitive": "start washing clothes"
-        }
+        },
+        "device": ["washing machine"]
     }, 
     "StartVacuumAction": {
         "inverseOf": "StopVacuumAction",
@@ -117,7 +128,8 @@
             "past": "vacuum cleaning was started",
             "gerund": "starting vacuum cleaning",
             "infinitive": "start vacuum cleaning"
-        }
+        },
+        "device": ["vacuum"]
     }, 
     "DisableCoolingSystemAction": {
         "inverseOf": "EnableCoolingSystemAction",
@@ -127,7 +139,8 @@
             "past": "the air conditioner was turned off",
             "gerund": "turning the air conditioner off",
             "infinitive": "turn the air conditioner off"
-        }
+        },
+        "device": ["air conditioner"]
     }, 
     "DisableHeatingSystemAction": {
         "inverseOf": "EnableHeatingSystemAction",
@@ -137,7 +150,8 @@
             "past": "the heater was turned off",
             "gerund": "turning the heater off",
             "infinitive": "turn the heater off"
-        }
+        },
+        "device": ["heater"]
     }, 
     "CloseWindowFrameAction": {
         "inverseOf": "OpenWindowFrameAction",
@@ -147,7 +161,8 @@
             "past": "the window was closed",
             "gerund": "closing the window",
             "infinitive": "close the window"
-        }
+        },
+        "device": ["window"]
     }, 
     "SetTemperatureAction": {
         "inverseOf": "SetTemperatureAction",
@@ -162,7 +177,8 @@
             "increase": "increasing the temperature to {temperature} degrees",
             "decrease": "decreasing the temperature to {temperature} degrees",
             "infinitive": "set the temperature to {temperature} degrees"
-        }
+        },
+        "device": ["heater", "air conditioner"]
     }, 
     "StartDryingAction": {
         "inverseOf": "StopDryingAction",
@@ -172,7 +188,8 @@
             "past": "drying clothes was started",
             "gerund": "starting drying clothes",
             "infinitive": "start drying clothes"
-        }
+        },
+        "device": ["drying machine"]
     }, 
     "EnableSecuritySystemAction": {
         "inverseOf": "DisableSecuritySystemAction",
@@ -182,7 +199,8 @@
             "past": "the security system was activated",
             "gerund": "activating the security system",
             "infinitive": "activate the security system"
-        }
+        },
+        "device": ["security system"]
     }, 
     "DisableWateringSystemAction": {
         "inverseOf": "EnableWateringSystemAction",
@@ -192,7 +210,8 @@
             "past": "the watering system was turned off",
             "gerund": "turning the watering system off",
             "infinitive": "turn the watering system off"
-        }
+        },
+        "device": ["watering"]
     }, 
     "SetLightingAction": {
         "inverseOf": "SetLightingAction",
@@ -207,7 +226,8 @@
             "increase": "increasing the brightness to {brightness} percent",
             "decrease": "decreasing the brightness to {brightness} percent",
             "infinitive": "set the brightness to {brightness} percent"
-        }
+        },
+        "device": ["light", "tv"]
     }, 
     "OpenWindowFrameAction": {
         "inverseOf": "CloseWindowFrameAction",
@@ -217,7 +237,8 @@
             "past": "the window was opened",
             "gerund": "opening the window",
             "infinitive": "open the window"
-        }
+        },
+        "device": ["window"]
     }, 
     "EnableDehumidifierSystemAction": {
         "inverseOf": "DisableDehumidifierSystemAction",
@@ -227,7 +248,8 @@
             "past": "the de-humidifier was turned on",
             "gerund": "turning the de-humidifier on",
             "infinitive": "turn the de-humidifier on"
-        }
+        },
+        "device": ["dehumidifier"]
     }, 
     "IncreaseVolumeAction": {
         "inverseOf": "DecreaseVolumeAction",
@@ -241,7 +263,8 @@
             "gerund": "increasing the volume to {volume} percent",
             "increase": "increasing the volume to {volume} percent",
             "infinitive": "increase the volume to {volume} percent"
-        }
+        },
+        "device": ["audio", "tv"]
     }, 
     "EnableHumidifierSystemAction": {
         "inverseOf": "DisableHumidifierSystemAction",
@@ -251,7 +274,8 @@
             "past": "the humidifier was turned on",
             "gerund": "turning the humidifier on",
             "infinitive": "turn the humidifier on"
-        }
+        },
+        "device": ["humidifier"]
     }, 
     "DisableSecuritySystemAction": {
         "inverseOf": "EnableSecuritySystemAction",
@@ -261,7 +285,8 @@
             "past": "the security system was de-activated",
             "gerund": "de-activating the security system",
             "infinitive": "de-activate the security system"
-        }
+        },
+        "device": ["security system"]
     }, 
     "DisableLightingSystemAction": {
         "inverseOf": "EnableLightingSystemAction",
@@ -271,7 +296,8 @@
             "past": "the lights were turned off",
             "gerund": "turning the lights off",
             "infinitive": "turn the lights off"
-        }
+        },
+        "device": ["light"]
     }, 
     "EnableLightingSystemAction": {
         "inverseOf": "DisableLightingSystemAction",
@@ -281,7 +307,8 @@
             "past": "the lights were turned on",
             "gerund": "turning the lights on",
             "infinitive": "turn the lights on"
-        }
+        },
+        "device": ["light"]
     }, 
     "EnableAirPurifierSystemAction": {
         "inverseOf": "DisableAirPurifierSystemAction",
@@ -291,7 +318,8 @@
             "past": "the air purifier was turned off",
             "gerund": "turning the air purifier off",
             "infinitive": "turn the air purifier off"
-        }
+        },
+        "device": ["air purifier"]
     }, 
     "StopListeningMusicAction": {
         "inverseOf": "StartListeningMusicAction",
@@ -301,7 +329,8 @@
             "past": "the music was stopped playing",
             "gerund": "stopping the music playback",
             "infinitive": "stop playing the music"
-        }
+        },
+        "device": ["audio"]
     }, 
     "DecreaseVolumeAction": {
         "inverseOf": "IncreaseVolumeAction",
@@ -315,7 +344,8 @@
             "gerund": "decreasing the volume to {volume} percent",
             "decrease": "decreasing the volume to {volume} percent",
             "infinitive": "decrease the volume to {volume} percent"
-        }
+        },
+        "device": ["audio", "tv"]
     }, 
     "StartListeningMusicAction": {
         "inverseOf": "StopListeningMusicAction",
@@ -325,7 +355,8 @@
             "past": "the music was started playing",
             "gerund": "starting the music playback",
             "infinitive": "start playing the music"
-        }
+        },
+        "device": ["audio"]
     }, 
     "StopDryingAction": {
         "inverseOf": "StartDryingAction",
@@ -335,7 +366,8 @@
             "past": "drying clothes was stopped",
             "gerund": "stopping drying clothes",
             "infinitive": "stop drying clothes"
-        }
+        },
+        "device": ["drying machine"]
     }, 
     "StartWatchingTvAction": {
         "inverseOf": "StopWatchingTvAction",
@@ -345,7 +377,8 @@
             "past": "the TV was turned on",
             "gerund": "turning the TV on",
             "infinitive": "turn the TV on"
-        }
+        },
+        "device": ["tv"]
     }, 
     "SetHumidityAction": {
         "inverseOf": "SetHumidityAction",
@@ -360,7 +393,8 @@
             "increase": "increasing the humidity to {humidity} percent",
             "decrease": "decreasing the humidity to {humidity} percent",
             "infinitive": "set the humidity to {humidity} percent"
-        }
+        },
+        "device": ["humidifier", "dehumidifier"]
     }, 
     "StopWatchingTvAction": {
         "inverseOf": "StartWatchingTvAction",
@@ -370,7 +404,8 @@
             "past": "the TV was turned off",
             "gerund": "turning the TV off",
             "infinitive": "turn the TV off"
-        }
+        },
+        "device": ["tv"]
     }, 
     "EnableCoolingSystemAction": {
         "inverseOf": "DisableCoolingSystemAction",
@@ -380,7 +415,8 @@
             "past": "the air conditioner was turned on",
             "gerund": "turning the air conditioner on",
             "infinitive": "turn the air conditioner on"
-        }
+        },
+        "device": ["air conditioner"]
     }, 
     "StopDishwashingAction": {
         "inverseOf": "StartDishwashingAction",
@@ -390,6 +426,7 @@
             "past": "washing dishes was started",
             "gerund": "starting washing dishes",
             "infinitive": "start washing dishes"
-        }
+        },
+        "device": ["dish washer"]
     }
 }
