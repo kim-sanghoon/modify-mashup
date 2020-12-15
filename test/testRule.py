@@ -27,15 +27,15 @@ if __name__ == "__main__":
     random_trigger = lambda : InstantiatedTrigger(random.choice(list(NominalTrigger.triggerDict.values())), _random=True)
     random_action = lambda : InstantiatedAction(random.choice(list(NominalAction.actionDict.values())), _random=True)
 
-    # for i in range(5):
-    #     print('  ---- ITERATION {} ----  '.format(i))
-    #     testRule = Rule(random_trigger(), [random_action() for _ in range(random.randint(1, 5))])
-    #     print(testRule) # is it properly generated?
+    for i in range(5):
+        print('  ---- ITERATION {} ----  '.format(i))
+        testRule = Rule(random_trigger(), [random_action() for _ in range(random.randint(1, 5))])
+        print(testRule) # is it properly generated?
 
-    #     testRule.to_json('test-rule-{}.json'.format(i)) # is it properly saved?
+        testRule.to_json('test-rule-{}.json'.format(i)) # is it properly saved?
 
-    #     reloadRule = Rule.from_json('test-rule-{}.json'.format(i))
-    #     print(reloadRule) # is it properly loaded?
+        reloadRule = Rule.from_json('test-rule-{}.json'.format(i))
+        print(reloadRule) # is it properly loaded?
     
     # (12/15) test for merge() method
     for i in range(5):
