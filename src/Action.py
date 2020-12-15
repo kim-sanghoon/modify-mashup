@@ -38,3 +38,12 @@ class InstantiatedAction():
     
     def __repr__(self):
         return '<{0} with {1}>'.format(self.type.name, self.values)
+    
+    def __hash__(self):
+        return hash(repr(self))
+    
+    def __eq__(self, other):
+        return hash(self) == hash(other)
+    
+    def __ne__(self, other):
+        return not(self == other)

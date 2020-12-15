@@ -50,3 +50,10 @@ class Rule:
         with open(filename, 'w') as f:
             json.dump(retDict, f)
     
+    def merge(self, other):
+        assert self.trigger == other.trigger
+
+        for otherAction in other.actions:
+            if otherAction not in self.actions:
+                self.actions.append(otherAction)
+        
