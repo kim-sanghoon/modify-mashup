@@ -1,5 +1,10 @@
-class Time():
-    def __init__(self, _t: int):
+class Time(dict):
+    def __init__(self, _t):
+        # Unmarshalling JSON-ified Time object
+        if isinstance(_t, dict):
+            _t = _t['t']
+
+        dict.__init__(self, t=_t)
         self.t = _t
     
     def __repr__(self):

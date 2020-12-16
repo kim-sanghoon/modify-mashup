@@ -29,6 +29,9 @@ class InstantiatedTrigger():
             for k in _type.params:
                 self.params[k] = _params[k]
 
+                if _type.params[k]['type'] == 'time':
+                    self.params[k] = Time(_params[k])
+
         else:
             for k in _type.params:
                 paramType = _type.params[k]['type']
