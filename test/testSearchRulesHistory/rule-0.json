@@ -1,0 +1,1 @@
+{"trigger": {"type": "LightingSystemEnabledTrigger", "params": {}}, "actions": [{"type": "DisableHeatingSystemAction", "values": {}}, {"type": "StopDishwashingAction", "values": {}}, {"type": "DisableCoolingSystemAction", "values": {}}, {"type": "StartDishwashingAction", "values": {}}, {"type": "StopListeningMusicAction", "values": {}}]}

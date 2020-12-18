@@ -1,0 +1,1 @@
+{"trigger": {"type": "WindowFrameOpenedTrigger", "params": {}}, "actions": [{"type": "StopWashingClothesAction", "values": {}}, {"type": "StartListeningMusicAction", "values": {}}, {"type": "EnableLightingSystemAction", "values": {}}, {"type": "SetTemperatureAction", "values": {"temperature": 18}}]}

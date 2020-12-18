@@ -1,0 +1,16 @@
+timeOffset,trigger,action
+1,<WindowFrameOpenedTrigger with {}>,<StopWashingClothesAction with {}>
+2,<WindowFrameOpenedTrigger with {}>,<StartListeningMusicAction with {}>
+3,<EveryDayTrigger with {'time': 3 a.m.}>,<StopVacuumAction with {}>
+4,<EveryDayTrigger with {'time': 3 a.m.}>,<StopWatchingTvAction with {}>
+5,<LightingSystemEnabledTrigger with {}>,<DisableHeatingSystemAction with {}>
+6,<LightingSystemEnabledTrigger with {}>,<StopDishwashingAction with {}>
+7,<LightingSystemEnabledTrigger with {}>,<DisableCoolingSystemAction with {}>
+8,<LightingSystemEnabledTrigger with {}>,<StartDishwashingAction with {}>
+9,<LightingSystemEnabledTrigger with {}>,<StopListeningMusicAction with {}>
+10,<DisconnectedFromNetworkTrigger with {'name': 'tablet'}>,<DisableSecuritySystemAction with {}>
+11,<DisconnectedFromNetworkTrigger with {'name': 'tablet'}>,<StopDryingAction with {}>
+12,<DisconnectedFromNetworkTrigger with {'name': 'tablet'}>,<DisableDehumidifierSystemAction with {}>
+13,<DisconnectedFromNetworkTrigger with {'name': 'tablet'}>,<OpenWindowFrameAction with {}>
+14,<WindowFrameOpenedTrigger with {}>,<EnableLightingSystemAction with {}>
+15,<WindowFrameOpenedTrigger with {}>,<SetTemperatureAction with {'temperature': 18}>
