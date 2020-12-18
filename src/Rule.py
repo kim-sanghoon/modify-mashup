@@ -11,6 +11,12 @@ class Rule:
     def __repr__(self):
         return '<{0} - {1}>'.format(self.trigger, self.actions)
     
+    def __eq__(self, other):
+        return repr(self) == repr(other)
+    
+    def __ne__(self, other):
+        return not(self == repr)
+    
     @staticmethod
     def from_json(filename: str):
         with open(filename) as f:

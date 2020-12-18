@@ -59,9 +59,9 @@
         "type": "bool",
         "values": [],
         "language": {
-            "past": "the alarm was added",
-            "gerund": "adding an alarm",
-            "infinitive": "add an alarm"
+            "past": "the alarm was activated",
+            "gerund": "activating an alarm",
+            "infinitive": "activating an alarm"
         },
         "device": ["alarm"]
     }, 

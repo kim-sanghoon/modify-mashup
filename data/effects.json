@@ -92,14 +92,7 @@
                 "StopWatchingTvAction",
                 "DecreaseVolumeAction"
             ],
-            "SideEffect": [
-                "DisableCoolingSystemAction",
-                "DisableAirPurifierSystemAction",
-                "StopVacuumAction",
-                "StopDishwashingAction",
-                "StopDryingAction",
-                "StopWashingClothesAction"
-            ]
+            "SideEffect": []
         }
     },
     "Security": {
@@ -144,9 +137,7 @@
                 "DisableHeatingSystemAction",
                 "SetTemperatureAction"
             ],
-            "SideEffect": [
-                "DisableDehumidifierSystemAction"
-            ]
+            "SideEffect": []
         }
     }
 }

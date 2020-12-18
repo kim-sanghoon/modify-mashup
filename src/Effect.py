@@ -32,3 +32,9 @@ def strip_str(s):
         return s[4:]
     else:
         return s[3:]
+
+def inverse_str(s):
+    if 'High' in s:
+        return 'Low' + s[4:]
+    else:
+        return 'High' + s[3:]
