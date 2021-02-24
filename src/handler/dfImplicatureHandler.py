@@ -21,7 +21,7 @@ def dfImplicatureHandler(data):
 
     # Craft the agent response
     fulfillmentText = "Sorry to hear that {}.".format(implicatureResponse[implicatureType])
-    fulfillmentText += " Could you allow me to find which IoT service caused the problem?"
+    fulfillmentText += " Could you allow me to find out why?"
 
     # Set the follow-up context
     followupContext = {
