@@ -6,7 +6,8 @@ from datetime import datetime
 import sys, json
 
 # Define intent handlers here
-from src.handler.expressionHandler import expressionHandler
+from src.handler.dfImplicatureHandler import dfImplicatureHandler
+from src.handler.implicatureFollowupHandler import implicatureFollowupHandler
 
 app = Flask(__name__)
 
@@ -14,6 +15,7 @@ app = Flask(__name__)
 def main():
     data   = request.get_json()
     intent = data['queryResult']['intent']['displayName']
+    action = data['queryResult']['action']
 
     #################
     # Debug purpose #
@@ -37,11 +39,28 @@ def main():
     ###################
 
     switch = {
-        # 'intent' : function
-        'expression': expressionHandler
+        # 'action' : function
+        
+        # Initial stage -- user implicature handler
+        'implicature.airquality.high': dfImplicatureHandler,
+        'implicature.airquality.low': dfImplicatureHandler,
+        'implicature.brightness.high': dfImplicatureHandler,
+        'implicature.brightness.low': dfImplicatureHandler,
+        'implicature.humidity.high': dfImplicatureHandler,
+        'implicature.humidity.low': dfImplicatureHandler,
+        'implicature.noise.high': dfImplicatureHandler,
+        'implicature.noise.low': dfImplicatureHandler,
+        'implicature.security.high': dfImplicatureHandler,
+        'implicature.security.low': dfImplicatureHandler,
+        'implicature.temperature.high': dfImplicatureHandler,
+        'implicature.temperature.low': dfImplicatureHandler,
+
+        # Second stage -- implicature followup handler
+        'implicature.followup.yes': implicatureFollowupHandler,
+        'implicature.followup.no': implicatureFollowupHandler
     }
 
-    handler = switch[intent]
+    handler = switch[action]
     ret = handler(data)
 
     sys.stdout.flush()
