@@ -2,6 +2,7 @@ from .Trigger import *
 from .Action import *
 from .Effect import strip_str, inverse_str
 from .Rule import *
+from ..logger import get_logger
 
 import csv, os, re, time
 
@@ -15,6 +16,7 @@ class RulesHistory:
         self.rules = {}
         self.history = []
         self.useTimeOffset = useTimeOffset
+        self.log = get_logger()
 
         if useTimeOffset:
             assert baseTimestamp is not None
@@ -94,7 +96,7 @@ class RulesHistory:
             for row in self.history:
                 csvWriter.writerow(row[0:3])
         
-        print('[info] RulesHistory object is saved to ./{}/'.format(foldername))
+        self.log.debug('RulesHistory object is saved to ./{}/'.format(foldername))
 
     def record(self, rule: Rule, offset=None):
         if self.useTimeOffset:

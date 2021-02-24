@@ -5,9 +5,11 @@ from datetime import datetime
 
 import sys, json
 
+from logger import get_logger
+
 # Define intent handlers here
 from src.handler.dfImplicatureHandler import dfImplicatureHandler
-from src.handler.implicatureFollowupHandler import implicatureFollowupHandler
+from src.handler.implicatureFollowupHandler import implicatureFollowupYesHandler, implicatureFollowupNoHandler
 
 app = Flask(__name__)
 
@@ -24,15 +26,16 @@ def main():
     time = datetime.now()
     timestamp = int(time.timestamp())
 
-    print('[info] Current time   : ', str(time.isoformat()))
-    print('[info] User intent    : ', str(intent))
-    print('[info] Raw user input : ', str(data['queryResult']['queryText']))
-
     with open('log/dialogflow/{}.json'.format(timestamp), 'w+') as f:
         json.dump(data, f)
-    print('[info] Input data has been saved as - {}.json'.format(timestamp))
+    
+    log = get_logger()
 
-    sys.stdout.flush()
+    log.debug('User intent : {}'.format(str(intent)))
+    log.debug('Raw user input: {}'.format(str(intent)))
+    log.debug('Input data has been saved as - {}.json'.format(timestamp))
+
+    [h.flush() for h in log.handlers]
 
     ###################
     # Invoke handlers #
@@ -56,14 +59,14 @@ def main():
         'implicature.temperature.low': dfImplicatureHandler,
 
         # Second stage -- implicature followup handler
-        'implicature.followup.yes': implicatureFollowupHandler,
-        'implicature.followup.no': implicatureFollowupHandler
+        'implicature.followup.yes': implicatureFollowupYesHandler,
+        'implicature.followup.no': implicatureFollowupNoHandler
     }
 
     handler = switch[action]
     ret = handler(data)
 
-    sys.stdout.flush()
+    [h.flush() for h in log.handlers]
     return jsonify(ret)
 
 if __name__ == "__main__":
