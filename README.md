@@ -15,8 +15,19 @@ The implementation has been tested on Python 3.5.
 5. Command `sudo python3 app.py` to initialize the back-end module.
 
 ### Descriptions
-- `app.py` : This Flask module handles Webhook responses from the Dialogflow front-end.
+- `app.py` : This Flask module handles Webhook responses from the Dialogflow front-end. A valid SSL certificate is required.
+
+    The API endpoint description is as follows:
+    - `POST /` handles a Dialogflow webhook request. Check [the webhook request document](https://cloud.google.com/dialogflow/es/docs/fulfillment-webhook#webhook_request) for the detailed information.
+
 - `mashup.py` : This Flask module handles the registered IoT mashups and their history.
+
+    The API endpoint description is as follows:
+    - `GET /check` responds the health of the mashup module.<br />It would return a `{"status": "ok"}` json response if okay, or a `{"status": "error"}` response otherwise.
+    - `POST /search` responds the search results of `RulesHistory.search()` method.<br />It would return a `{"status": "ok", "searchResults": "..."}` json response if okay (even if found nothing), or a `{"status": "error", "what": "... the reason of error ..."}` response otherwise.<br />The search results will be dumped by `pickle` library and be encoded into base64, so be cautious of any security issues!
+
 - `logger.py` : The logging module.
+
 - `test/*` : Unit test scripts.
+
 - `src/*`: They are the core source codes of this implementation. Check `src/README.md` for more details.

@@ -3,7 +3,7 @@
 from flask import Flask, request, jsonify
 from datetime import datetime
 
-import sys, json
+import requests, sys, json
 
 from logger import get_logger
 
@@ -70,6 +70,23 @@ def main():
     return jsonify(ret)
 
 if __name__ == "__main__":
+    # Check if the mashup module has been initialized
+    try:
+        mashupModuleCheck = requests.get(
+            url='http://localhost:445/check'
+        )
+
+        mashupModuleCheck = mashupModuleCheck.json()
+        if mashupModuleCheck['status'] != 'ok':
+            raise ConnectionError('Mashup module has not been initialized.')
+    except Exception as e:
+        log = get_logger()
+        log.error(str(e))
+        log.error('  -> error occurred while checking mashup module, exiting...')
+
+        exit(-1)
+
+    # Start the back-end
     app.run(host='0.0.0.0',
             port=443,
             ssl_context=('server.crt', 'server.key'))
