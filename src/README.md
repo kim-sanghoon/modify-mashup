@@ -27,7 +27,8 @@ It is worth noting that there are **actions**, not action.
         "actions": [
             {
                 "type": "the name of NominalAction",
-                "values": "required values for the action"
+                "values": "required values for the action",
+                "device": "running device of the action"
             }
         ]
     }
