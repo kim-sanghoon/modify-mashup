@@ -1,6 +1,9 @@
 src/__pycache__
 test/__pycache__
 log/
+test/log/
+test/testRulesHistory
+test/testSearchRulesHistory
 
 *.pyc
 *.log

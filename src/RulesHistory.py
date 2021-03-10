@@ -155,6 +155,24 @@ class RulesHistory:
                     skipCount -= 1
                     continue
 
+                # handle if both implicature and inverse implicature exist on row[3]
+                # check the description on search() on README.md for further details
+                if implicature in row[3] and inverse_str(implicature) in row[3]:
+                    low = implicature if implicature.startswith('Low') else inverse_str(implicature)
+                    high = inverse_str(low)
+
+                    row[3] = list(row[3]) # shallow copy the items
+
+                    normValues = []
+                    for k, v in row[2].values.items():
+                        minval, maxval = row[2].type.valuesRange[k]
+                        normValues.append((v - minval) / (maxval - minval))
+                    
+                    if sum(normValues) / len(normValues) < 0.5:
+                        row[3].remove(high)
+                    else:
+                        row[3].remove(low)
+
                 ret['historyData'] = row
                 return ret # success with mainEffect
             

@@ -97,3 +97,8 @@ The class `RulesHistory` contains two important information: (1) the information
         'historyData': None if not found else the row data
     }
     ```
+
+    **Additional notes on handling semantic conflicts**\
+    Some actions (`SetHumidityAction`, `SetLightingAction`, and `SetTemperatureAction`) have two semantics which conflict with each other.For example, `SetTemperatureAction` has two items in `mainEffect`: `LowTemperature` and `HighTemperature`.
+
+    This ambiguity in semantics makes the agent difficult to determine what the action was originally intended for. To resolve this issue, I use the `values` field of `InstantiatedAction` object and decide the intended semantic by size of the value.
