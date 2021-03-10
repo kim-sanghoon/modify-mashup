@@ -2,7 +2,7 @@ from .Trigger import *
 from .Action import *
 from .Effect import strip_str, inverse_str
 from .Rule import *
-from ..logger import get_logger
+from logger import get_logger
 
 import csv, os, re, time
 
@@ -72,7 +72,7 @@ class RulesHistory:
                     action,
                     action.type.mainEffect,
                     action.type.sideEffect,
-                    action.type.device
+                    action.device
                 ])
         
         return rh
@@ -119,7 +119,7 @@ class RulesHistory:
                 action,
                 action.type.mainEffect,
                 action.type.sideEffect,
-                action.type.device
+                action.device
             ])
             offset += 1
 
@@ -148,7 +148,7 @@ class RulesHistory:
                 ret['exceedThreshold'] = True # exceeded the time threshold
             
             if implicature in row[3] or inverse_str(implicature) in row[3]:                
-                if device is not None and device not in row[5]:
+                if device is not None and device != row[5]:
                     continue
 
                 if skipCount > 0:
@@ -159,7 +159,7 @@ class RulesHistory:
                 return ret # success with mainEffect
             
             if checkSideEffect and implicature in row[4]:
-                if device is not None and device not in row[5]:
+                if device is not None and device != row[5]:
                     continue
 
                 if skipCount > 0:

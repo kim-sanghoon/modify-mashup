@@ -1,1 +1,0 @@
-{"trigger": {"type": "EveryDayTrigger", "params": {"time": {"t": 3}}}, "actions": [{"type": "StopVacuumAction", "values": {}}, {"type": "StopWatchingTvAction", "values": {}}]}

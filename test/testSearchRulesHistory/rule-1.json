@@ -1,1 +1,0 @@
-{"trigger": {"type": "DisconnectedFromNetworkTrigger", "params": {"name": "tablet"}}, "actions": [{"type": "DisableSecuritySystemAction", "values": {}}, {"type": "StopDryingAction", "values": {}}, {"type": "DisableDehumidifierSystemAction", "values": {}}, {"type": "OpenWindowFrameAction", "values": {}}]}

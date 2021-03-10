@@ -33,7 +33,8 @@ class Rule:
             actions.append(InstantiatedAction(
                 _type=NominalAction.actionDict[rawAction['type']],
                 _random=False,
-                _values=rawAction['values']
+                _values=rawAction['values'],
+                _device=rawAction['device']
             ))
         
         return Rule(trigger, actions)
@@ -49,7 +50,8 @@ class Rule:
         retDict['actions'] = [
             {
                 'type': action.type.name,
-                'values': action.values
+                'values': action.values,
+                'device': action.device
             } for action in self.actions
         ]
 

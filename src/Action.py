@@ -1,4 +1,4 @@
-from random import randint
+from random import randint, choice
 
 class NominalAction():
     actionDict = {}
@@ -21,23 +21,26 @@ class NominalAction():
 
 
 class InstantiatedAction():
-    def __init__(self, _type: NominalAction, _random: bool, _values=None):
+    def __init__(self, _type: NominalAction, _random: bool, _values=None, _device=None):
         self.type = _type
         self.values = {}
 
         if not _random:
             assert _values != None
+            assert _device != None and _device in _type.device
 
+            self.device = _device
             for k in _type.values:
                 self.values[k] = _values[k]
 
         else:
+            self.device = choice(_type.device)
             for k in _type.values:
                 minval, maxval = _type.valuesRange[k]
                 self.values[k] = randint(minval, maxval)
     
     def __repr__(self):
-        return '<{0} with {1}>'.format(self.type.name, self.values)
+        return '<{0} with {1} on {2}>'.format(self.type.name, self.values, self.device)
     
     def __hash__(self):
         return hash(repr(self))
