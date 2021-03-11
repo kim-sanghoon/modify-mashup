@@ -4,7 +4,7 @@ from .Effect import strip_str, inverse_str
 from .Rule import *
 from logger import get_logger
 
-import csv, os, re, time
+import ast, csv, os, re, time
 
 class RulesHistory:
     def __init__(self, useTimeOffset=False, baseTimestamp=None):
@@ -63,7 +63,16 @@ class RulesHistory:
             next(csvReader)
 
             for row in csvReader:
-                trigger = triggerReprDict[row[1]]
+                try:
+                    trigger = triggerReprDict[row[1]]
+                except KeyError:
+                    # if fast-search failed, do O(n) search
+                    for v in triggerReprDict.values():
+                        name, params = row[1][1:-1].split(' with ')
+                        
+                        if name == v.type.name and ast.literal_eval(params) == v.params:
+                            trigger = v
+
                 action = actionReprDict[row[2]]
 
                 rh.history.append([
