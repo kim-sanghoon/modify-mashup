@@ -12,6 +12,7 @@ from src.handler.dfImplicatureHandler import dfImplicatureHandler
 from src.handler.implicatureFollowupHandler import implicatureFollowupYesHandler, implicatureFollowupNoHandler
 
 app = Flask(__name__)
+log = get_logger()
 
 @app.route('/', methods=['POST'])
 def main():
@@ -29,8 +30,6 @@ def main():
     with open('log/dialogflow/{}.json'.format(timestamp), 'w+') as f:
         json.dump(data, f)
     
-    log = get_logger()
-
     log.debug('User intent : {}'.format(str(intent)))
     log.debug('Raw user input: {}'.format(str(intent)))
     log.debug('Input data has been saved as - {}.json'.format(timestamp))
@@ -80,7 +79,6 @@ if __name__ == "__main__":
         if mashupModuleCheck['status'] != 'ok':
             raise ConnectionError('Mashup module has not been initialized.')
     except Exception as e:
-        log = get_logger()
         log.error(str(e))
         log.error('  -> error occurred while checking mashup module, exiting...')
 

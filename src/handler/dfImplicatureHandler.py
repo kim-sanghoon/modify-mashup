@@ -26,7 +26,11 @@ def dfImplicatureHandler(data):
     # Set the follow-up context
     followupContext = {
         'name': '{}/contexts/implicature-followup'.format(data['session']),
-        'lifespanCount': 1
+        'lifespanCount': 3,
+        'parameters': {
+            'implicatureType': actionString[2].capitalize() +
+                               actionString[1].capitalize()
+        }
     }
 
     return {
