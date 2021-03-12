@@ -1,40 +1,38 @@
 import requests
 
-from logger import get_logger
-from ..utils.encodeTools import decodeObj
 from ..utils.responseTools import wrapSpeak, addBreak
-
-def __request_search(implicature, **kwargs):
-    """
-    @param implicature: the core information to search for the IoT action.
-    @kwargs checkSideEffect: default True, set False if you do not want 
-      to consider any side effects.
-    @kwargs device: default None, set if the user uttered device hints
-    @kwargs skipCount: default 0, increase by 1 if the user reject the
-      previous search result.
-    """
-    jsonForm = {'implicature': implicature, **kwargs}
-    response = requests.post('http://localhost:445/search', json=jsonForm)
-    response = response.json()
-
-    if response['status'] == 'error':
-        log = get_logger()
-        log.error('Mashup module returned error - ' + response['what'])
-        raise RuntimeError(response['what'])
-    
-    return decodeObj(response['searchResult'])
-    
+from ..utils.searchTools import requestSearch, parseContext
 
 def implicatureFollowupYesHandler(data):
-    strip_session = lambda x: x['name'].replace(data['session'] + '/contexts/', '')
-    contexts = {strip_session(c): c for c in data['queryResult']['outputContexts']}
-    
-    implicature = contexts['implicature-followup']['parameters']['implicatureType']
-    device = '' if 'parameters' in contexts['implicature'] else contexts['implicature']['parameter']['devices']
-    if device == '':
-        device = None
+    implicature, device = parseContext(data)
+    result = requestSearch(implicature, device=device)
 
-    result = __request_search(implicature, device=device)
+    # if nothing found
+    if result['historyData'] is None:
+        fulfillmentText = [
+            "Sorry, but I couldn't find any actions about it.",
+            "Could you start over by saying the problem again?"
+        ]
+        return {
+            'fulfillmentText': ' '.join(fulfillmentText),
+            'payload': {
+                'google': {
+                    'expectUserResponse': True,
+                    'richResponse': {
+                        'items': [
+                            {
+                                'simpleResponse': {
+                                    'ssml': wrapSpeak(addBreak(fulfillmentText[0], fulfillmentText[1])),
+                                    'displayText': ' \n'.join(fulfillmentText)
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    
+    # otherwise
     _, trigger, action, *_ = result['historyData']
 
     implicatureResponse = {
@@ -57,10 +55,20 @@ def implicatureFollowupYesHandler(data):
         '' if not result['sideEffect'] else ' potentially',
         implicatureResponse[implicature.lower()]
     )
-    subResponse = 'Would you like to check which trigger activated it, or change it to what you need?'
+    subResponse = 'Would you like to check which trigger activated it, otherwise change or adjust it?'
     
     return {
         'fulfillmentText': mainResponse + ' ' + subResponse,
+        'outputContexts': [
+            {
+                'name': '{}/contexts/search'.format(data['session']),
+                'lifespanCount': 3,
+                'parameters': {
+                    'implicatureType': implicature,
+                    'count': 0
+                }
+            }
+        ],
         'payload': {
             'google': {
                 'expectUserResponse': True,
@@ -81,7 +89,12 @@ def implicatureFollowupYesHandler(data):
 def implicatureFollowupNoHandler(data):
     # We assume that the implicature detection failed.
     fulfillmentText = "It seems I was wrong. Could you tell me what you need?"
+    outputContexts = data['queryResult']['outputContexts']
+    
+    for c in outputContexts:
+        c['lifespanCount'] = 0
 
     return {
-        'fulfillmentText': fulfillmentText
+        'fulfillmentText': fulfillmentText,
+        'outputContexts': outputContexts
     }
