@@ -13,11 +13,17 @@ def implicatureFollowupYesHandler(data):
             "Sorry, but I couldn't find any actions about it.",
             "Could you start over by saying the problem again?"
         ]
+        outputContexts = data['queryResult']['outputContexts']
+
+        for c in outputContexts:
+            c['lifespanCount'] = 0
+        
         return {
             'fulfillmentText': ' '.join(fulfillmentText),
+            'outputContexts': outputContexts,
             'payload': googleResponse(
                 ssml=wrapSpeak(addBreak(fulfillmentText[0], fulfillmentText[1])),
-                text=' \n'.join(fulfillmentText)
+                text=' '.join(fulfillmentText)
             )
         }
     

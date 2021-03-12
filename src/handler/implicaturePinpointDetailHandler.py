@@ -1,6 +1,7 @@
 from ..utils.searchTools import requestSearch
 from ..utils.responseTools import addBreak, wrapSpeak, googleResponse
 
+
 def implicaturePinpointDetailHandler(data):
     searchContext = [
         c for c in data['queryResult']['outputContexts'] \

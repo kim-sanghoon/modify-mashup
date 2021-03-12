@@ -11,6 +11,7 @@ from logger import get_logger
 from src.handler.dfImplicatureHandler import dfImplicatureHandler
 from src.handler.implicatureFollowupHandler import implicatureFollowupYesHandler, implicatureFollowupNoHandler
 from src.handler.implicaturePinpointDetailHandler import implicaturePinpointDetailHandler
+from src.handler.implicaturePinpointRejectHandler import implicaturePinpointRejectHandler
 
 app = Flask(__name__)
 log = get_logger()
@@ -65,7 +66,7 @@ def main():
         # Third stage -- pinpoint branch handler
         'implicature.pinpoint.detail': implicaturePinpointDetailHandler,
         'implicature.pinpoint.modify.explicit': None,
-        'implicature.pinpoint.reject': None
+        'implicature.pinpoint.reject': implicaturePinpointRejectHandler
     }
 
     handler = switch[action]
