@@ -1,10 +1,10 @@
 import requests
 
 from ..utils.responseTools import wrapSpeak, addBreak
-from ..utils.searchTools import requestSearch, parseContext
+from ..utils.searchTools import requestSearch, parseFollowupContext
 
 def implicatureFollowupYesHandler(data):
-    implicature, device = parseContext(data)
+    implicature, device = parseFollowupContext(data)
     result = requestSearch(implicature, device=device)
 
     # if nothing found

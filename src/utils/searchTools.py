@@ -3,7 +3,7 @@ import requests
 from logger import get_logger
 from .encodeTools import decodeObj
 
-def parseContext(data):
+def parseFollowupContext(data):
     strip_session = lambda x: x['name'].replace(data['session'] + '/contexts/', '')
     contexts = {strip_session(c): c for c in data['queryResult']['outputContexts']}
     
