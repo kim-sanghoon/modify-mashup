@@ -34,18 +34,51 @@ def unwrapSpeak(s):
     return s
     
 
-def addBreak(s1, s2, breakTime='1000ms'):
+def addBreak(s1, s2, breakTime='700ms', strength=None, comma=False):
     """Add a pause between two responses.
 
     Args:
         s1 (str): The first string.
         s2 (str): The second string.
         breakTime (str, optional): Length of the pause between the strings. Defaults to '1000ms'.
+        strength (str, optional): The strength of a break: 'weak', 'medium', 'strong'. Defaults to None.
+        comma (bool, optional): Using comma between two sentences if true. Defaults to False.
 
     Returns:
         str: Merged string with break time.
     """
     if s1.endswith('.'):
         s1 = s1[:-1]
+    
+    breakToken = '<break time="{}" />'.format(breakTime)
+    if strength is not None:
+        breakToken = '<break strength="{}" />'.format(strength)
 
-    return s1 + ' <break time="{}">. '.format(breakTime) + s2
+    return s1 + '{}{} '.format(breakToken, ',' if comma else '.') + s2
+
+
+def googleResponse(ssml, text):
+    """Generate (dirty) google payload of a webhook response.
+
+    Args:
+        ssml (str): A SSML string.
+        text (str): Plain text string.
+
+    Returns:
+        dict: Generated google payload.
+    """
+    return {
+        'google': {
+            'expectUserResponse': True,
+            'richResponse': {
+                'items': [
+                    {
+                        'simpleResponse': {
+                            'ssml': ssml,
+                            'text': text
+                        }
+                    }
+                ]
+            }
+        }
+    }

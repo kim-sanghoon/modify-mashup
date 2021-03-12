@@ -10,6 +10,7 @@ from logger import get_logger
 # Define intent handlers here
 from src.handler.dfImplicatureHandler import dfImplicatureHandler
 from src.handler.implicatureFollowupHandler import implicatureFollowupYesHandler, implicatureFollowupNoHandler
+from src.handler.implicaturePinpointDetailHandler import implicaturePinpointDetailHandler
 
 app = Flask(__name__)
 log = get_logger()
@@ -59,7 +60,12 @@ def main():
 
         # Second stage -- implicature followup handler
         'implicature.followup.yes': implicatureFollowupYesHandler,
-        'implicature.followup.no': implicatureFollowupNoHandler
+        'implicature.followup.no': implicatureFollowupNoHandler,
+
+        # Third stage -- pinpoint branch handler
+        'implicature.pinpoint.detail': implicaturePinpointDetailHandler,
+        'implicature.pinpoint.modify.explicit': None,
+        'implicature.pinpoint.reject': None
     }
 
     handler = switch[action]

@@ -1,6 +1,6 @@
 import requests
 
-from ..utils.responseTools import wrapSpeak, addBreak
+from ..utils.responseTools import wrapSpeak, addBreak, googleResponse
 from ..utils.searchTools import requestSearch, parseFollowupContext
 
 def implicatureFollowupYesHandler(data):
@@ -15,21 +15,10 @@ def implicatureFollowupYesHandler(data):
         ]
         return {
             'fulfillmentText': ' '.join(fulfillmentText),
-            'payload': {
-                'google': {
-                    'expectUserResponse': True,
-                    'richResponse': {
-                        'items': [
-                            {
-                                'simpleResponse': {
-                                    'ssml': wrapSpeak(addBreak(fulfillmentText[0], fulfillmentText[1])),
-                                    'displayText': ' \n'.join(fulfillmentText)
-                                }
-                            }
-                        ]
-                    }
-                }
-            }
+            'payload': googleResponse(
+                ssml=wrapSpeak(addBreak(fulfillmentText[0], fulfillmentText[1])),
+                text=' \n'.join(fulfillmentText)
+            )
         }
     
     # otherwise
@@ -51,39 +40,37 @@ def implicatureFollowupYesHandler(data):
     }
 
     mainResponse = 'I found {} recently, and it may{} cause you feel that {}.'.format(
-        action.type.language['past'],
+        action.type.language['past'].format(**action.values),
         '' if not result['sideEffect'] else ' potentially',
         implicatureResponse[implicature.lower()]
     )
-    subResponse = 'Would you like to check which trigger activated it, otherwise change or adjust it?'
+    subResponse = [
+        'Would you like to check which trigger activated it', 
+        'otherwise', 
+        'change or adjust it?'
+    ]
     
     return {
-        'fulfillmentText': mainResponse + ' ' + subResponse,
+        'fulfillmentText': mainResponse + ' ' + ' '.join(subResponse),
         'outputContexts': [
             {
                 'name': '{}/contexts/search'.format(data['session']),
                 'lifespanCount': 3,
                 'parameters': {
                     'implicatureType': implicature,
-                    'count': 0
+                    'count': 0,
+                    'device': device
                 }
             }
         ],
-        'payload': {
-            'google': {
-                'expectUserResponse': True,
-                'richResponse': {
-                    'items': [
-                        {
-                            'simpleResponse': {
-                                'ssml': wrapSpeak(addBreak(mainResponse, subResponse, breakTime='2000ms')),
-                                'displayText': mainResponse + ' \n' + subResponse
-                            }
-                        }
-                    ]
-                }
-            }
-        }
+        'payload': googleResponse(
+            ssml=wrapSpeak(
+                addBreak(mainResponse, addBreak(
+                    addBreak(subResponse[0], subResponse[1], strength='weak', comma=True),
+                    subResponse[2], strength='weak', comma=True
+                ))),
+            text=mainResponse + ' ' + ' '.join(subResponse)
+        )
     }
 
 def implicatureFollowupNoHandler(data):
