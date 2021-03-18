@@ -44,6 +44,30 @@ def search():
     return ok({'searchResult': encodeObj(searchResult)})
 
 
+@app.route('/<setId>', methods=['GET'])
+def changeHistory(setId):
+    if not setId.isnumeric() or int(setId) not in [1, 2, 3, 4, 5]:
+        return error({
+            'what': 'Unexpected number : {}'.format(setId)
+        })
+    
+    rulesHistory = RulesHistory.from_folder('data/experiments/' + setId)
+    log.debug('Changed the mashup set to #{}'.format(setId))
+
+    return ok({'setId': setId})
+
+
+@app.route('/', methods=['GET'])
+def main():
+    listStr = ''
+    for item in rulesHistory.history:
+        itemStr = str(item[1:3]).replace('<', '').replace('>', '')
+        listStr += '<li style="margin: 0.5em 0;">{}</li>\r\n'.format(itemStr)
+    
+    template = '<h3>History Data</h3>\r\n<ol>{}</ol>\r\n'
+    return template.format(listStr)
+
+
 if __name__ == "__main__":
     argParser = argparse.ArgumentParser(description='Mashup management module')
     argParser.add_argument('--number', required=True,
