@@ -14,7 +14,7 @@ def implicaturePinpointRejectHandler(data):
     ][0]['parameters']
     
     # logging for development purpose
-    log.warn('Rejection context: {}'.format(searchContext))
+    log.debug('Rejection context: {}'.format(searchContext))
 
     result = requestSearch(
         searchContext['implicatureType'], 
@@ -26,7 +26,7 @@ def implicaturePinpointRejectHandler(data):
     if result['historyData'] is None:
         fulfillmentText = [
             "Sorry, but I couldn't find more actions about it.",
-            "Could you start over by saying the problem again?"
+            "You can go back to the previous one, or start over by saying the problem again."
         ]
         outputContexts = data['queryResult']['outputContexts']
 
