@@ -23,8 +23,11 @@ The implementation has been tested on Python 3.5.
 - `mashup.py` : This Flask module handles the registered IoT mashups and their history.
 
     The API endpoint description is as follows:
+    - `GET /` responds the current history data and modification log in a numbered list.
+    - `GET /{number}` switches the current history & mashup set based on the given number.<br />It would return a `{"setId": "{number}", "status": "ok"}` if okay, or a `{"status": "error"}` response otherwise. **This operation will clear the current modification log.**
     - `GET /check` responds the health of the mashup module.<br />It would return a `{"status": "ok"}` json response if okay, or a `{"status": "error"}` response otherwise.
     - `POST /search` responds the search results of `RulesHistory.search()` method.<br />It would return a `{"status": "ok", "searchResults": "..."}` json response if okay (even if found nothing), or a `{"status": "error", "what": "... the reason of error ..."}` response otherwise.<br />The search results will be dumped by `pickle` library and be encoded into base64, so be cautious of any security issues!
+    - `POST /modify` accumulates any modification inputs from a user.<br />Similar to `/search` operation, it will search the target mashup using `RulesHistory.search()` with additional arguments named `modifyType` and `modifyData`, which indicate the user modification input.
 
 - `logger.py` : The logging module.
 

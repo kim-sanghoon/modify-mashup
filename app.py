@@ -13,6 +13,7 @@ from src.handler.implicatureFollowupHandler import implicatureFollowupYesHandler
 from src.handler.implicaturePinpointDetailHandler import implicaturePinpointDetailHandler
 from src.handler.implicaturePinpointRejectHandler import implicaturePinpointRejectHandler
 from src.handler.implicaturePinpointPreviousHandler import implicaturePinpointPreviousHandler
+from src.handler.modifyRemoveYesHandler import modifyRemoveYesHandler
 
 app = Flask(__name__)
 log = get_logger()
@@ -68,7 +69,16 @@ def main():
         'implicature.pinpoint.detail': implicaturePinpointDetailHandler,
         'implicature.pinpoint.modify.explicit': None,
         'implicature.pinpoint.reject': implicaturePinpointRejectHandler,
-        'implicature.pinpoint.previous': implicaturePinpointPreviousHandler
+        'implicature.pinpoint.previous': implicaturePinpointPreviousHandler,
+
+        #####################
+        # Modification step #
+        #####################
+
+        # remove handlers,
+        'modify.remove': lambda d: log.debug('dummy handler for "{}" intent invoked'.format(action)),
+        'modify.remove.no': lambda d: log.debug('dummy handler for "{}" intent invoked'.format(action)),
+        'modify.remove.yes': modifyRemoveYesHandler
     }
 
     handler = switch[action]
