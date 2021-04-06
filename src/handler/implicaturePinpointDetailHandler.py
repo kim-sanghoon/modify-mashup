@@ -36,7 +36,7 @@ def implicaturePinpointDetailHandler(data):
     )
     infoDescription = ['and it may cause you feel that {}.'.format(
         implicatureResponse[searchContext['implicatureType'].lower()]
-    ), 'Would you like to modify the action', 'or search for another action?']
+    ), 'Would you like to modify the mashup rule', 'or search for another action?']
 
     return {
         'fulfillmentText': ruleDescription + ', ' + ' '.join(infoDescription),

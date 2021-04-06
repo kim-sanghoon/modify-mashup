@@ -61,7 +61,7 @@ def implicatureFollowupYesHandler(data):
         'outputContexts': [
             {
                 'name': '{}/contexts/search'.format(data['session']),
-                'lifespanCount': 3,
+                'lifespanCount': 5,
                 'parameters': {
                     'implicatureType': implicature,
                     'count': 0,
