@@ -102,6 +102,16 @@ def modify():
     })
 
 
+@app.route('/undo', methods=['POST'])
+def undo():
+    global modifyHistory
+
+    if modifyHistory:
+        modifyHistory.pop()
+    
+    return ok({'length': len(modifyHistory)})
+
+
 @app.route('/<setId>', methods=['GET'])
 def changeHistory(setId):
     if not setId.isnumeric() or int(setId) not in [1, 2, 3, 4, 5]:

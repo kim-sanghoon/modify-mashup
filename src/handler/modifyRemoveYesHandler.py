@@ -1,7 +1,7 @@
 from random import choice
 
 from logger import get_logger
-from ..utils.searchTools import requestModify, parseFollowupContext
+from ..utils.searchTools import requestModify
 from ..utils.responseTools import addBreak, wrapSpeak, googleResponse
 
 log = get_logger('removeHandler')

@@ -14,6 +14,8 @@ from src.handler.implicaturePinpointDetailHandler import implicaturePinpointDeta
 from src.handler.implicaturePinpointRejectHandler import implicaturePinpointRejectHandler
 from src.handler.implicaturePinpointPreviousHandler import implicaturePinpointPreviousHandler
 from src.handler.modifyRemoveYesHandler import modifyRemoveYesHandler
+from src.handler.modifyUndoYesHandler import modifyUndoYesHandler
+from src.handler.modifyFinishHandler import modifyFinishHandler
 
 app = Flask(__name__)
 log = get_logger()
@@ -75,10 +77,10 @@ def main():
         # Modification step #
         #####################
 
-        # remove handlers,
-        'modify.remove': lambda d: log.debug('dummy handler for "{}" intent invoked'.format(action)),
-        'modify.remove.no': lambda d: log.debug('dummy handler for "{}" intent invoked'.format(action)),
-        'modify.remove.yes': modifyRemoveYesHandler
+        # misc handlers
+        'modify.remove.yes': modifyRemoveYesHandler,
+        'modify.undo.yes': modifyUndoYesHandler,
+        'modify.finish': modifyFinishHandler
     }
 
     handler = switch[action]

@@ -29,9 +29,9 @@ def implicaturePinpointRejectHandler(data):
             "You can go back to the previous one, or start over by saying the problem again."
         ]
         outputContexts = data['queryResult']['outputContexts']
-
         for c in outputContexts:
-            c['lifespanCount'] = 0
+            if c['name'].endswith('/search'):
+                c['parameters']['count'] += 1
 
         return {
             'fulfillmentText': ' '.join(fulfillmentText),
