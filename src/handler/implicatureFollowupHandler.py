@@ -75,7 +75,7 @@ def implicatureFollowupYesHandler(data):
                     addBreak(subResponse[0], subResponse[1], strength='weak', comma=True),
                     subResponse[2], strength='weak', comma=True
                 ))),
-            text=mainResponse + ' ' + ' '.join(subResponse)
+            text=mainResponse + ' ' + ', '.join(subResponse)
         )
     }
 
