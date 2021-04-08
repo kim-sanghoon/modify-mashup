@@ -16,6 +16,9 @@ from src.handler.implicaturePinpointPreviousHandler import implicaturePinpointPr
 from src.handler.modifyRemoveYesHandler import modifyRemoveYesHandler
 from src.handler.modifyUndoYesHandler import modifyUndoYesHandler
 from src.handler.modifyFinishHandler import modifyFinishHandler
+from src.handler.modifyTriggerOnlyHandler import modifyTriggerOnlyHandler
+from src.handler.modifyFollowupYesHandler import modifyFollowupYesHandler
+from src.handler.modifyFollowupAddChangeHandler import modifyFollowupAddChangeHandler
 
 app = Flask(__name__)
 log = get_logger()
@@ -80,7 +83,28 @@ def main():
         # misc handlers
         'modify.remove.yes': modifyRemoveYesHandler,
         'modify.undo.yes': modifyUndoYesHandler,
-        'modify.finish': modifyFinishHandler
+        'modify.finish': modifyFinishHandler,
+        'modify.followup.yes': modifyFollowupYesHandler,
+        'modify.followup.add-change': modifyFollowupAddChangeHandler,
+
+        # trigger-only handlers
+        'modify.receive.call': modifyTriggerOnlyHandler,
+        'modify.receive.message': modifyTriggerOnlyHandler,
+        'modify.send.message': modifyTriggerOnlyHandler,
+        'modify.connect': modifyTriggerOnlyHandler,
+        'modify.disconnect': modifyTriggerOnlyHandler,
+        'modify.date': modifyTriggerOnlyHandler,
+        'modify.time': modifyTriggerOnlyHandler,
+        'modify.weather': modifyTriggerOnlyHandler,
+        'modify.sleep': modifyTriggerOnlyHandler,
+        'modify.wakeup': modifyTriggerOnlyHandler,
+        'modify.detect.raindrop': modifyTriggerOnlyHandler,
+        'modify.undetect.raindrop': modifyTriggerOnlyHandler,
+        'modify.detect.presence': modifyTriggerOnlyHandler,
+        'modify.undetect.presence': modifyTriggerOnlyHandler,
+        'modify.enter': modifyTriggerOnlyHandler,
+        'modify.exit': modifyTriggerOnlyHandler,
+        'modify.tap': modifyTriggerOnlyHandler
     }
 
     handler = switch[action]

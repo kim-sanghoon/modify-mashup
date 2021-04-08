@@ -8,7 +8,7 @@ def parseFollowupContext(data):
     contexts = {strip_session(c): c for c in data['queryResult']['outputContexts']}
     
     implicature = contexts['implicature-followup']['parameters']['implicatureType']
-    device = '' if 'parameters' in contexts['implicature'] else contexts['implicature']['parameter']['devices']
+    device = '' if 'parameters' not in contexts['implicature'] else contexts['implicature']['parameters']['devices']
     if device == '':
         device = None
     
@@ -63,3 +63,30 @@ def requestModify(modifyType, implicature, **kwargs):
         raise RuntimeError(response['what'])
     
     return decodeObj(response['searchResult'])
+
+
+def requestTypeCheck(intent, implicature, **kwargs):
+    """
+    @param modifyType: the type of modification, expected one of ['replace', 
+      'append', 'remove']
+    @param implicature: the core information to search for the IoT action.
+    @kwargs checkSideEffect: default True, set False if you do not want 
+      to consider any side effects.
+    @kwargs device: default None, set if the user uttered device hints
+    @kwargs skipCount: default 0, increase by 1 if the user reject the
+      previous search result.
+    """
+    jsonForm = {
+        'intent': intent,
+        'implicature': implicature,
+        **kwargs
+    }
+    response = requests.post('http://localhost:445/type', json=jsonForm)
+    response = response.json()
+
+    if response['status'] == 'error':
+        log = get_logger()
+        log.error('Mashup module returned error - ' + response['what'])
+        raise RuntimeError(response['what'])
+    
+    return response

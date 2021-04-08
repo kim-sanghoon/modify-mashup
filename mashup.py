@@ -16,6 +16,7 @@ app = Flask(__name__)
 log = get_logger(name='mashup')
 rulesHistory = None
 setNumber, modifyHistory = None, []
+intentDict = {}
 
 ok = lambda d={}: (jsonify({'status': 'ok', **d}), 200)
 error = lambda d={}: (jsonify({'status': 'error', **d}), 400)
@@ -58,6 +59,45 @@ def search():
     searchResult = rulesHistory.search(**req)
     log.debug('Search result - {}'.format(searchResult))
     return ok({'searchResult': encodeObj(searchResult)})
+
+
+@app.route('/type', methods=['POST'])
+def type():
+    req = request.get_json()
+
+    if req is None or 'implicature' not in req:
+        log.debug('No implicature data found.')
+        return error({
+            'what': 'Expected implicature information, received none.'
+        })
+    
+    if 'intent' not in req:
+        log.debug('No intent data found.')
+        return error({
+            'what': 'Expected intent information, received none.'
+        })
+    
+    copyReq = dict(req)
+    del copyReq['intent']
+    
+    searchResult = rulesHistory.search(**copyReq)
+    log.debug('Search result - {}'.format(searchResult))
+
+    _, trigger, action, *_ = searchResult['historyData']
+
+    intentData = []
+    for nominalName in intentDict[req['intent']]:
+        if nominalName in NominalAction.actionDict:
+            intentData.append(NominalAction.actionDict[nominalName])
+        
+        if nominalName in NominalTrigger.triggerDict:
+            intentData.append(NominalTrigger.triggerDict[nominalName])
+
+    return ok({
+        'trigger': trigger.type.name in intentDict[req['intent']],
+        'action': action.type.name in intentDict[req['intent']],
+        'intentData': encodeObj(intentData)
+    })
 
 
 @app.route('/modify', methods=['POST'])
@@ -170,6 +210,9 @@ if __name__ == "__main__":
 
     with open('data/effects.json') as f:
         init_effect(f)
+    
+    with open('data/intents.json') as f:
+        intentDict = json.load(f)
 
     # Load RulesHistory mashup set
     rulesHistory = RulesHistory.from_folder('data/experiments/' + args.number)

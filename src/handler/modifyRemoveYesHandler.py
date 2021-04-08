@@ -18,7 +18,7 @@ def modifyRemoveYesHandler(data):
     result = requestModify(
         'remove',
         searchContext['implicatureType'], 
-        device=None if searchContext['device'] == "" else searchContext['device'],
+        device=None if searchContext['device'] == '' else searchContext['device'],
         skipCount=searchContext['count']
     )
 
