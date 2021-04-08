@@ -9,62 +9,62 @@
     },
     "ConnectionToNetworkTrigger": {
         "params": {
-            "name": {
+            "network-devices": {
                 "type": "string",
                 "followup": "What is the name of the device?"
             }
         },
         "paramsRange": {
-            "name": ["cell phone", "laptop", "tablet"]
+            "network-devices": ["cell phone", "laptop", "tablet"]
         },
         "language": {
-            "present": "your {name} device is connected to the home network",
-            "past": "your {name} device was connected to the home network"
+            "present": "your {network-devices} device is connected to the home network",
+            "past": "your {network-devices} device was connected to the home network"
         }
     },
     "DeviceTurnedOffTrigger": {
         "params": {
-            "name": {
+            "network-devices": {
                 "type": "string",
                 "followup": "What is the name of the device?"
             }
         },
         "paramsRange": {
-            "name": ["cell phone", "laptop", "tablet"]
+            "network-devices": ["cell phone", "laptop", "tablet"]
         },
         "language": {
-            "present": "your {name} device is turned off",
-            "past": "your {name} device was turned off"
+            "present": "your {network-devices} device is turned off",
+            "past": "your {network-devices} device was turned off"
         }
     },
     "DeviceTurnedOnTrigger": {
         "params": {
-            "name": {
+            "network-devices": {
                 "type": "string",
                 "followup": "What is the name of the device?"
             }
         },
         "paramsRange": {
-            "name": ["cell phone", "laptop", "tablet"]
+            "network-devices": ["cell phone", "laptop", "tablet"]
         },
         "language": {
-            "present": "your {name} device is turned on",
-            "past": "your {name} device was turned on"
+            "present": "your {network-devices} device is turned on",
+            "past": "your {network-devices} device was turned on"
         }
     },
     "DisconnectedFromNetworkTrigger": {
         "params": {
-            "name": {
+            "network-devices": {
                 "type": "string",
                 "followup": "What is the name of the device?"
             }
         },
         "paramsRange": {
-            "name": ["cell phone", "laptop", "tablet"]
+            "network-devices": ["cell phone", "laptop", "tablet"]
         },
         "language": {
-            "present": "your {name} device is dis-connected from the home network",
-            "past": "your {name} device was dis-connected from the home network"
+            "present": "your {network-devices} device is dis-connected from the home network",
+            "past": "your {network-devices} device was dis-connected from the home network"
         }
     },
     "EveryDayTrigger": {
@@ -187,32 +187,32 @@
     },
     "ReceivedIncomingCallTrigger": {
         "params": {
-            "who": {
+            "person": {
                 "type": "string",
                 "followup": "Who are you going to receive a call from?"
             }
         },
         "paramsRange": {
-            "who": ["mother", "father", "sister", "brother"]
+            "person": ["mother", "father", "sister", "brother"]
         },
         "language": {
-            "present": "you receive a call from {who}",
-            "past": "you received a call from {who}"
+            "present": "you receive a call from {person}",
+            "past": "you received a call from {person}"
         }
     },
     "ReceivedMessageTrigger": {
         "params": {
-            "who": {
+            "person": {
                 "type": "string",
                 "followup": "Who are you going to receive a message from?"
             }
         },
         "paramsRange": {
-            "who": ["mother", "father", "sister", "brother"]
+            "person": ["mother", "father", "sister", "brother"]
         },
         "language": {
-            "present": "you receive a message from {who}",
-            "past": "you received a message from {who}"
+            "present": "you receive a message from {person}",
+            "past": "you received a message from {person}"
         }
     },
     "ReceivedRemindNotificationTrigger": {
@@ -449,17 +449,17 @@
     },
     "SentMessageTrigger": {
         "params": {
-            "who": {
+            "person": {
                 "type": "string",
                 "followup": "Who are you going to send a message to?"
             }
         },
         "paramsRange": {
-            "who": ["mother", "father", "sister", "brother"]
+            "person": ["mother", "father", "sister", "brother"]
         },
         "language": {
-            "present": "you send a message to {who}",
-            "past": "you sent a message to {who}"
+            "present": "you send a message to {person}",
+            "past": "you sent a message to {person}"
         }
     },
     "StartedListeningMusicTrigger": {

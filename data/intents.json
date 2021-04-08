@@ -1,0 +1,53 @@
+{
+    "modify.receive.call": [
+        "ReceivedIncomingCallTrigger"
+    ],
+    "modify.receive.message": [
+        "ReceivedMessageTrigger"
+    ],
+    "modify.send.message": [
+        "SentMessageTrigger"
+    ],
+    "modify.connect": [
+        "ConnectionToNetworkTrigger"
+    ],
+    "modify.disconnect": [
+        "DisconnectedFromNetworkTrigger"
+    ],
+    "modify.date": [
+        "EveryYearTrigger"
+    ],
+    "modify.time": [
+        "EveryDayTrigger"
+    ],
+    "modify.weather": [
+        "ReceivedBreakingNewsTrigger"
+    ],
+    "modify.detect.raindrop": [
+        "SensedRainDetectedTrigger"
+    ],
+    "modify.undetect.raindrop": [
+        "SensedRainNoLongerDetectedTrigger"
+    ],
+    "modify.detect.presence": [
+        "SensorPresenceDetectedTrigger"
+    ],
+    "modify.undetect.presence": [
+        "SensorPresenceNoLongerDetectedTrigger"
+    ],
+    "modify.sleep": [
+        "StartedSleepingTrigger"
+    ],
+    "modify.wakeup": [
+        "StoppedSleepingTrigger"
+    ],
+    "modify.enter": [
+        "GPSEnterAreaTrigger"
+    ],
+    "modify.exit": [
+        "GPSExitAreaTrigger"
+    ],
+    "modify.tap": [
+        "TapButtonActivityTrigger"
+    ]
+}
