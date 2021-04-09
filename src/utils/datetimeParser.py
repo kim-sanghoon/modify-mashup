@@ -11,7 +11,7 @@ def parseDate(isoString):
 
     return {
         'month': monthStr[date.month],
-        'day': date.day
+        'day': str(date.day)
     }
 
 def parseTime(isoString):

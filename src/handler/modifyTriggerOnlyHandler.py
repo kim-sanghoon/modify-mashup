@@ -2,6 +2,7 @@ from logger import get_logger
 from ..utils.encodeTools import decodeObj
 from ..utils.searchTools import requestTypeCheck
 from ..utils.responseTools import googleResponse, wrapSpeak, addBreak
+from ..utils.datetimeParser import *
 
 log = get_logger('triggerOnlyHandler')
 
@@ -28,9 +29,19 @@ def modifyTriggerOnlyHandler(data):
     )
     intentTriggerObject = decodeObj(typeResult['intentData'])[0]
     triggerLanguage = 'when ' + intentTriggerObject.language['present']
+
+    # we need a special handling for modify.date and modify.time
+    if action == 'modify.date':
+        params.update(parseDate(params['date']))
+    if action == 'modify.time':
+        params.update({'time': parseTime(params['time'])})
+
+    formatDict = {}
     for k, v in params.items():
         if k in intentTriggerObject.params:
-            triggerLanguage = triggerLanguage.format(**{k: v})
+            formatDict[k] = v
+    
+    triggerLanguage = triggerLanguage.format(**formatDict)
 
     if 'add-change' in params and params['add-change'] != '':
         # if user explicitly uttered either to replace or to append,
