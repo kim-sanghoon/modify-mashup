@@ -28,6 +28,10 @@ The implementation has been tested on Python 3.5.
     - `GET /check` responds the health of the mashup module.<br />It would return a `{"status": "ok"}` json response if okay, or a `{"status": "error"}` response otherwise.
     - `POST /search` responds the search results of `RulesHistory.search()` method.<br />It would return a `{"status": "ok", "searchResults": "..."}` json response if okay (even if found nothing), or a `{"status": "error", "what": "... the reason of error ..."}` response otherwise.<br />The search results will be dumped by `pickle` library and be encoded into base64, so be cautious of any security issues!
     - `POST /modify` accumulates any modification inputs from a user.<br />Similar to `/search` operation, it will search the target mashup using `RulesHistory.search()` with additional arguments named `modifyType` and `modifyData`, which indicate the user modification input.
+    - `POST /type` receives a Google Dialogflow intent and checks the intent matches to the trigger or action of given search context. The detailed specification of json response is as follows:
+        - `boolean trigger`: true if the trigger of given search context matches to the user input intent, false otherwise.
+        - `boolean action`: true if the action of given search context matches to the user input intent, false otherwise.
+        - `list of NominalAction | NominalTrigger intentData`: the nominal objects of user input intent, which are mapped from `intents.json`.
 
 - `logger.py` : The logging module.
 

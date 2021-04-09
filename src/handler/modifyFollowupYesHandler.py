@@ -13,7 +13,7 @@ def modifyFollowupYesHandler(data):
     ][0]['parameters']
     
     # logging for development purpose
-    log.debug('Remove context: {}'.format(modifyContext))
+    log.debug('Modify context: {}'.format(modifyContext))
 
     result = requestModify(
         modifyContext['modifyType'],

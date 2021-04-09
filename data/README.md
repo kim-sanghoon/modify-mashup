@@ -1,6 +1,6 @@
 # Descriptions on the Data
 
-There are three main files in this folder: `action.json`, `effects.json`, and `trigger.json`.<br />
+There are four main files in this folder: `action.json`, `effects.json`, `intents.json`, and `trigger.json`.<br />
 I briefly describe how each file is organized.
 
 ## `action.json`
@@ -143,6 +143,28 @@ if __name__ == "__main__":
     init_effect(effect_f)
     print(NominalAction.effectDict)
 ```
+
+## `intents.json`
+This file contains mappings between Google Dialogflow intents (more precisely, actions) and corresponding EUPont trigger / action classes.
+As [the recommended naming convention of Dialogflow](https://cloud.google.com/dialogflow/cx/docs/concept/best-practices) is to segment intent names with punctuation.
+
+### JSON Specification
+Examples of the mappings are shown as follows:
+```json
+{
+    "modify.open-unlock": [
+        "OpenWindowFrameAction",
+        "DisableSecuritySystemAction",
+        "WindowFrameOpenedTrigger",
+        "SecuritySystemDisabledTrigger"
+    ],
+    "modify.receive.call": [
+        "ReceivedIncomingCallTrigger"
+    ],
+}
+```
+
+All the intents that are only mapped with triggers have only one mapping in the list, while the others have multiple mappings.
 
 ## `trigger.json`
 This file contains properties of each nominal trigger.
