@@ -428,5 +428,33 @@
             "infinitive": "start washing dishes"
         },
         "device": ["dish washer"]
+    },
+    "TurnDeviceOnAction": {
+        "inverseOf": "TurnDeviceOffAction",
+        "type": "bool",
+        "values": ["network-devices"],
+        "valuesRange": {
+            "network-devices": ["cell phone", "laptop", "tablet"]
+        },
+        "language": {
+            "past": "your {network-devices} was turned on",
+            "gerund": "turning the {network-devices} on",
+            "infinitive": "turn the {network-devices} on"
+        },
+        "device": ["computer", "laptop", "tablet", "mobile", "server"]
+    },
+    "TurnDeviceOffAction": {
+        "inverseOf": "TurnDeviceOnAction",
+        "type": "bool",
+        "values": ["network-devices"],
+        "valuesRange": {
+            "network-devices": ["cell phone", "laptop", "tablet"]
+        },
+        "language": {
+            "past": "your {network-devices} was turned off",
+            "gerund": "turning the {network-devices} off",
+            "infinitive": "turn the {network-devices} off"
+        },
+        "device": ["computer", "laptop", "tablet", "mobile", "server"]
     }
 }

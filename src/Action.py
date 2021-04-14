@@ -36,8 +36,11 @@ class InstantiatedAction():
         else:
             self.device = choice(_type.device)
             for k in _type.values:
-                minval, maxval = _type.valuesRange[k]
-                self.values[k] = randint(minval, maxval)
+                if type(_type.valuesRange[k][0]) is int: 
+                    minval, maxval = _type.valuesRange[k]
+                    self.values[k] = randint(minval, maxval)
+                else:
+                    self.values[k] = choice(_type.valuesRange[k])
     
     def __repr__(self):
         return '<{0} with {1} on {2}>'.format(self.type.name, self.values, self.device)
