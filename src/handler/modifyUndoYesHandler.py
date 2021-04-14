@@ -23,8 +23,17 @@ def modifyUndoYesHandler(data):
         'You can make further modification by telling me, or finish it'
     ]
 
+    followupContext = {
+        'name': '{}/contexts/finish'.format(data['session']),
+        'lifespanCount': 1
+    }
+
     return {
         'fulfillmentText': mainResponse[0] + '. ' + mainResponse[1] + '.',
+        'outputContexts': [
+            followupContext,
+            *data['queryResult']['outputContexts']
+        ],
         'payload': googleResponse(
             ssml=wrapSpeak(addBreak(mainResponse[0], mainResponse[1])),
             text=mainResponse[0] + '. ' + mainResponse[1] + '.'
