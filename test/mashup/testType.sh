@@ -13,3 +13,9 @@ curl --request POST \
   --header "Content-Type: application/json" \
   --data '{"implicature": "HighSecurity", "intent": "modify.sleep"}' \
   localhost:445/type;
+
+# expected - {"action":false,"status":"ok","trigger":true}
+curl --request POST \
+  --header "Content-Type: application/json" \
+  --data '{"implicature": "HighTemperature", "intent": "modify.open-unlock#window"}' \
+  localhost:445/type;

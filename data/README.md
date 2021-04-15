@@ -152,11 +152,12 @@ As [the recommended naming convention of Dialogflow](https://cloud.google.com/di
 Examples of the mappings are shown as follows:
 ```json
 {
-    "modify.open-unlock": [
-        "OpenWindowFrameAction",
-        "DisableSecuritySystemAction",
+    "modify.open-unlock#window": [
         "WindowFrameOpenedTrigger",
-        "SecuritySystemDisabledTrigger"
+        "OpenWindowFrameAction"
+    ],
+    "modify.enable#drying machine": [
+        "StartDryingAction"
     ],
     "modify.receive.call": [
         "ReceivedIncomingCallTrigger"
@@ -164,7 +165,10 @@ Examples of the mappings are shown as follows:
 }
 ```
 
-All the intents that are only mapped with triggers have only one mapping in the list, while the others have multiple mappings.
+`modify.enable`, `modify.disable`, `modify.open-unlock`, and `modify.close-lock` intents that cannot have mappings with EUPont classes by themselves are specified with `devices` or `network-devices` information.
+The specification is a combination of the intent name and a device name, connected by a `#` (e.g., `modify.open-unlock#window`).
+
+All the intents that are only mapped with triggers have only one mapping in the list, while the others **can** have multiple mappings.
 
 ## `trigger.json`
 This file contains properties of each nominal trigger.

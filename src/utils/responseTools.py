@@ -82,3 +82,25 @@ def googleResponse(ssml, text):
             }
         }
     }
+
+
+def genericErrorResponse(data, whileWhat=None):
+    fulfillmentText = [
+        'Sorry, I found a serious technical trouble {}'.format(
+            'while processing your command' if not whileWhat else whileWhat
+        ),
+        'Could you command again?'
+    ]
+    outputContexts = []
+    for c in data['queryResult']['outputContexts']:
+        c['lifespanCount'] += 1
+        outputContexts.append(c)
+    
+    return {
+        'fulfillmentText': '. '.join(fulfillmentText),
+        'outputContexts': outputContexts,
+        'payload': googleResponse(
+            ssml=wrapSpeak(addBreak(fulfillmentText[0], fulfillmentText[1])),
+            text='. '.join(fulfillmentText)
+        )
+    }

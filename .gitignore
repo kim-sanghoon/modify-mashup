@@ -4,6 +4,8 @@ log/
 test/log/
 test/testRulesHistory
 test/testSearchRulesHistory
+.vscode/
+__pycache__/
 
 *.pyc
 *.log

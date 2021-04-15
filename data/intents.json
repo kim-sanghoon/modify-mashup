@@ -49,5 +49,173 @@
     ],
     "modify.tap": [
         "TapButtonActivityTrigger"
+    ],
+    "modify.close-lock#window": [
+        "WindowFrameClosedTrigger",
+        "CloseWindowFrameAction"
+    ],
+    "modify.open-unlock#window": [
+        "WindowFrameOpenedTrigger",
+        "OpenWindowFrameAction"
+    ],
+    "modify.close-lock#security system": [
+        "SecuritySystemEnabledTrigger",
+        "EnableSecuritySystemAction"
+    ],
+    "modify.open-unlock#security system": [
+        "SecuritySystemDisabledTrigger",
+        "DisableSecuritySystemAction"
+    ],
+    "modify.enable#alarm": [
+        "AddedReminderTrigger",
+        "AddAlarmAction"
+    ],
+    "modify.disable#alarm": [
+        "ReceivedRemindNotificationTrigger",
+        "TurnAlarmOffAction"
+    ],
+    "modify.enable#dish washer": [
+        "StartDishwashingAction"
+    ],
+    "modify.disable#dish washer": [
+        "StopDishwashingAction"
+    ],
+    "modify.enable#air purifier": [
+        "EnableAirPurifierSystemAction"
+    ],
+    "modify.disable#air purifier": [
+        "DisableAirPurifierSystemAction"
+    ],
+    "modify.enable#washing machine": [
+        "StartWashingClothesAction"
+    ],
+    "modify.disable#washing machine": [
+        "StopWashingClothesAction"
+    ],
+    "modify.enable#vacuum": [
+        "StartVacuumAction"
+    ],
+    "modify.disable#vacuum": [
+        "StopVacuumAction"
+    ],
+    "modify.enable#heater": [
+        "HeatingSystemEnabledTrigger",
+        "EnableHeatingSystemAction"
+    ],
+    "modify.disable#heater": [
+        "HeatingSystemDisabledTrigger",
+        "DisableHeatingSystemAction"
+    ],
+    "modify.enable#dehumidifier": [
+        "EnableDehumidifierSystemAction"
+    ],
+    "modify.disable#dehumidifier": [
+        "DisableDehumidifierSystemAction"
+    ],
+    "modify.enable#humidifier": [
+        "EnableHumidifierSystemAction"
+    ],
+    "modify.disable#humidifier": [
+        "DisableHumidifierSystemAction"
+    ],
+    "modify.enable#watering": [
+        "EnableWateringSystemAction"
+    ],
+    "modify.disable#watering": [
+        "DisableWateringSystemAction"
+    ],
+    "modify.enable#air conditioner": [
+        "CoolingSystemEnabledTrigger",
+        "EnableCoolingSystemAction"
+    ],
+    "modify.disable#air conditioner": [
+        "CoolingSystemDisabledTrigger",
+        "DisableCoolingSystemAction"
+    ],
+    "modify.enable#window": [
+        "WindowFrameOpenedTrigger",
+        "OpenWindowFrameAction"
+    ],
+    "modify.disable#window": [
+        "WindowFrameClosedTrigger",
+        "CloseWindowFrameAction"
+    ],
+    "modify.enable#drying machine": [
+        "StartDryingAction"
+    ],
+    "modify.disable#drying machine": [
+        "StopDryingAction"
+    ],
+    "modify.enable#security system": [
+        "SecuritySystemEnabledTrigger",
+        "EnableSecuritySystemAction"
+    ],
+    "modify.disable#security system": [
+        "SecuritySystemDisabledTrigger",
+        "DisableSecuritySystemAction"
+    ],
+    "modify.enable#light": [
+        "LightingSystemEnabledTrigger",
+        "EnableLightingSystemAction"
+    ],
+    "modify.disable#light": [
+        "LightingSystemDisabledTrigger",
+        "DisableLightingSystemAction"
+    ],
+    "modify.enable#audio": [
+        "StartedListeningMusicTrigger",
+        "EnableLightingSystemAction"
+    ],
+    "modify.disable#audio": [
+        "StoppedListeningMusicTrigger",
+        "DisableLightingSystemAction"
+    ],
+    "modify.enable#tv": [
+        "StartedWatchingTvTrigger",
+        "StartWatchingTvAction"
+    ],
+    "modify.disable#tv": [
+        "StoppedWatchingTvTrigger",
+        "StopWatchingTvAction"
+    ],
+    "modify.enable#computer": [
+        "DeviceTurnedOnTrigger",
+        "TurnDeviceOnAction"
+    ],
+    "modify.disable#computer": [
+        "DeviceTurnedOffTrigger",
+        "TurnDeviceOffAction"
+    ],
+    "modify.enable#laptop": [
+        "DeviceTurnedOnTrigger",
+        "TurnDeviceOnAction"
+    ],
+    "modify.disable#laptop": [
+        "DeviceTurnedOffTrigger",
+        "TurnDeviceOffAction"
+    ],
+    "modify.enable#tablet": [
+        "DeviceTurnedOnTrigger",
+        "TurnDeviceOnAction"
+    ],
+    "modify.disable#tablet": [
+        "DeviceTurnedOffTrigger",
+        "TurnDeviceOffAction"
+    ],
+    "modify.enable#mobile": [
+        "DeviceTurnedOnTrigger",
+        "TurnDeviceOnAction"
+    ],
+    "modify.disable#mobile": [
+        "DeviceTurnedOffTrigger",
+        "TurnDeviceOffAction"
+    ],
+    "modify.enable#server": [
+        "DeviceTurnedOnTrigger",
+        "TurnDeviceOnAction"
+    ],
+    "modify.disable#server": [
+        "DeviceTurnedOffTrigger",
+        "TurnDeviceOffAction"
     ]
 }

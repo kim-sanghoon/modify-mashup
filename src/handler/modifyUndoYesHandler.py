@@ -25,7 +25,7 @@ def modifyUndoYesHandler(data):
 
     followupContext = {
         'name': '{}/contexts/finish'.format(data['session']),
-        'lifespanCount': 1
+        'lifespanCount': 2
     }
 
     return {

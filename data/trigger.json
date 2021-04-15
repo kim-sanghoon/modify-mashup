@@ -154,6 +154,22 @@
             "past": "the heater was turned on"
         }
     },
+    "CoolingSystemDisabledTrigger": {
+        "params": {},
+        "paramsRange": {},
+        "language": {
+            "present": "the air conditioner is turned off",
+            "past": "the air conditioner was turned off"
+        }
+    },
+    "CoolingSystemEnabledTrigger": {
+        "params": {},
+        "paramsRange": {},
+        "language": {
+            "present": "the air conditioner is turned on",
+            "past": "the air conditioner was turned on"
+        }
+    },
     "LightingSystemDisabledTrigger": {
         "params": {},
         "paramsRange": {},
@@ -476,6 +492,22 @@
         "language": {
             "present": "a music playback is stopped",
             "past": "a music playback was stopped"
+        }
+    },
+    "StartedWatchingTvTrigger": {
+        "params": {},
+        "paramsRange": {},
+        "language": {
+            "present": "the television is turned on",
+            "past": "the television was turned on"
+        }
+    },
+    "StoppedWatchingTvTrigger": {
+        "params": {},
+        "paramsRange": {},
+        "language": {
+            "present": "the television is turned off",
+            "past": "the television was turned off"
         }
     },
     "StartedSleepingTrigger": {

@@ -1,7 +1,7 @@
 from logger import get_logger
 from ..utils.encodeTools import decodeObj
 from ..utils.searchTools import requestTypeCheck
-from ..utils.responseTools import googleResponse, wrapSpeak, addBreak
+from ..utils.responseTools import *
 from ..utils.datetimeParser import *
 
 log = get_logger('triggerOnlyHandler')
@@ -27,7 +27,11 @@ def modifyTriggerOnlyHandler(data):
         device=None if searchContext['device'] == '' else searchContext['device'],
         skipCount=searchContext['count']
     )
-    intentTriggerObject = decodeObj(typeResult['intentData'])[0]
+    try:
+        intentTriggerObject = decodeObj(typeResult['intentData'])[0]
+    except Exception as e:
+        log.error(e)
+        return genericErrorResponse(data, whileWhat='while trying to recognize your command')
     triggerLanguage = 'when ' + intentTriggerObject.language['present']
 
     # we need a special handling for modify.date and modify.time

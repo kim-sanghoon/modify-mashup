@@ -19,6 +19,9 @@ from src.handler.modifyFinishHandler import modifyFinishHandler
 from src.handler.modifyTriggerOnlyHandler import modifyTriggerOnlyHandler
 from src.handler.modifyFollowupYesHandler import modifyFollowupYesHandler
 from src.handler.modifyFollowupAddChangeHandler import modifyFollowupAddChangeHandler
+from src.handler.modifyDevicesParameterHandler import modifyDevicesParameterHandler
+from src.handler.modifyFollowupAllDevicesHandler import modifyFollowupAllDevicesHandler
+from src.handler.modifyFollowupTriggerActionHandler import modifyFollowupTriggerActionHandler
 
 app = Flask(__name__)
 log = get_logger()
@@ -86,6 +89,8 @@ def main():
         'modify.finish': modifyFinishHandler,
         'modify.followup.yes': modifyFollowupYesHandler,
         'modify.followup.add-change': modifyFollowupAddChangeHandler,
+        'modify.followup.all-devices': modifyFollowupAllDevicesHandler,
+        'modify.followup.trigger-action': modifyFollowupTriggerActionHandler,
 
         # trigger-only handlers
         'modify.receive.call': modifyTriggerOnlyHandler,
@@ -104,7 +109,15 @@ def main():
         'modify.undetect.presence': modifyTriggerOnlyHandler,
         'modify.enter': modifyTriggerOnlyHandler,
         'modify.exit': modifyTriggerOnlyHandler,
-        'modify.tap': modifyTriggerOnlyHandler
+        'modify.tap': modifyTriggerOnlyHandler,
+
+        # trigger-action handlers
+        #  - modifyDevicesParameterHandler is a pre-handler that deals with
+        #    whether the required parameter (devices) is present or not.
+        'modify.enable': modifyDevicesParameterHandler,
+        'modify.disable': modifyDevicesParameterHandler,
+        'modify.close-lock': modifyDevicesParameterHandler,
+        'modify.open-unlock': modifyDevicesParameterHandler
     }
 
     handler = switch[action]

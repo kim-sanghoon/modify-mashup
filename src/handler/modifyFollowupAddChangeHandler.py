@@ -1,4 +1,5 @@
 from .modifyTriggerOnlyHandler import modifyTriggerOnlyHandler
+from .modifyTriggerActionHandler import modifyTriggerActionHandler
 
 def modifyFollowupAddChangeHandler(data):
     originalIntentContext = [
@@ -11,4 +12,4 @@ def modifyFollowupAddChangeHandler(data):
     if originalIntentContext['isTriggerOnly']:
         return modifyTriggerOnlyHandler(data)
     else:
-        raise NotImplementedError # TODO
+        return modifyTriggerActionHandler(data)
