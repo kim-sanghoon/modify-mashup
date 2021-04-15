@@ -326,7 +326,7 @@
         "type": "bool",
         "values": [],
         "language": {
-            "past": "the music was stopped playing",
+            "past": "the music stopped playing",
             "gerund": "stopping the music playback",
             "infinitive": "stop playing the music"
         },
@@ -352,7 +352,7 @@
         "type": "bool",
         "values": [],
         "language": {
-            "past": "the music was started playing",
+            "past": "the music started playing",
             "gerund": "starting the music playback",
             "infinitive": "start playing the music"
         },
