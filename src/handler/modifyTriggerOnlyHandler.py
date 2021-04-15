@@ -20,7 +20,7 @@ def modifyTriggerOnlyHandler(data):
     log.debug('Requested action: {}'.format(action))
     log.debug('Given params: {}'.format(params))
 
-    modifyType, intentData = None, None
+    modifyType = None
     typeResult = requestTypeCheck(
         action,
         searchContext['implicatureType'],
