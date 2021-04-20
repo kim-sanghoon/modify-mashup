@@ -17,6 +17,7 @@ log = get_logger(name='mashup')
 rulesHistory = None
 setNumber, modifyHistory = None, []
 intentDict = {}
+paramClasses = {}
 
 ok = lambda d={}: (jsonify({'status': 'ok', **d}), 200)
 error = lambda d={}: (jsonify({'status': 'error', **d}), 400)
@@ -63,6 +64,7 @@ def search():
 
 @app.route('/type', methods=['POST'])
 def type():
+    global paramClasses
     req = request.get_json()
 
     if req is None or 'implicature' not in req:
@@ -98,6 +100,45 @@ def type():
         'action': action.type.name in intentDict[req['intent']],
         'intentData': encodeObj(intentData)
     })
+
+
+@app.route('/param', methods=['POST'])
+def param():
+    req = request.get_json()
+
+    if req is None or 'implicature' not in req:
+        log.debug('No implicature data found.')
+        return error({
+            'what': 'Expected implicature information, received none.'
+        })
+    
+    searchResult = rulesHistory.search(**req)
+    log.debug('Search result - {}'.format(searchResult))
+
+    _, trigger, action, *_ = searchResult['historyData']
+
+    ruleInfo = {
+        'trigger': {
+            'hasParameter': False,
+        },
+        'action': {
+            'hasParameter': False,
+        }
+    }
+    if trigger.type.name in paramClasses:
+        ruleInfo['trigger'] = {
+            'hasParameter': True,
+            'parameterEnv': paramClasses[trigger.type.name]['param'],
+            'parameterValue': trigger.params
+        }
+    if action.type.name in paramClasses:
+        ruleInfo['action'] = {
+            'hasParameter': True,
+            'parameterEnv': paramClasses[action.type.name]['param'],
+            'parameterValue': action.values
+        }
+
+    return ok(ruleInfo)
 
 
 @app.route('/modify', methods=['POST'])
@@ -213,6 +254,9 @@ if __name__ == "__main__":
     
     with open('data/intents.json') as f:
         intentDict = json.load(f)
+    
+    with open('data/paramClasses.json') as f:
+        paramClasses = json.load(f)
 
     # Load RulesHistory mashup set
     rulesHistory = RulesHistory.from_folder('data/experiments/' + args.number)

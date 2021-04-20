@@ -22,6 +22,7 @@ from src.handler.modifyFollowupAddChangeHandler import modifyFollowupAddChangeHa
 from src.handler.modifyDevicesParameterHandler import modifyDevicesParameterHandler
 from src.handler.modifyFollowupAllDevicesHandler import modifyFollowupAllDevicesHandler
 from src.handler.modifyFollowupTriggerActionHandler import modifyFollowupTriggerActionHandler
+from src.handler.modifyNumericParameterHandler import modifyNumericParameterHandler
 
 app = Flask(__name__)
 log = get_logger()
@@ -117,7 +118,24 @@ def main():
         'modify.enable': modifyDevicesParameterHandler,
         'modify.disable': modifyDevicesParameterHandler,
         'modify.close-lock': modifyDevicesParameterHandler,
-        'modify.open-unlock': modifyDevicesParameterHandler
+        'modify.open-unlock': modifyDevicesParameterHandler,
+
+        # parameter-change handlers
+        'modify.decrease': modifyNumericParameterHandler,
+        'modify.decrease.brightness': modifyNumericParameterHandler,
+        'modify.decrease.humidity': modifyNumericParameterHandler,
+        'modify.decrease.temperature': modifyNumericParameterHandler,
+        'modify.decrease.volume': modifyNumericParameterHandler,
+        'modify.increase': modifyNumericParameterHandler,
+        'modify.increase.brightness': modifyNumericParameterHandler,
+        'modify.increase.humidity': modifyNumericParameterHandler,
+        'modify.increase.temperature': modifyNumericParameterHandler,
+        'modify.increase.volume': modifyNumericParameterHandler,
+        'modify.set': modifyNumericParameterHandler,
+        'modify.set.brightness': modifyNumericParameterHandler,
+        'modify.set.humidity': modifyNumericParameterHandler,
+        'modify.set.temperature': modifyNumericParameterHandler,
+        'modify.set.volume': modifyNumericParameterHandler
     }
 
     handler = switch[action]

@@ -24,7 +24,9 @@ def modifyFollowupYesHandler(data):
         modifyData={
             'trigger-action': modifyContext['trigger-action'],
             'intent': modifyContext['intent'],
-            'params': modifyContext['params']
+            'params': modifyContext['params'],
+            'param-change': None if 'param-change' not in modifyContext \
+                else modifyContext['param-change']
         }
     )
 

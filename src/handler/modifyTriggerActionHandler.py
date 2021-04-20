@@ -5,7 +5,7 @@ from ..utils.responseTools import *
 
 log = get_logger('triggerActionHandler')
 
-def modifyTriggerActionHandler(data):
+def modifyTriggerActionHandler(data, paramData=None):
     action = data['queryResult']['action']
     params, searchContext, isDetail, noneParams = None, None, False, None
 
@@ -65,11 +65,22 @@ def modifyTriggerActionHandler(data):
 
     # SECOND STEP - check replace or append
     modifyType = None
-    devicesKeyword = params['devices'] \
-        if 'devices' in params and params['devices'] != '' \
-        else params['network-devices']
+    devicesKeyword = None
+    if 'devices' in params and params['devices'] != '':
+        devicesKeyword = params['devices']
+    elif 'network-devices' in params and params['network-devices'] != '':
+        devicesKeyword = params['network-devices']
+    
+    # cornor-case handling for modify.set.volume
+    if action == 'modify.set.volume':
+        if params['final-value'] > 50:
+            action = 'modify.increase.volume'
+        else:
+            action = 'modify.decrease.volume'
+    
     typeResult = requestTypeCheck(
-        '{}#{}'.format(action, devicesKeyword),
+        '{}#{}'.format(action, devicesKeyword) if devicesKeyword \
+            else action,
         searchContext['implicatureType'],
         device=None if searchContext['device'] == '' else searchContext['device'],
         skipCount=searchContext['count']
@@ -85,6 +96,26 @@ def modifyTriggerActionHandler(data):
         intentObject = intentObjects[1]
     intentLanguage = 'when ' + intentObject.language['present'] \
         if modifyPosition == 'trigger' else intentObject.language['gerund']
+    
+    # for param-change intents, we have to modify the param name
+    if paramData is not None:
+        newValue = None
+        if 'final-value' in params and params['final-value'] != '':
+            newValue = int(params['final-value'])
+        else:
+            # there is not an old value, so we use the "middle" of possible values
+            oldValue = {
+                'temperature': 24,
+                'brightness': 45,
+                'humidity': 45,
+                'volume': 50,
+            }[action.split('.')[-1]]
+            if 'decrease' in action:
+                newValue = oldValue - int(params['change-value'])
+            else:
+                newValue = oldValue + int(params['change-value'])
+        
+        params[action.split('.')[-1]] = str(int(newValue))
 
     formatDict = {}
     for k, v in params.items():
@@ -166,6 +197,3 @@ def modifyTriggerActionHandler(data):
             text=', '.join(fulfillmentText)
         )
     }
-
-
-    return {}

@@ -1,0 +1,62 @@
+{
+  "SetTemperatureAction": {
+    "type": "set",
+    "param": "temperature"
+  },
+  "SetLightingAction": {
+    "type": "set",
+    "param": "brightness"
+  },
+  "SetHumidityAction": {
+    "type": "set",
+    "param": "humidity"
+  },
+  "IncreaseVolumeAction": {
+    "type": "increase",
+    "param": "volume"
+  },
+  "DecreaseVolumeAction": {
+    "type": "decrease",
+    "param": "volume"
+  },
+  "SensedAirQualityDecreasedTrigger": {
+    "type": "decrease",
+    "param": "airquality"
+  },
+  "SensedAirQualityIncreasedTrigger": {
+    "type": "increase",
+    "param": "airquality"
+  },
+  "SensedHumidityDecreasedTrigger": {
+    "type": "decrease",
+    "param": "humidity"
+  },
+  "SensedHumidityIncreasedTrigger": {
+    "type": "increase",
+    "param": "humidity"
+  },
+  "SensedLightingDecreasedTrigger": {
+    "type": "decrease",
+    "param": "brightness"
+  },
+  "SensedLightingIncreasedTrigger": {
+    "type": "increase",
+    "param": "brightness"
+  },
+  "SensedNoiseLevelDecreasedTrigger": {
+    "type": "decrease",
+    "param": "volume"
+  },
+  "SensedNoiseLevelIncreasedTrigger": {
+    "type": "increase",
+    "param": "volume"
+  },
+  "SensedTemperatureDecreasedTrigger": {
+    "type": "decrease",
+    "param": "temperature"
+  },
+  "SensedTemperatureIncreasedTrigger": {
+    "type": "increase",
+    "param": "temperature"
+  }
+}

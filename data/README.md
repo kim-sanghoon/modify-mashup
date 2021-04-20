@@ -170,6 +170,24 @@ The specification is a combination of the intent name and a device name, connect
 
 All the intents that are only mapped with triggers have only one mapping in the list, while the others **can** have multiple mappings.
 
+## `paramClasses.json`
+This file contains mappings between parameter-changeable EUPont trigger / action classes and corresponding type and parameter.
+
+### JSON Specification
+Examples of the mappings are shown as follows:
+```json
+{
+    "DecreaseVolumeAction": {
+        "type": "decrease",
+        "param": "volume"
+    },
+    "SensedAirQualityDecreasedTrigger": {
+        "type": "decrease",
+        "param": "airquality"
+    },
+}
+```
+
 ## `trigger.json`
 This file contains properties of each nominal trigger.
 

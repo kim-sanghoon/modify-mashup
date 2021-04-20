@@ -217,5 +217,46 @@
     "modify.disable#server": [
         "DeviceTurnedOffTrigger",
         "TurnDeviceOffAction"
+    ],
+    "modify.set.temperature": [
+        "SetTemperatureAction"
+    ],
+    "modify.set.brightness": [
+        "SetLightingAction"
+    ],
+    "modify.set.humidity": [
+        "SetHumidityAction"
+    ],
+    "modify.decrease.temperature": [
+        "SensedTemperatureDecreasedTrigger",
+        "SetTemperatureAction"
+    ],
+    "modify.decrease.brightness": [
+        "SensedLightingDecreasedTrigger",
+        "SetLightingAction"
+    ],
+    "modify.decrease.humidity": [
+        "SensedHumidityDecreasedTrigger",
+        "SetHumidityAction"
+    ],
+    "modify.decrease.volume": [
+        "SensedNoiseLevelDecreasedTrigger",
+        "DecreaseVolumeAction"
+    ],
+    "modify.increase.temperature": [
+        "SensedTemperatureIncreasedTrigger",
+        "SetTemperatureAction"
+    ],
+    "modify.increase.brightness": [
+        "SensedLightingIncreasedTrigger",
+        "SetLightingAction"
+    ],
+    "modify.increase.humidity": [
+        "SensedHumidityIncreasedTrigger",
+        "SetHumidityAction"
+    ],
+    "modify.increase.volume": [
+        "SensedNoiseLevelIncreasedTrigger",
+        "IncreaseVolumeAction"
     ]
 }
