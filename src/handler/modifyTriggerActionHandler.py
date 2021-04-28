@@ -23,6 +23,26 @@ def modifyTriggerActionHandler(data, paramData=None):
     log.debug('Requested action: {}'.format(action))
     log.debug('Given params: {}'.format(params))
 
+    # for param-change intents, we have to modify the param name
+    if paramData is not None:
+        newValue = None
+        if 'final-value' in params and params['final-value'] != '':
+            newValue = int(params['final-value'])
+        else:
+            # there is not an old value, so we use the "middle" of possible values
+            oldValue = {
+                'temperature': 24,
+                'brightness': 45,
+                'humidity': 45,
+                'volume': 50,
+            }[action.split('.')[-1]]
+            if 'decrease' in action:
+                newValue = oldValue - int(params['change-value'])
+            else:
+                newValue = oldValue + int(params['change-value'])
+        
+        params[action.split('.')[-1]] = str(int(newValue))
+
     # FIRST STEP - check which position to modify -- trigger or action?
     modifyPosition = None
     if 'trigger-action' in params and params['trigger-action'] != '':
@@ -96,26 +116,6 @@ def modifyTriggerActionHandler(data, paramData=None):
         intentObject = intentObjects[1]
     intentLanguage = 'when ' + intentObject.language['present'] \
         if modifyPosition == 'trigger' else intentObject.language['gerund']
-    
-    # for param-change intents, we have to modify the param name
-    if paramData is not None:
-        newValue = None
-        if 'final-value' in params and params['final-value'] != '':
-            newValue = int(params['final-value'])
-        else:
-            # there is not an old value, so we use the "middle" of possible values
-            oldValue = {
-                'temperature': 24,
-                'brightness': 45,
-                'humidity': 45,
-                'volume': 50,
-            }[action.split('.')[-1]]
-            if 'decrease' in action:
-                newValue = oldValue - int(params['change-value'])
-            else:
-                newValue = oldValue + int(params['change-value'])
-        
-        params[action.split('.')[-1]] = str(int(newValue))
 
     formatDict = {}
     for k, v in params.items():
@@ -124,6 +124,7 @@ def modifyTriggerActionHandler(data, paramData=None):
         if modifyPosition == 'action' and k in intentObject.values:
             formatDict[k] = v
     
+    print(params)
     intentLanguage = intentLanguage.format(**formatDict)
 
     # the process itself is identical to that of modifyTriggerOnlyHandler
