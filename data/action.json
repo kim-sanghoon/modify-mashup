@@ -315,9 +315,9 @@
         "type": "bool",
         "values": [],
         "language": {
-            "past": "the air purifier was turned off",
-            "gerund": "turning the air purifier off",
-            "infinitive": "turn the air purifier off"
+            "past": "the air purifier was turned on",
+            "gerund": "turning the air purifier on",
+            "infinitive": "turn the air purifier on"
         },
         "device": ["air purifier"]
     }, 

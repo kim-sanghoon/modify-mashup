@@ -23,13 +23,19 @@ def dfImplicatureHandler(data):
     fulfillmentText = "Sorry to hear that {}.".format(implicatureResponse[implicatureType])
     fulfillmentText += " Could you allow me to find out why?"
 
+    # Capitalize the implicature with the exception of "AirQuality"
+    if actionString[1] == 'airquality':
+        actionString[1] = 'AirQuality'
+    else:
+        actionString[1] = actionString[1].capitalize()
+
     # Set the follow-up context
     followupContext = {
         'name': '{}/contexts/implicature-followup'.format(data['session']),
         'lifespanCount': 1,
         'parameters': {
             'implicatureType': actionString[2].capitalize() +
-                               actionString[1].capitalize()
+                               actionString[1]
         }
     }
 

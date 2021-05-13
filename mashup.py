@@ -39,6 +39,7 @@ def saveModificationHistory():
 
 @app.route('/check', methods=['GET'])
 def check():
+    global rulesHistory
     if rulesHistory is not None:
         log.debug('Received health check, sent okay.')
         return ok()
@@ -49,6 +50,7 @@ def check():
 
 @app.route('/search', methods=['POST'])
 def search():
+    global rulesHistory
     req = request.get_json()
 
     if req is None or 'implicature' not in req:
@@ -64,6 +66,7 @@ def search():
 
 @app.route('/type', methods=['POST'])
 def type():
+    global rulesHistory
     global paramClasses
     req = request.get_json()
 
@@ -104,6 +107,7 @@ def type():
 
 @app.route('/param', methods=['POST'])
 def param():
+    global rulesHistory
     req = request.get_json()
 
     if req is None or 'implicature' not in req:
@@ -143,6 +147,7 @@ def param():
 
 @app.route('/modify', methods=['POST'])
 def modify():
+    global rulesHistory
     req = request.get_json()
 
     if req is None:
@@ -195,7 +200,9 @@ def undo():
 
 @app.route('/<setId>', methods=['GET'])
 def changeHistory(setId):
-    if not setId.isnumeric() or int(setId) not in [1, 2, 3, 4, 5]:
+    global rulesHistory
+
+    if not setId.isnumeric() or int(setId) not in [1, 2, 3, 4, 5, 6, 7]:
         return error({
             'what': 'Unexpected number : {}'.format(setId)
         })
