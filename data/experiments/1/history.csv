@@ -1,0 +1,2 @@
+timeOffset,trigger,action
+1,<SensedAirQualityDecreasedTrigger with {'airquality': 20}>,<OpenWindowFrameAction with {} on window>

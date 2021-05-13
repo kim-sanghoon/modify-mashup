@@ -1,0 +1,15 @@
+{
+    "actions": [
+        {
+            "type": "OpenWindowFrameAction",
+            "values": {},
+            "device": "window"
+        }
+    ],
+    "trigger": {
+        "type": "SensedAirQualityDecreasedTrigger",
+        "params": {
+            "airquality": 20
+        }
+    }
+}

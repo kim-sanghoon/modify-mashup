@@ -1,0 +1,29 @@
+{
+    "actions": [
+        {
+            "type": "DisableCoolingSystemAction",
+            "values": {},
+            "device": "air conditioner"
+        },
+        {
+            "type": "EnableHeatingSystemAction",
+            "values": {
+                "brightness": 40
+            },
+            "device": "heater"
+        },
+        {
+            "type": "SetTemperatureAction",
+            "values": {
+                "temperature": 24
+            },
+            "device": "heater"
+        }
+    ],
+    "trigger": {
+        "type": "SensedTemperatureDecreasedTrigger",
+        "params": {
+            "temperature": 20
+        }
+    }
+}

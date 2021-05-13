@@ -1,0 +1,15 @@
+{
+    "actions": [
+        {
+            "type": "EnableAirPurifierSystemAction",
+            "values": {},
+            "device": "air purifier"
+        }
+    ],
+    "trigger": {
+        "type": "DeviceTurnedOnTrigger",
+        "params": {
+            "network-devices": "vacuum cleaner"
+        }
+    }
+}

@@ -1,0 +1,24 @@
+timeOffset,trigger,action
+1,<GPSEnterAreaTrigger with {'place': 'home'}>,<DisableSecuritySystemAction with {} on security system>
+2,<GPSEnterAreaTrigger with {'place': 'home'}>,<EnableLightingSystemAction with {} on light>
+3,<GPSEnterAreaTrigger with {'place': 'home'}>,<EnableCoolingSystemAction with {} on air conditioner>
+4,<GPSExitAreaTrigger with {'place': 'home'}>,<DisableLightingSystemAction with {} on light>
+5,<GPSExitAreaTrigger with {'place': 'home'}>,<DisableCoolingSystemAction with {} on air conditioner>
+6,<GPSExitAreaTrigger with {'place': 'home'}>,<EnableSecuritySystemAction with {} on security system>
+7,<SensedAirQualityDecreasedTrigger with {'airquality': 20}>,<OpenWindowFrameAction with {} on window>
+8,<StartedSleepingTrigger with {}>,<DisableLightingSystemAction with {} on light>
+9,<StartedSleepingTrigger with {}>,<EnableSecuritySystemAction with {} on security system>
+10,<SensorPresenceNoLongerDetectedTrigger with {'place': 'living room'}>,<DisableLightingSystemAction with {} on light>
+11,<SensorPresenceNoLongerDetectedTrigger with {'place': 'living room'}>,<StartVacuumAction with {} on vacuum>
+12,<StoppedSleepingTrigger with {}>,<StartListeningMusicAction with {} on audio>
+13,<StoppedSleepingTrigger with {}>,<EnableCoolingSystemAction with {} on air conditioner>
+14,<StoppedSleepingTrigger with {}>,<SetTemperatureAction with {'temperature': 26} on air conditioner>
+15,<SensedHumidityIncreasedTrigger with {'humidity': 70}>,<DisableHumidifierSystemAction with {} on humidifier>
+16,<SensedHumidityIncreasedTrigger with {'humidity': 70}>,<DisableWateringSystemAction with {} on watering>
+17,<SensedHumidityIncreasedTrigger with {'humidity': 70}>,<OpenWindowFrameAction with {} on window>
+18,<EveryDayTrigger with {'time': 7 p.m.}>,<CloseWindowFrameAction with {} on window>
+19,<EveryDayTrigger with {'time': 7 p.m.}>,<SetLightingAction with {'brightness': 40} on light>
+20,<SensedTemperatureDecreasedTrigger with {'temperature': 20}>,<DisableCoolingSystemAction with {} on air conditioner>
+21,<SensedTemperatureDecreasedTrigger with {'temperature': 20}>,<EnableHeatingSystemAction with {} on heater>
+22,<SensedTemperatureDecreasedTrigger with {'temperature': 20}>,<SetTemperatureAction with {'temperature': 24} on heater>
+23,<DeviceTurnedOnTrigger with {'network-devices': 'vacuum cleaner'}>,<EnableAirPurifierSystemAction with {} on air purifier>

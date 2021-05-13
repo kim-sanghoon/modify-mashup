@@ -1,0 +1,9 @@
+timeOffset,trigger,action
+1,<GPSEnterAreaTrigger with {'place': 'home'}>,<DisableSecuritySystemAction with {} on security system>
+2,<GPSEnterAreaTrigger with {'place': 'home'}>,<EnableLightingSystemAction with {} on light>
+3,<GPSEnterAreaTrigger with {'place': 'home'}>,<EnableCoolingSystemAction with {} on air conditioner>
+4,<EveryDayTrigger with {'time': 7 p.m.}>,<CloseWindowFrameAction with {} on window>
+5,<EveryDayTrigger with {'time': 7 p.m.}>,<SetLightingAction with {'brightness': 40} on light>,<StartedSleepingTrigger with {}>,<DisableLightingSystemAction with {} on light>
+6,<StartedSleepingTrigger with {}>,<EnableSecuritySystemAction with {} on security system>
+7,<SensorPresenceNoLongerDetectedTrigger with {'place': 'living room'}>,<DisableLightingSystemAction with {} on light>
+8,<SensorPresenceNoLongerDetectedTrigger with {'place': 'living room'}>,<StartVacuumAction with {} on vacuum>

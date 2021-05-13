@@ -1,0 +1,26 @@
+{
+    "actions": [
+        {
+            "type": "StartListeningMusicAction",
+            "values": {},
+            "device": "audio"
+        },
+        {
+            "type": "EnableCoolingSystemAction",
+            "values": {},
+            "device": "air conditioner"
+        },
+        {
+            "type": "SetTemperatureAction",
+            "values": {
+                "temperature": 26
+            },
+            "device": "air conditioner"
+        }
+    ],
+    "trigger": {
+        "type": "StoppedSleepingTrigger",
+        "params": {
+        }
+    }
+}

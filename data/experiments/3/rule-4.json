@@ -1,0 +1,20 @@
+{
+    "actions": [
+        {
+            "type": "DisableLightingSystemAction",
+            "values": {},
+            "device": "light"
+        },
+        {
+            "type": "StartVacuumAction",
+            "values": {},
+            "device": "vacuum"
+        }
+    ],
+    "trigger": {
+        "type": "SensorPresenceNoLongerDetectedTrigger",
+        "params": {
+            "place": "living room"
+        }
+    }
+}

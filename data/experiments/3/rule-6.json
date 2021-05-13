@@ -1,0 +1,25 @@
+{
+    "actions": [
+        {
+            "type": "DisableHumidifierSystemAction",
+            "values": {},
+            "device": "humidifier"
+        },
+        {
+            "type": "DisableWateringSystemAction",
+            "values": {},
+            "device": "watering"
+        },
+        {
+            "type": "OpenWindowFrameAction",
+            "values": {},
+            "device": "window"
+        }
+    ],
+    "trigger": {
+        "type": "SensedHumidityIncreasedTrigger",
+        "params": {
+            "humidity": 70
+        }
+    }
+}

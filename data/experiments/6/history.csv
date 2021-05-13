@@ -1,0 +1,6 @@
+timeOffset,trigger,action
+1,<StartedSleepingTrigger with {}>,<DisableLightingSystemAction with {} on light>
+2,<StartedSleepingTrigger with {}>,<EnableSecuritySystemAction with {} on security system>
+3,<StoppedSleepingTrigger with {}>,<StartListeningMusicAction with {} on audio>
+4,<StoppedSleepingTrigger with {}>,<EnableCoolingSystemAction with {} on air conditioner>
+5,<StoppedSleepingTrigger with {}>,<SetTemperatureAction with {'temperature': 26} on air conditioner>

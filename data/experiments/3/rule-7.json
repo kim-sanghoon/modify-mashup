@@ -1,0 +1,22 @@
+{
+    "actions": [
+        {
+            "type": "CloseWindowFrameAction",
+            "values": {},
+            "device": "window"
+        },
+        {
+            "type": "SetLightingAction",
+            "values": {
+                "brightness": 40
+            },
+            "device": "light"
+        }
+    ],
+    "trigger": {
+        "type": "EveryDayTrigger",
+        "params": {
+            "time": 19
+        }
+    }
+}

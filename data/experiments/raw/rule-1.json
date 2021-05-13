@@ -1,0 +1,25 @@
+{
+    "actions": [
+        {
+            "type": "DisableLightingSystemAction",
+            "values": {},
+            "device": "light"
+        },
+        {
+            "type": "DisableCoolingSystemAction",
+            "values": {},
+            "device": "air conditioner"
+        },
+        {
+            "type": "EnableSecuritySystemAction",
+            "values": {},
+            "device": "security system"
+        }
+    ],
+    "trigger": {
+        "type": "GPSExitAreaTrigger",
+        "params": {
+            "place": "home"
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "actions": [
+        {
+            "type": "DisableLightingSystemAction",
+            "values": {},
+            "device": "light"
+        },
+        {
+            "type": "EnableSecuritySystemAction",
+            "values": {},
+            "device": "security system"
+        }
+    ],
+    "trigger": {
+        "type": "StartedSleepingTrigger",
+        "params": {
+        }
+    }
+}
