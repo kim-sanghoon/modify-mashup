@@ -91,6 +91,12 @@ def type():
     _, trigger, action, *_ = searchResult['historyData']
 
     intentData = []
+
+    # param-change intents with device keywords could fail intentDict[intent],
+    # so detour the exception by removing the device keywords
+    if req['intent'] not in intentDict:
+        req['intent'] = req['intent'].split('#')[0]
+
     for nominalName in intentDict[req['intent']]:
         if nominalName in NominalAction.actionDict:
             intentData.append(NominalAction.actionDict[nominalName])

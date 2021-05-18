@@ -15,6 +15,9 @@ def parseDate(isoString):
     }
 
 def parseTime(isoString):
-    time = parse(isoString)
-
-    return Time(time.hour)
+    try:
+        time = parse(isoString)
+        return Time(time.hour)
+    except TypeError:
+        time = Time(isoString)
+        return time
