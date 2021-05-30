@@ -50,7 +50,7 @@ def modifyTriggerActionHandler(data, paramData=None):
         modifyPosition = params['trigger-action']
     elif noneParams and noneParams['trigger-action-none'] != '':
         # user's previous spoken keywords
-        modifyPosition = noneParams['trigger-action']
+        modifyPosition = noneParams['trigger-action-none']
     else:
         if not isDetail:
             # if user did not listen to the trigger detail
@@ -132,6 +132,9 @@ def modifyTriggerActionHandler(data, paramData=None):
         # if user explicitly uttered either to replace or to append,
         # follow the utterance.
         modifyType = params['add-change']
+    elif noneParams and noneParams['add-change-none'] != '':
+        # user's previous spoken keywords
+        modifyType = noneParams['add-change-none']
     else:
         if typeResult[modifyPosition]:
             # if same type, assume that user input is to replace
