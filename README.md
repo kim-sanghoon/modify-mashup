@@ -1,6 +1,6 @@
-# Editing an IoT Mashup Through Conversational Channel
+# A Conversational Approach for Modifying Service Mashups in IoT Environments
 
-This repository contains the back-end implementation of conversational mashup editing agent.
+This repository contains the back-end implementation of CoMMA, a conversational mashup modification agent.
 
 ### Preparing for the installation
 The implementation has been tested on Python 3.5.
@@ -11,6 +11,7 @@ The implementation has been tested on Python 3.5.
     ```
 2. Locate a valid SSL certificate on the root project directory with the filename of `server.crt` and `server.key`.
 3. Import the agent to your dialogflow console, and configure the webhook settings.
+The agent files are located in the `data` folder.
 4. Command `sudo python3 mashup.py` to initialize the mashup module.
 5. Command `sudo python3 app.py` to initialize the back-end module.
 
