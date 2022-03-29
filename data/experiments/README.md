@@ -1,6 +1,7 @@
 # `data/experiments/`
 
 Here are datasets used for the experiment.
+The user study descriptions are uploaded as a supplementary material on ACM DL.
 
 ### Dataset 1
 

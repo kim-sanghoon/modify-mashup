@@ -10,7 +10,7 @@ The implementation has been tested on Python 3.5.
     pip3 install -r requirements.txt
     ```
 2. Locate a valid SSL certificate on the root project directory with the filename of `server.crt` and `server.key`.
-3. Import the agent (`Currently, we do not disclose the dialogflow agent file.`) to your dialogflow console, and configure the webhook settings.
+3. Import the agent to your dialogflow console, and configure the webhook settings.
 4. Command `sudo python3 mashup.py` to initialize the mashup module.
 5. Command `sudo python3 app.py` to initialize the back-end module.
 
@@ -38,3 +38,22 @@ The implementation has been tested on Python 3.5.
 - `test/*` : Unit test scripts.
 
 - `src/*`: They are the core source codes of this implementation. Check `src/README.md` for more details.
+
+### Citation
+
+If you found these helpful, please consider citing our paper.
+
+```bibtex
+@inproceedings{kim2022comma,
+  author = {Kim, Sanghoon and Ko, In-Young},
+  title = {A Conversational Approach for Modifying Service Mashups in IoT Environments},
+  year = {2022},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3491102.3517655},
+  doi = {10.1145/3491102.3517655},
+  booktitle = {Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems},
+  pages = {1–16},
+  series = {CHI '22}
+}
+```

@@ -1,5 +1,5 @@
 import sys
-BASE_PATH = '/home/seiker/modify-mashup'
+BASE_PATH = '/home/seiker/modify-mashup' # replace the base path
 sys.path.append(BASE_PATH)
 
 from src.Action import *

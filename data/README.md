@@ -1,3 +1,7 @@
+# Descriptions on the Agent
+
+The `agent` folder contains required files to build a Dialogflow Essentials agent. To build an agent, zip the folder and use "restore from zip" feature from the Dialogflow console. 
+
 # Descriptions on the Data
 
 There are four main files in this folder: `action.json`, `effects.json`, `intents.json`, and `trigger.json`.<br />
