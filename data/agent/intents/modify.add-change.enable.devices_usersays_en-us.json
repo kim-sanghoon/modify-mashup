@@ -1,0 +1,1364 @@
+[
+  {
+    "id": "5bddc060-e1c7-4047-96c9-d5de8be78a38",
+    "data": [
+      {
+        "text": "run ",
+        "userDefined": false
+      },
+      {
+        "text": "humidifier",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "519ee38a-f823-480b-a2a8-f8f6fbd110c0",
+    "data": [
+      {
+        "text": "execute ",
+        "userDefined": false
+      },
+      {
+        "text": "humidifier",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "3ba4cb6f-6dc2-4e2e-8903-dd166d44903f",
+    "data": [
+      {
+        "text": "enable ",
+        "userDefined": false
+      },
+      {
+        "text": "humidifier",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "90b45475-fffc-4ba2-a09e-8a6f721c4513",
+    "data": [
+      {
+        "text": "turn the ",
+        "userDefined": false
+      },
+      {
+        "text": "humidifier",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " on rather than opening the ",
+        "userDefined": false
+      },
+      {
+        "text": "windows",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "b44a85dc-0791-4be5-b77a-233199182e06",
+    "data": [
+      {
+        "text": "turn on the dehumidifier rather than opening the windows",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "75f5abf3-2875-4d76-8d26-aaf264305fc6",
+    "data": [
+      {
+        "text": "then start ",
+        "userDefined": false
+      },
+      {
+        "text": "dehumidifier",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " instead of opening the ",
+        "userDefined": false
+      },
+      {
+        "text": "windows",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "0b30a4a4-23b1-4416-ae80-ebe6bea125a1",
+    "data": [
+      {
+        "text": "the device should be turned on",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "ae1584f2-ee6b-42fa-ab0b-50416f2b1752",
+    "data": [
+      {
+        "text": "After turning on computer, I wanna listen to ",
+        "userDefined": false
+      },
+      {
+        "text": "music",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "7c720769-b54a-4ad8-99e3-5b23fd5ab3eb",
+    "data": [
+      {
+        "text": "turn on the ",
+        "userDefined": false
+      },
+      {
+        "text": "air con",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "f51293f7-7ce4-4bcb-8674-1e057aed38b5",
+    "data": [
+      {
+        "text": "Please ",
+        "userDefined": false
+      },
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " the Philips Hue ",
+        "userDefined": false
+      },
+      {
+        "text": "light",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " to turn on.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "9ed49e69-c862-42dd-a1c4-95a7dbec1cfc",
+    "data": [
+      {
+        "text": "append",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " turning on the ",
+        "userDefined": false
+      },
+      {
+        "text": "dehumidifier",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "2cbf6471-1a6c-41d8-a708-d3be53cc3e54",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "action",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " to turning the ",
+        "userDefined": false
+      },
+      {
+        "text": "air conditioner",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " on",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "2c200a4c-0bdd-4545-88c8-21a96f4e82de",
+    "data": [
+      {
+        "text": "modify",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "trigger",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " to when an ",
+        "userDefined": false
+      },
+      {
+        "text": "notification",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": true
+      },
+      {
+        "text": " was added",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "85895db2-8090-4e3f-9d2d-e12282c454a7",
+    "data": [
+      {
+        "text": "modify",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "trigger",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " to when a ",
+        "userDefined": false
+      },
+      {
+        "text": "notification",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": true
+      },
+      {
+        "text": " was added",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "cd66aa0b-7c76-4fc9-bd7b-025754679ccd",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " it by adding an ",
+        "userDefined": false
+      },
+      {
+        "text": "alarm",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "82f93349-86eb-4106-8a89-a40fd77b22cb",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " it by adding a ",
+        "userDefined": false
+      },
+      {
+        "text": "notification",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "01698f91-0f4b-4b39-b7b9-a82ed2189664",
+    "data": [
+      {
+        "text": "please add a ",
+        "userDefined": false
+      },
+      {
+        "text": "notification",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": true
+      },
+      {
+        "text": " after the ",
+        "userDefined": false
+      },
+      {
+        "text": "action",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "bad1db4f-6398-4aad-9cff-00401495ee3c",
+    "data": [
+      {
+        "text": "Turn the ",
+        "userDefined": false
+      },
+      {
+        "text": "heating system",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " up",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "b33f5724-8e1d-47c5-9097-c2aac84f1458",
+    "data": [
+      {
+        "text": "turn the ",
+        "userDefined": false
+      },
+      {
+        "text": "heater",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " up",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "50764a2a-b7a9-457f-ba0a-72aca152ab0b",
+    "data": [
+      {
+        "text": "turn it into playing ",
+        "userDefined": false
+      },
+      {
+        "text": "music",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "a3d0613e-0d7e-43ad-9aa7-acd58d70b0a9",
+    "data": [
+      {
+        "text": "add",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " security device activation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "9ac7f07d-fe43-4780-822f-e0ff81fc52b5",
+    "data": [
+      {
+        "text": "switch the ",
+        "userDefined": false
+      },
+      {
+        "text": "tv",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " on",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "b0596cad-e607-4c0d-bbfd-b8e6f328ebc2",
+    "data": [
+      {
+        "text": "let\u0027s turn it on",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "d8218f2d-9f06-4504-828d-a1bc5d0fa53c",
+    "data": [
+      {
+        "text": "how about operating the ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "9ef0e42f-789d-49e7-b6a0-5a886d0db1dc",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " it to turn the ",
+        "userDefined": false
+      },
+      {
+        "text": "watering system",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " on",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "44c2b298-8c61-4d6d-a2a4-a1f08b77064d",
+    "data": [
+      {
+        "text": "add",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " turning the device on",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "5f06cb2e-345d-4066-adb9-fc1dcaedda0b",
+    "data": [
+      {
+        "text": "turn it on",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "45622d43-df70-46a2-9479-c10968374ccb",
+    "data": [
+      {
+        "text": "power on",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "c1c4ba02-2755-4c9b-8aee-fabac22358e2",
+    "data": [
+      {
+        "text": "power the device on",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "131fe7b3-3daf-4087-b55a-59a66ec650e4",
+    "data": [
+      {
+        "text": "activate the ",
+        "userDefined": false
+      },
+      {
+        "text": "security",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "a5d3354f-90a9-49a7-b77f-69feec563e18",
+    "data": [
+      {
+        "text": "switch the ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " on",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "fbf6a682-d6e2-4437-af35-052cce88f1a3",
+    "data": [
+      {
+        "text": "I want to ",
+        "userDefined": false
+      },
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "action",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " to be turned on",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "b05177c0-74bb-4d55-9350-ed592f229a40",
+    "data": [
+      {
+        "text": "modify",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " to turning the ",
+        "userDefined": false
+      },
+      {
+        "text": "TV",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " on",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "1f89d1e5-d325-4894-8c9f-6e79a2b6fabe",
+    "data": [
+      {
+        "text": "begin the ",
+        "userDefined": false
+      },
+      {
+        "text": "heating system",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "3224e788-d90d-4867-a08b-499e1b938471",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "action",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " to turn on the device",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "d0e0b96d-6d7b-487b-a2e3-98cd1aa2fddb",
+    "data": [
+      {
+        "text": "how about ",
+        "userDefined": false
+      },
+      {
+        "text": "operating",
+        "userDefined": false
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "16136e83-dd90-40f9-8e5f-dc8d30ff2bf1",
+    "data": [
+      {
+        "text": "include",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " starting the ",
+        "userDefined": false
+      },
+      {
+        "text": "humidifier",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "127cebea-260a-4e4b-a747-65985116eed7",
+    "data": [
+      {
+        "text": "add",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " playing the ",
+        "userDefined": false
+      },
+      {
+        "text": "music",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " on",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "303241df-f813-4dc0-9744-e5c359696423",
+    "data": [
+      {
+        "text": "add",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " turning it on",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "84e3a90c-d6f8-4824-bd11-e1f7fcb8bcf9",
+    "data": [
+      {
+        "text": "append",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " starting the ",
+        "userDefined": false
+      },
+      {
+        "text": "drying machine",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "e0fb1c35-4773-44b8-91f0-11ebc6cec7fd",
+    "data": [
+      {
+        "text": "switch up the device",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "4ea9eee0-756b-4c2f-8411-5b4bef7086db",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " it to turn the ",
+        "userDefined": false
+      },
+      {
+        "text": "light",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " up",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "9be27181-ac2d-4bfb-84a7-d1a23f9c4a2b",
+    "data": [
+      {
+        "text": "begin the ",
+        "userDefined": false
+      },
+      {
+        "text": "vacuum",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "fa58ecea-5b56-45bd-9820-733cfab89b37",
+    "data": [
+      {
+        "text": "revise it by playing the ",
+        "userDefined": false
+      },
+      {
+        "text": "music player",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "bca5d9d0-1951-49e3-b6d7-0908a67b359e",
+    "data": [
+      {
+        "text": "when the device started",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "3575fb02-2f65-4f0f-9ac9-abc9d64a01f8",
+    "data": [
+      {
+        "text": "if it\u0027s on",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "9c6f9444-a395-4d1f-a59c-8d7d888ec232",
+    "data": [
+      {
+        "text": "turning on the ",
+        "userDefined": false
+      },
+      {
+        "text": "heater",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "45260fcb-07e1-4de9-9c7a-378e4034b979",
+    "data": [
+      {
+        "text": "when the ",
+        "userDefined": false
+      },
+      {
+        "text": "TV",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " is turned on",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "38342e44-7af1-4ceb-8291-e44ddb9bb5ee",
+    "data": [
+      {
+        "text": "edit",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "trigger",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " to if the ",
+        "userDefined": false
+      },
+      {
+        "text": "television",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " is turned on",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "15eb9453-2733-429e-8352-fd9192445a6f",
+    "data": [
+      {
+        "text": "power the ",
+        "userDefined": false
+      },
+      {
+        "text": "air conditioner",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " on",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "96274711-db85-4773-a256-40c8d9d9b082",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " by activating it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "898959f4-af64-4207-ae1e-d11316afc73a",
+    "data": [
+      {
+        "text": "switch",
+        "userDefined": false
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "lamp",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": true
+      },
+      {
+        "text": " on",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "1ec9d8b8-6f6e-43bf-9f67-47c942d108ce",
+    "data": [
+      {
+        "text": "adjust",
+        "userDefined": true
+      },
+      {
+        "text": " by turning it on",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "24d1934e-7f52-41be-9535-4d732f05dcf0",
+    "data": [
+      {
+        "text": "modify",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "action",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": true
+      },
+      {
+        "text": " to start playing ",
+        "userDefined": false
+      },
+      {
+        "text": "music",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "ee87fa73-aa2e-4448-8208-8333877e2f30",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " it to activate ",
+        "userDefined": false
+      },
+      {
+        "text": "audio",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "515b8f5d-1f8e-4610-9c23-17112d0046cc",
+    "data": [
+      {
+        "text": "turning the ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " on",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": false
+      },
+      {
+        "text": " it to turning on the ",
+        "userDefined": false
+      },
+      {
+        "text": "air purifier",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": false
+      },
+      {
+        "text": " it to turn it on the ",
+        "userDefined": false
+      },
+      {
+        "text": "air purifier",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "data": [
+      {
+        "text": "turn on the ",
+        "userDefined": false
+      },
+      {
+        "text": "air purifier",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " instead of opening the ",
+        "userDefined": false
+      },
+      {
+        "text": "window",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  }
+]

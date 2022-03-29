@@ -1,0 +1,84 @@
+{
+  "id": "6886ef1c-7ece-423b-a3bc-c5bb25bbac97",
+  "name": "modify.add-change.undetect.raindrop",
+  "auto": true,
+  "contexts": [
+    "implicature",
+    "search"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "modify.undetect.raindrop",
+      "affectedContexts": [
+        {
+          "name": "implicature",
+          "lifespan": 5
+        },
+        {
+          "name": "search",
+          "lifespan": 5
+        },
+        {
+          "name": "modify-params",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "5c9365fc-0932-4ba3-994a-a41fd207d2b6",
+          "name": "trigger-action",
+          "required": false,
+          "dataType": "@trigger-action",
+          "value": "$trigger-action",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "e71f35d2-b505-4ed8-b404-2baa6d708378",
+          "name": "add-change",
+          "required": false,
+          "dataType": "@add-change",
+          "value": "$add-change",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en-us",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

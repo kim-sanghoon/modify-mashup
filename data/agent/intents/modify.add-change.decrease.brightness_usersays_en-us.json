@@ -1,0 +1,1147 @@
+[
+  {
+    "id": "a7e43ddf-2aac-4f06-ab21-2268a244c5eb",
+    "data": [
+      {
+        "text": "decrease the brightness by ",
+        "userDefined": false
+      },
+      {
+        "text": "10",
+        "meta": "@sys.number",
+        "alias": "change-value",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "320f3c76-8b6e-4412-bb37-0aa3ae45c781",
+    "data": [
+      {
+        "text": "let\u0027s adjust it to a slightly lower brightness",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "d5bbd316-8146-4055-bdf2-625cee560902",
+    "data": [
+      {
+        "text": "adjust it to a slightly lower brightness",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "8cb7af08-f0d2-4b34-8228-86a4b68cbc39",
+    "data": [
+      {
+        "text": "get the bright down to ",
+        "userDefined": false
+      },
+      {
+        "text": "90",
+        "meta": "@sys.number",
+        "alias": "final-value",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "bf33f09b-aedc-4f9d-aeb0-3dffa2040397",
+    "data": [
+      {
+        "text": "modify",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "trigger",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " part to if the brightness level of the ",
+        "userDefined": false
+      },
+      {
+        "text": "television",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " goes down to ",
+        "userDefined": false
+      },
+      {
+        "text": "34",
+        "meta": "@sys.number",
+        "alias": "final-value",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "006c1d78-6da5-49b8-8a8f-afffafde5f61",
+    "data": [
+      {
+        "text": "let the ",
+        "userDefined": false
+      },
+      {
+        "text": "tv",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " brightness go down",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "6b1ad3d8-d0ac-4798-b2ab-63c40bde2652",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " it to dim for ",
+        "userDefined": false
+      },
+      {
+        "text": "50",
+        "meta": "@sys.number",
+        "alias": "change-value",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "e86f5ccd-1c43-47eb-9543-98ed4b5d3537",
+    "data": [
+      {
+        "text": "adjust the shine decreased by ",
+        "userDefined": false
+      },
+      {
+        "text": "30",
+        "meta": "@sys.number",
+        "alias": "change-value",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "5e1d960d-bbbc-4868-8ee5-5abc328c41b8",
+    "data": [
+      {
+        "text": "fix the ",
+        "userDefined": false
+      },
+      {
+        "text": "action",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " by decreasing brightness to ",
+        "userDefined": false
+      },
+      {
+        "text": "65",
+        "meta": "@sys.number",
+        "alias": "final-value",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "fda6118e-2936-4d92-9e1b-058ecdd28484",
+    "data": [
+      {
+        "text": "reform the ",
+        "userDefined": false
+      },
+      {
+        "text": "action",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " to get lower brightness",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "9c35c5fc-fade-4417-8704-be1ea05ae952",
+    "data": [
+      {
+        "text": "brightness down",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "94b044c9-2afd-46be-af8f-c06939854ba2",
+    "data": [
+      {
+        "text": "please ",
+        "userDefined": false
+      },
+      {
+        "text": "add",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " making the ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " darker for ",
+        "userDefined": false
+      },
+      {
+        "text": "50",
+        "meta": "@sys.number",
+        "alias": "change-value",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "e8a05eed-c725-4f4d-b8b9-a37d6399441f",
+    "data": [
+      {
+        "text": "turn the ",
+        "userDefined": false
+      },
+      {
+        "text": "tv",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " brightness down till ",
+        "userDefined": false
+      },
+      {
+        "text": "30",
+        "meta": "@sys.number",
+        "alias": "final-value",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "e0d83775-4885-4508-8294-06e52cb12894",
+    "data": [
+      {
+        "text": "making it darker than ",
+        "userDefined": false
+      },
+      {
+        "text": "30",
+        "meta": "@sys.number",
+        "alias": "final-value",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "a12378ad-552f-4d17-9fc3-7e69c7d63caf",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "action",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " to darkening the ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " by ",
+        "userDefined": false
+      },
+      {
+        "text": "30",
+        "meta": "@sys.number",
+        "alias": "change-value",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "828f565c-0317-4a1c-874d-fc4f9a34b8c6",
+    "data": [
+      {
+        "text": "lower the brightness down to ",
+        "userDefined": false
+      },
+      {
+        "text": "20",
+        "meta": "@sys.number",
+        "alias": "final-value",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "ce638479-cf79-4e7a-8161-1416f51661ab",
+    "data": [
+      {
+        "text": "put reducing the brightness by ",
+        "userDefined": false
+      },
+      {
+        "text": "30",
+        "meta": "@sys.number",
+        "alias": "change-value",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "7f7024f3-c07d-4296-8947-38bb08512126",
+    "data": [
+      {
+        "text": "attach",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " turning the bright level down till ",
+        "userDefined": false
+      },
+      {
+        "text": "32",
+        "meta": "@sys.number",
+        "alias": "final-value",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "151487f6-1e31-49bb-9d3b-fa0812af80a1",
+    "data": [
+      {
+        "text": "when the ",
+        "userDefined": false
+      },
+      {
+        "text": "TV",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " brightness decreased to ",
+        "userDefined": false
+      },
+      {
+        "text": "20",
+        "meta": "@sys.number",
+        "alias": "final-value",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "2bcd90d9-6ff1-4aba-9a0d-a9d53fe95e52",
+    "data": [
+      {
+        "text": "if the brightness level is less than ",
+        "userDefined": false
+      },
+      {
+        "text": "30",
+        "meta": "@sys.number",
+        "alias": "final-value",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "8bc985a2-2c5a-40dc-9fc2-735f3acf71db",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "trigger",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " to if the ",
+        "userDefined": false
+      },
+      {
+        "text": "lighting",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " is below ",
+        "userDefined": false
+      },
+      {
+        "text": "40",
+        "meta": "@sys.number",
+        "alias": "final-value",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "ce2b74d0-0368-4d66-9318-cd3cd3e067af",
+    "data": [
+      {
+        "text": "when the ",
+        "userDefined": false
+      },
+      {
+        "text": "light",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " becomes dim",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "f5ea3325-0e2a-41bc-b49e-cbdbfff49500",
+    "data": [
+      {
+        "text": "if the ",
+        "userDefined": false
+      },
+      {
+        "text": "tv",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " is too dark",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "db362227-8ca1-4bba-b5ea-2e6c95200056",
+    "data": [
+      {
+        "text": "if it\u0027s darker than ",
+        "userDefined": false
+      },
+      {
+        "text": "30",
+        "meta": "@sys.number",
+        "alias": "final-value",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "419571fa-d08f-47ab-b039-9e3bf64c8ddb",
+    "data": [
+      {
+        "text": "I want to make it darker by ",
+        "userDefined": false
+      },
+      {
+        "text": "43",
+        "meta": "@sys.number",
+        "alias": "change-value",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "1e4dfd07-9624-40a7-ad78-692fa63074fa",
+    "data": [
+      {
+        "text": "refine by turning the ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " down to ",
+        "userDefined": false
+      },
+      {
+        "text": "30",
+        "meta": "@sys.number",
+        "alias": "final-value",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "2de6758d-7632-4342-a472-d3b20fdfa728",
+    "data": [
+      {
+        "text": "bright down by ",
+        "userDefined": false
+      },
+      {
+        "text": "30",
+        "meta": "@sys.number",
+        "alias": "change-value",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "0498ff98-1490-4a25-8090-39f4a3573356",
+    "data": [
+      {
+        "text": "replace",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " by decreasing brightness by ",
+        "userDefined": false
+      },
+      {
+        "text": "24",
+        "meta": "@sys.number",
+        "alias": "change-value",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "1b671031-8b55-4821-bcfa-0c14b1d3f943",
+    "data": [
+      {
+        "text": "make it dark to ",
+        "userDefined": false
+      },
+      {
+        "text": "34",
+        "meta": "@sys.number",
+        "alias": "final-value",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "768f4fd3-324d-4e91-95e9-fe1280538354",
+    "data": [
+      {
+        "text": "turn the ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " dim till ",
+        "userDefined": false
+      },
+      {
+        "text": "20",
+        "meta": "@sys.number",
+        "alias": "final-value",
+        "userDefined": false
+      },
+      {
+        "text": " percents",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "bf0c37a1-6d84-4162-bd6e-c628e899bd39",
+    "data": [
+      {
+        "text": "refine the ",
+        "userDefined": false
+      },
+      {
+        "text": "action",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " by darkening the brightness level to ",
+        "userDefined": false
+      },
+      {
+        "text": "50",
+        "meta": "@sys.number",
+        "alias": "final-value",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "9cffb9e8-9739-4351-a268-e6c4e89f0665",
+    "data": [
+      {
+        "text": "adjust to decreasing the bright for ",
+        "userDefined": false
+      },
+      {
+        "text": "30",
+        "meta": "@sys.number",
+        "alias": "change-value",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "dae52fc1-85dd-4ead-92fa-71dd1d5bb206",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " it by decreasing some brightness",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "f03431d9-de4e-49f2-b9fa-5ccca1b3a440",
+    "data": [
+      {
+        "text": "when the ",
+        "userDefined": false
+      },
+      {
+        "text": "light",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " dimmed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "993f5d0e-d7a4-49a6-b3d9-dcf0a10ab40e",
+    "data": [
+      {
+        "text": "if the brightness decreased to ",
+        "userDefined": false
+      },
+      {
+        "text": "30",
+        "meta": "@sys.number",
+        "alias": "final-value",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "2e513ebb-9e12-4e9c-8c6e-f873d4cf2399",
+    "data": [
+      {
+        "text": "append",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " dimming the ",
+        "userDefined": false
+      },
+      {
+        "text": "lighting system",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " until ",
+        "userDefined": false
+      },
+      {
+        "text": "20",
+        "meta": "@sys.number",
+        "alias": "change-value",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "bead8051-b93d-4f44-ba60-75870954a777",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " it to less lights on ",
+        "userDefined": false
+      },
+      {
+        "text": "TV",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "f4ecb252-a28a-432f-b434-a705668fb0d8",
+    "data": [
+      {
+        "text": "add",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " turning the brightness level down to ",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "meta": "@sys.number",
+        "alias": "final-value",
+        "userDefined": false
+      },
+      {
+        "text": " percent",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "32acd49a-0915-4950-a3a7-29c6687c0050",
+    "data": [
+      {
+        "text": "darker for ",
+        "userDefined": false
+      },
+      {
+        "text": "30",
+        "meta": "@sys.number",
+        "alias": "change-value",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "25310925-651c-47a1-bb8b-6f057265447f",
+    "data": [
+      {
+        "text": "turn the brightness down by ",
+        "userDefined": false
+      },
+      {
+        "text": "21",
+        "meta": "@sys.number",
+        "alias": "change-value",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "3feab400-1370-40cb-90a5-986a47a6f547",
+    "data": [
+      {
+        "text": "darken by ",
+        "userDefined": false
+      },
+      {
+        "text": "20",
+        "meta": "@sys.number",
+        "alias": "change-value",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "e17810e0-fb8c-4676-8056-8bb20e13f93a",
+    "data": [
+      {
+        "text": "modify",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "action",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " to decrease brightness",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "b19ee216-b629-4bf0-9cfb-d93214b35c38",
+    "data": [
+      {
+        "text": "a little less ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "d90a70b5-d6e9-4231-8ce5-fb71f49ba40f",
+    "data": [
+      {
+        "text": "turn the brightness down till ",
+        "userDefined": false
+      },
+      {
+        "text": "30",
+        "meta": "@sys.number",
+        "alias": "change-value",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "352d29fc-1057-4543-90b2-c370be400104",
+    "data": [
+      {
+        "text": "dim the ",
+        "userDefined": false
+      },
+      {
+        "text": "television",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " to ",
+        "userDefined": false
+      },
+      {
+        "text": "20",
+        "meta": "@sys.number",
+        "alias": "final-value",
+        "userDefined": true
+      },
+      {
+        "text": " point",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "7f79b954-5086-4a29-9812-41cf1abad2a4",
+    "data": [
+      {
+        "text": "turn the ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " darker",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "7b9adc55-2ba8-45b5-bb30-d8c00b65915a",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "action",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " to be darker",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "id": "6d635ec6-920a-4842-8f1a-b2aed132f373",
+  "name": "add-change",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

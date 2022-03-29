@@ -1,0 +1,67 @@
+{
+  "id": "c923a7f4-93d1-4df6-aff8-f55c73477c04",
+  "name": "implicature.humidity.high.expressive",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "implicature.humidity.high",
+      "affectedContexts": [
+        {
+          "name": "implicature",
+          "lifespan": 5
+        },
+        {
+          "name": "humidity",
+          "lifespan": 5
+        },
+        {
+          "name": "high",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "aaee925a-f40f-44c7-97d0-9ce14f12fe66",
+          "name": "devices",
+          "required": false,
+          "dataType": "@devices",
+          "value": "$devices",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en-us",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

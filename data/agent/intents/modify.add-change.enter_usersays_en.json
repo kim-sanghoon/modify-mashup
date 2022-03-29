@@ -1,0 +1,497 @@
+[
+  {
+    "id": "76e84d92-aab3-452d-8304-eb347d8554b1",
+    "data": [
+      {
+        "text": "I hope it only ",
+        "userDefined": false
+      },
+      {
+        "text": "works",
+        "userDefined": false
+      },
+      {
+        "text": " when I get to the ",
+        "userDefined": false
+      },
+      {
+        "text": "lab",
+        "meta": "@place",
+        "alias": "place",
+        "userDefined": true
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b80ec583-868e-4289-b9a2-d25157279113",
+    "data": [
+      {
+        "text": "make it ",
+        "userDefined": false
+      },
+      {
+        "text": "triggered",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " if I go for the ",
+        "userDefined": false
+      },
+      {
+        "text": "work",
+        "meta": "@place",
+        "alias": "place",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e5a3f7d8-7477-4598-a575-eb3b6373dd13",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " it when I come ",
+        "userDefined": false
+      },
+      {
+        "text": "home",
+        "meta": "@place",
+        "alias": "place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "34835152-aa53-4d9f-8229-053808633303",
+    "data": [
+      {
+        "text": "if I arrive the ",
+        "userDefined": false
+      },
+      {
+        "text": "office",
+        "meta": "@place",
+        "alias": "place",
+        "userDefined": false
+      },
+      {
+        "text": " building",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "832c3ddb-5027-477e-8709-3ec2d29475fb",
+    "data": [
+      {
+        "text": "when I get into the ",
+        "userDefined": false
+      },
+      {
+        "text": "garage",
+        "meta": "@place",
+        "alias": "place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d7446260-ac46-4314-b67f-dec594431044",
+    "data": [
+      {
+        "text": "include",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "condition",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " when I appear on the living room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "89ed352b-7b41-42ea-a298-47bde223b4d4",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " the visiting place to my ",
+        "userDefined": false
+      },
+      {
+        "text": "lab",
+        "meta": "@place",
+        "alias": "place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9342dc83-dd03-4cc6-a5c3-15f513bec0f3",
+    "data": [
+      {
+        "text": "when I go my ",
+        "userDefined": false
+      },
+      {
+        "text": "office",
+        "meta": "@place",
+        "alias": "place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ddfd8925-8b5f-4021-99cd-6e57f6a9bd6f",
+    "data": [
+      {
+        "text": "when I enter the room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "48baefff-f8c0-4786-9fa7-175bc578ca36",
+    "data": [
+      {
+        "text": "I want to ",
+        "userDefined": false
+      },
+      {
+        "text": "trigger",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " it when I went to ",
+        "userDefined": false
+      },
+      {
+        "text": "work",
+        "meta": "@place",
+        "alias": "place",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1e1bfb93-d8e5-4af6-afdc-944440a6caad",
+    "data": [
+      {
+        "text": "also check that I\u0027m at ",
+        "userDefined": false
+      },
+      {
+        "text": "home",
+        "meta": "@place",
+        "alias": "place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9ef56f91-ccbc-4532-9c1a-7b0f27298323",
+    "data": [
+      {
+        "text": "add",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "trigger",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " of when I\u0027m in the ",
+        "userDefined": false
+      },
+      {
+        "text": "garage",
+        "meta": "@place",
+        "alias": "place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "528db0e7-9d0a-42b8-9a43-2c68c0fa1efa",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " it to in the ",
+        "userDefined": false
+      },
+      {
+        "text": "kitchen",
+        "meta": "@place",
+        "alias": "place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "91a47a4c-4061-4d5c-8251-8e7840d39ed3",
+    "data": [
+      {
+        "text": "append",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " a ",
+        "userDefined": false
+      },
+      {
+        "text": "trigger",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " of when I enter the ",
+        "userDefined": false
+      },
+      {
+        "text": "kitchen",
+        "meta": "@place",
+        "alias": "place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5b3b0bce-cf05-4342-9775-f232d2a7c198",
+    "data": [
+      {
+        "text": "fix it to when I go to the ",
+        "userDefined": false
+      },
+      {
+        "text": "school",
+        "meta": "@place",
+        "alias": "place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3e9d50f2-02fd-4d16-8b3f-eff6c3f31ae6",
+    "data": [
+      {
+        "text": "adjust the ",
+        "userDefined": false
+      },
+      {
+        "text": "triggering condition",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " to if I visit my ",
+        "userDefined": false
+      },
+      {
+        "text": "school",
+        "meta": "@place",
+        "alias": "place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c6e30c20-b54a-42ab-925f-9fb2e50665ba",
+    "data": [
+      {
+        "text": "modify",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " the place to ",
+        "userDefined": false
+      },
+      {
+        "text": "school",
+        "meta": "@place",
+        "alias": "place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a8dccc1e-f243-4dec-a084-81be54ef7b86",
+    "data": [
+      {
+        "text": "if I go ",
+        "userDefined": false
+      },
+      {
+        "text": "home",
+        "meta": "@place",
+        "alias": "place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "604d166b-3a6b-470d-9f7a-1bdce4b2ef61",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "trigger",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " to when I\u0027m ",
+        "userDefined": false
+      },
+      {
+        "text": "home",
+        "meta": "@place",
+        "alias": "place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "data": [
+      {
+        "text": "change it to when I enter the room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,485 @@
+[
+  {
+    "id": "e8fff619-2185-4fbe-b053-1ad79e0b4ad4",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "action",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " behavior to disconnecting to computin devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "cb2f1c51-6565-4b20-8b6e-83dde308e101",
+    "data": [
+      {
+        "text": "don\u0027t connect to the ",
+        "userDefined": false
+      },
+      {
+        "text": "computing",
+        "meta": "@network-devices",
+        "alias": "network-devices",
+        "userDefined": false
+      },
+      {
+        "text": " device when someone other than I comes in",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "09d068e1-0d35-410b-b016-8968c9a9ed9d",
+    "data": [
+      {
+        "text": "Please correct it when my ",
+        "userDefined": false
+      },
+      {
+        "text": "cell phone",
+        "meta": "@network-devices",
+        "alias": "network-devices",
+        "userDefined": false
+      },
+      {
+        "text": " connection was disconnected",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "d26985a1-9867-4f9d-8744-61d9a1063c8c",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " to if the ",
+        "userDefined": false
+      },
+      {
+        "text": "mobile",
+        "meta": "@network-devices",
+        "alias": "network-devices",
+        "userDefined": false
+      },
+      {
+        "text": " connection is broken",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "ecf6566e-5e2d-4ba9-9b68-2dd3bd07b630",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " it to if the ",
+        "userDefined": false
+      },
+      {
+        "text": "computer",
+        "meta": "@network-devices",
+        "alias": "network-devices",
+        "userDefined": false
+      },
+      {
+        "text": " connection is stopped",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "e29486e5-cabc-4688-965f-3b0754c44183",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " it to when the ",
+        "userDefined": false
+      },
+      {
+        "text": "computer",
+        "meta": "@network-devices",
+        "alias": "network-devices",
+        "userDefined": false
+      },
+      {
+        "text": " is not connected",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "bc66611b-3e76-46f1-814e-45dbdfc2329d",
+    "data": [
+      {
+        "text": "if the connection with my ",
+        "userDefined": false
+      },
+      {
+        "text": "tablet",
+        "meta": "@network-devices",
+        "alias": "network-devices",
+        "userDefined": false
+      },
+      {
+        "text": " stopped",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "1a0c1740-2f6f-46c4-8721-63de2c9f5e04",
+    "data": [
+      {
+        "text": "if the link to the ",
+        "userDefined": false
+      },
+      {
+        "text": "lab server",
+        "meta": "@network-devices",
+        "alias": "network-devices",
+        "userDefined": false
+      },
+      {
+        "text": " is broken",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "932409a0-6081-45fb-b8d0-eec968d2053d",
+    "data": [
+      {
+        "text": "when the connection is broken",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "e3dd014b-9a91-46b4-a67b-158d5a98c96c",
+    "data": [
+      {
+        "text": "if the connection to my ",
+        "userDefined": false
+      },
+      {
+        "text": "laptop",
+        "meta": "@network-devices",
+        "alias": "network-devices",
+        "userDefined": false
+      },
+      {
+        "text": " is broken",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "35bdffe7-c745-4e6e-8ea1-2659256dafc7",
+    "data": [
+      {
+        "text": "if the connection to my ",
+        "userDefined": false
+      },
+      {
+        "text": "computer",
+        "meta": "@network-devices",
+        "alias": "network-devices",
+        "userDefined": false
+      },
+      {
+        "text": " is finished",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "b8be9c00-9309-4e30-8113-1edece5dfc29",
+    "data": [
+      {
+        "text": "when the ",
+        "userDefined": false
+      },
+      {
+        "text": "server",
+        "meta": "@network-devices",
+        "alias": "network-devices",
+        "userDefined": false
+      },
+      {
+        "text": " is disconnected",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "faa047fd-9c8e-452a-9078-10eb49f651b4",
+    "data": [
+      {
+        "text": "if the ",
+        "userDefined": false
+      },
+      {
+        "text": "server",
+        "meta": "@network-devices",
+        "alias": "network-devices",
+        "userDefined": false
+      },
+      {
+        "text": " is disconnected",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "abf3ec0c-5b54-4d58-bca6-c43d0796a7cc",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "trigger",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " to if my ",
+        "userDefined": false
+      },
+      {
+        "text": "cell phone",
+        "meta": "@network-devices",
+        "alias": "network-devices",
+        "userDefined": false
+      },
+      {
+        "text": " is disconnected",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "b1f285aa-8ec0-4fbd-aa71-514e378a8773",
+    "data": [
+      {
+        "text": "refine the ",
+        "userDefined": false
+      },
+      {
+        "text": "trigger",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " to when my ",
+        "userDefined": false
+      },
+      {
+        "text": "computer",
+        "meta": "@network-devices",
+        "alias": "network-devices",
+        "userDefined": false
+      },
+      {
+        "text": " is disconnected",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "759dab64-a13b-4570-b2c8-3fc9fae2ad02",
+    "data": [
+      {
+        "text": "modify",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "action",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " to disconnect the ",
+        "userDefined": false
+      },
+      {
+        "text": "pc",
+        "meta": "@network-devices",
+        "alias": "network-devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "dfa39044-efee-41dc-ba47-b94e513905f2",
+    "data": [
+      {
+        "text": "remove a connection from the ",
+        "userDefined": false
+      },
+      {
+        "text": "computer",
+        "meta": "@network-devices",
+        "alias": "network-devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "69089d84-f43a-4eda-a002-d04b491f7028",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " it to stop connection from my ",
+        "userDefined": false
+      },
+      {
+        "text": "mobile phone",
+        "meta": "@network-devices",
+        "alias": "network-devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "a9c31fcb-ed5c-476d-8176-183c60d2ee16",
+    "data": [
+      {
+        "text": "disconnect from my ",
+        "userDefined": false
+      },
+      {
+        "text": "server",
+        "meta": "@network-devices",
+        "alias": "network-devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  }
+]

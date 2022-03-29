@@ -1,0 +1,325 @@
+[
+  {
+    "id": "f0f558de-f81b-4518-aad2-3d4c5ef1ed57",
+    "data": [
+      {
+        "text": "what\u0027s that sound",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "dc1339b1-b23a-4dca-8963-aa169f6e0c24",
+    "data": [
+      {
+        "text": "I hear a noise",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4c071c1e-3da9-4f26-9439-590d7ae69dee",
+    "data": [
+      {
+        "text": "the sound disturbs my sleep",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3af5ae38-84e9-4505-8d29-572fcd860084",
+    "data": [
+      {
+        "text": "I hear a whirring noise",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "503bf57d-e8bf-4fab-9372-4fa7aad29c5c",
+    "data": [
+      {
+        "text": "the sound makes me headache",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2e18f712-81ff-429f-ac4f-6b4a23c61ce4",
+    "data": [
+      {
+        "text": "the sound is so disturbing",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4ec248a3-d1c0-47ab-9223-d73bb870ce1e",
+    "data": [
+      {
+        "text": "I don\u0027t like hearing ",
+        "userDefined": false
+      },
+      {
+        "text": "TV",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " sound",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "deebfd82-4418-4e6a-a1fa-b1efed51ee5c",
+    "data": [
+      {
+        "text": "the ",
+        "userDefined": false
+      },
+      {
+        "text": "audio",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " volume is too big",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3c05cfc5-a489-492c-ac34-bd2d2e047517",
+    "data": [
+      {
+        "text": "where did the noise come from",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b27f9303-d67c-4933-9487-e804859f0d9f",
+    "data": [
+      {
+        "text": "why is the sound too loud",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "354acc96-3a92-4588-87df-0e18aaf6c8c2",
+    "data": [
+      {
+        "text": "the sound is irritating me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d5c111fa-8507-41ee-826e-4ae9431276a5",
+    "data": [
+      {
+        "text": "the ",
+        "userDefined": false
+      },
+      {
+        "text": "TV",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " sound is too noisy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "dacbca46-81e6-412b-a65f-c70406973195",
+    "data": [
+      {
+        "text": "the volume is too loud",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6fa033b0-c947-46a6-aa15-4bc42e5026ce",
+    "data": [
+      {
+        "text": "it\u0027s noisy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1acdcdfb-d9f9-402f-afb6-3fe783d2a482",
+    "data": [
+      {
+        "text": "I hear a warning noise",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d9281aef-3851-4162-bd9e-5d15091caacc",
+    "data": [
+      {
+        "text": "the room is noisy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6c4d325e-08ed-416b-9d4a-0de85dfbaa1a",
+    "data": [
+      {
+        "text": "no the room is noisy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "51aedc31-bada-4a6a-bc73-fdbac4bc1345",
+    "data": [
+      {
+        "text": "I hear a wheel bearing noise",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6678b88b-5004-448e-9100-102bf037c82c",
+    "data": [
+      {
+        "text": "I start to hear a noise",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6cace11e-dc3a-49ff-bc35-a2e35b801ee1",
+    "data": [
+      {
+        "text": "the ",
+        "userDefined": false
+      },
+      {
+        "text": "music",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " sounds a little loud",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "282e1c1a-d6b3-4875-90b8-42a7c77ed253",
+    "data": [
+      {
+        "text": "the ",
+        "userDefined": false
+      },
+      {
+        "text": "music",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " is loud",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

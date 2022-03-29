@@ -1,0 +1,54 @@
+[
+  {
+    "id": "4d49f39d-c1db-4255-b518-018e28a5830c",
+    "data": [
+      {
+        "text": "higher humidity level",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "1304a41a-7efe-40c2-bb0a-c8927ecfb254",
+    "data": [
+      {
+        "text": "more humid air",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "34b23913-65d2-4bae-942c-3de63427ea21",
+    "data": [
+      {
+        "text": "make the air more humid",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "058a142e-f8c9-43ed-8fa0-9b976aff1ac5",
+    "data": [
+      {
+        "text": "increase the humidity",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  }
+]

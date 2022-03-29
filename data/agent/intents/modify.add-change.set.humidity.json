@@ -1,0 +1,137 @@
+{
+  "id": "edb6fdf8-1e63-4199-b92a-11704d436cf5",
+  "name": "modify.add-change.set.humidity",
+  "auto": true,
+  "contexts": [
+    "implicature",
+    "search"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "modify.set.humidity",
+      "affectedContexts": [
+        {
+          "name": "implicature",
+          "lifespan": 5
+        },
+        {
+          "name": "search",
+          "lifespan": 5
+        },
+        {
+          "name": "modify-params",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "f379554b-042c-4d59-be34-7c16cc0b5922",
+          "name": "trigger-action",
+          "required": false,
+          "dataType": "@trigger-action",
+          "value": "$trigger-action",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "818abe13-aa1f-4846-9672-b4d2ef373ad8",
+          "name": "final-value",
+          "required": true,
+          "dataType": "@sys.number",
+          "value": "$final-value",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Sure, how humid should it be?"
+            },
+            {
+              "lang": "en",
+              "value": "At what humidity level?"
+            },
+            {
+              "lang": "en",
+              "value": "And how humid is it?"
+            },
+            {
+              "lang": "en-us",
+              "value": "Sure, how humid should it be?"
+            },
+            {
+              "lang": "en-us",
+              "value": "At what humidity level?"
+            },
+            {
+              "lang": "en-us",
+              "value": "And how humid is it?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "bfe15f8d-f9fa-4f0b-970a-1eec9a85d2d6",
+          "name": "devices",
+          "required": false,
+          "dataType": "@devices",
+          "value": "$devices",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "2d2b59c2-7260-436e-97e7-bca83b8c3890",
+          "name": "add-change",
+          "required": false,
+          "dataType": "@add-change",
+          "value": "$add-change",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en-us",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

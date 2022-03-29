@@ -1,0 +1,137 @@
+{
+  "id": "1563bef4-8f10-46de-a477-08f2da369a3f",
+  "name": "modify.add-change.set.temperature",
+  "auto": true,
+  "contexts": [
+    "implicature",
+    "search"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "modify.set.temperature",
+      "affectedContexts": [
+        {
+          "name": "implicature",
+          "lifespan": 5
+        },
+        {
+          "name": "search",
+          "lifespan": 5
+        },
+        {
+          "name": "modify-params",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "c2640da4-0ddc-47f0-9097-ba1fbaf3dabe",
+          "name": "final-value",
+          "required": true,
+          "dataType": "@sys.number",
+          "value": "$final-value",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Sure, what temperature should it be?"
+            },
+            {
+              "lang": "en",
+              "value": "At what temperature degrees?"
+            },
+            {
+              "lang": "en",
+              "value": "And what temperature is it?"
+            },
+            {
+              "lang": "en-us",
+              "value": "Sure, what temperature should it be?"
+            },
+            {
+              "lang": "en-us",
+              "value": "At what temperature degrees?"
+            },
+            {
+              "lang": "en-us",
+              "value": "And what temperature is it?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "e04fdebe-742f-48b3-89a5-c01451f139d2",
+          "name": "trigger-action",
+          "required": false,
+          "dataType": "@trigger-action",
+          "value": "$trigger-action",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "b76affa1-97b7-458c-a529-302ce4b18281",
+          "name": "devices",
+          "required": false,
+          "dataType": "@devices",
+          "value": "$devices",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "c0a18254-c698-4ba7-b295-aa88272b0a7d",
+          "name": "add-change",
+          "required": false,
+          "dataType": "@add-change",
+          "value": "$add-change",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en-us",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

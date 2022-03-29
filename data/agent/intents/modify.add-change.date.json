@@ -1,0 +1,107 @@
+{
+  "id": "38096102-81b2-426a-a453-82a49358f736",
+  "name": "modify.add-change.date",
+  "auto": true,
+  "contexts": [
+    "implicature",
+    "search"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "modify.date",
+      "affectedContexts": [
+        {
+          "name": "implicature",
+          "lifespan": 5
+        },
+        {
+          "name": "search",
+          "lifespan": 5
+        },
+        {
+          "name": "modify-params",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "3b5d3a16-0228-45aa-abab-a71ba0fbbe51",
+          "name": "date",
+          "required": true,
+          "dataType": "@sys.date",
+          "value": "$date",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "On what date do you want to trigger?"
+            },
+            {
+              "lang": "en-us",
+              "value": "On what date do you want to trigger?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "b1ed6ddb-f6c2-4868-95a2-015c6dff9926",
+          "name": "trigger-action",
+          "required": false,
+          "dataType": "@trigger-action",
+          "value": "$trigger-action",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "1f96d4a6-6974-4633-b047-046d479cc262",
+          "name": "add-change",
+          "required": false,
+          "dataType": "@add-change",
+          "value": "$add-change",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en-us",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

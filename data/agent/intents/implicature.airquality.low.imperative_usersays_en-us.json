@@ -1,0 +1,94 @@
+[
+  {
+    "id": "3c811c11-b4a9-41d9-82df-8bbcdf41058d",
+    "data": [
+      {
+        "text": "turn the ",
+        "userDefined": false
+      },
+      {
+        "text": "air purifier",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " up",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "9adf49b4-aea4-4e7b-8340-c0352fb16a03",
+    "data": [
+      {
+        "text": "better air quality",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "3cd7070a-e2da-4042-ad05-60b4b03aedd2",
+    "data": [
+      {
+        "text": "purify",
+        "userDefined": false
+      },
+      {
+        "text": " the air",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "085143b9-5cd4-485b-9586-38b7a24d5173",
+    "data": [
+      {
+        "text": "increase the air quality",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "4136fdf1-2d30-42c5-af0b-ea5149df1d5a",
+    "data": [
+      {
+        "text": "clean the air",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "28020f29-c24a-478d-afba-37a27f116766",
+    "data": [
+      {
+        "text": "make the air clean",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "id": "06a78cdb-93dd-4658-b4eb-cbacfb1a551f",
+    "data": [
+      {
+        "text": "undo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "2f0ac3bb-3b56-4491-8983-16756613aad5",
+    "data": [
+      {
+        "text": "undo the last",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "1b2b15bd-10bc-4180-a6a7-2125e6320818",
+    "data": [
+      {
+        "text": "cancel the last command",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "70822872-21d4-4bca-b429-615468b37fa5",
+    "data": [
+      {
+        "text": "cancel the last",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "a0e5687b-bb58-424c-b64d-f5fcfc5062ca",
+    "data": [
+      {
+        "text": "cancel",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "eb7daf20-a098-4e4c-a998-fea485c64a4a",
+    "data": [
+      {
+        "text": "undo it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "b03ada04-e302-470f-904f-f77c08585516",
+    "data": [
+      {
+        "text": "revert it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "02eb5c88-59ce-45a4-a559-046e9b6419b3",
+    "data": [
+      {
+        "text": "undo the last command",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  }
+]

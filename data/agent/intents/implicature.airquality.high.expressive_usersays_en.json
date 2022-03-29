@@ -1,0 +1,112 @@
+[
+  {
+    "id": "0d513243-9a56-4456-a6b6-2c541fdf956b",
+    "data": [
+      {
+        "text": "I feel a little bit hot",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6989affb-c778-4a20-b35a-f9275632fa3a",
+    "data": [
+      {
+        "text": "too fresh air from the ",
+        "userDefined": false
+      },
+      {
+        "text": "air purifier",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9e3a17d9-58ab-4609-b7ab-0e5d8d711599",
+    "data": [
+      {
+        "text": "the air quality should be decreased",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bad8de77-b51f-47e3-99af-9ef8b68ca1c8",
+    "data": [
+      {
+        "text": "why is the air too clean",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "73431ed8-a393-4c50-bf59-c36029fca9cd",
+    "data": [
+      {
+        "text": "why is the air quality so high",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c8e6737a-f507-4baf-9eb8-c3115e195ea9",
+    "data": [
+      {
+        "text": "I want dirty air",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9a844933-5a14-406e-865b-0477158f0a8e",
+    "data": [
+      {
+        "text": "I feel the air is too clean",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "76974371-e059-46ff-b1fc-e175f4e84fb5",
+    "data": [
+      {
+        "text": "the air quality is too high",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

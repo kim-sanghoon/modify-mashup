@@ -1,0 +1,1037 @@
+[
+  {
+    "id": "4be1e866-fc30-4bfb-9321-2d45c0418885",
+    "data": [
+      {
+        "text": "open the ",
+        "userDefined": false
+      },
+      {
+        "text": "window",
+        "userDefined": false
+      },
+      {
+        "text": " when the temperature is over ",
+        "userDefined": false
+      },
+      {
+        "text": "28",
+        "meta": "@sys.number",
+        "alias": "final-value",
+        "userDefined": false
+      },
+      {
+        "text": " degrees",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "48dc9ba1-2e3d-4fb8-9a8b-76d92acbfc7b",
+    "data": [
+      {
+        "text": "It’s too cold, so I need to increase the set temperature a little",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "7af45f0a-32da-4f5c-b080-18728e0b7f10",
+    "data": [
+      {
+        "text": "Raise the temperature by only ",
+        "userDefined": false
+      },
+      {
+        "text": "2",
+        "meta": "@sys.number",
+        "alias": "change-value",
+        "userDefined": false
+      },
+      {
+        "text": " degrees",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "9ea2989a-29d6-4cd9-8b49-c87a779de01d",
+    "data": [
+      {
+        "text": "Raise the temperature by ",
+        "userDefined": false
+      },
+      {
+        "text": "2",
+        "meta": "@sys.number",
+        "alias": "change-value",
+        "userDefined": false
+      },
+      {
+        "text": " degrees",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "6c65ec77-317e-4720-9d59-e31772dca634",
+    "data": [
+      {
+        "text": "also check if the temperature rise ",
+        "userDefined": false
+      },
+      {
+        "text": "26",
+        "meta": "@sys.number",
+        "alias": "final-value",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "74192af5-5e13-4c0f-847b-b2223696f1bd",
+    "data": [
+      {
+        "text": "turn the ",
+        "userDefined": false
+      },
+      {
+        "text": "heater",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " up for ",
+        "userDefined": false
+      },
+      {
+        "text": "2",
+        "meta": "@sys.number",
+        "alias": "change-value",
+        "userDefined": false
+      },
+      {
+        "text": " degrees",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "e759ce56-302e-4085-af4f-484fd6b21827",
+    "data": [
+      {
+        "text": "could you raise the temperature to ",
+        "userDefined": false
+      },
+      {
+        "text": "29",
+        "meta": "@sys.number",
+        "alias": "final-value",
+        "userDefined": false
+      },
+      {
+        "text": " degrees Celsius",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "91574cf5-af7f-4460-aa06-bc5abb5f803a",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " it to hot till ",
+        "userDefined": false
+      },
+      {
+        "text": "32",
+        "meta": "@sys.number",
+        "alias": "final-value",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "ebdabb54-58de-4d5a-8413-1676ad7932c4",
+    "data": [
+      {
+        "text": "fix the ",
+        "userDefined": false
+      },
+      {
+        "text": "action",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " by heating the temperature to ",
+        "userDefined": false
+      },
+      {
+        "text": "28",
+        "meta": "@sys.number",
+        "alias": "final-value",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "0d05dbdf-78f9-4523-91d4-9c2ff010bef6",
+    "data": [
+      {
+        "text": "please ",
+        "userDefined": false
+      },
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " it to increasing the temperature to ",
+        "userDefined": false
+      },
+      {
+        "text": "25",
+        "meta": "@sys.number",
+        "alias": "final-value",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "f96c3bad-e565-4f8b-8c38-4b5e92183007",
+    "data": [
+      {
+        "text": "edit",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "action",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " to making the temperature up",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "72e60f21-c8a3-4982-b6a6-8be826d0ac51",
+    "data": [
+      {
+        "text": "adjust the temperature increased by ",
+        "userDefined": false
+      },
+      {
+        "text": "30",
+        "meta": "@sys.number",
+        "alias": "change-value",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "b57ac417-dc06-41d5-b3f2-4e185d899ea7",
+    "data": [
+      {
+        "text": "let the temperature go up till ",
+        "userDefined": false
+      },
+      {
+        "text": "28",
+        "meta": "@sys.number",
+        "alias": "final-value",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "e9d2c33f-1c1f-4754-92c0-b4986000228c",
+    "data": [
+      {
+        "text": "include",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " warming the ",
+        "userDefined": false
+      },
+      {
+        "text": "air-con",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "2",
+        "meta": "@sys.number",
+        "alias": "change-value",
+        "userDefined": false
+      },
+      {
+        "text": " degrees",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "82f9cb06-b036-4ded-a2c3-ed1635b47d5f",
+    "data": [
+      {
+        "text": "put making the temperature setting hotter by ",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "meta": "@sys.number",
+        "alias": "change-value",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "53b23bb6-8d5a-4b2f-996f-eb976e8c4c5e",
+    "data": [
+      {
+        "text": "attach",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " turning the temperature up by ",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "meta": "@sys.number",
+        "alias": "change-value",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "7b046918-19a9-48c7-bdb8-692d302f533d",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "trigger",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " to when the room temperature increased to ",
+        "userDefined": false
+      },
+      {
+        "text": "26",
+        "meta": "@sys.number",
+        "alias": "final-value",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "e7eb7456-8fc4-4416-ae7a-a4647ff53fd0",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "trigger",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " to if the temperature is above ",
+        "userDefined": false
+      },
+      {
+        "text": "28",
+        "meta": "@sys.number",
+        "alias": "final-value",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "43b34554-eedc-4be3-9c43-f21ea2f87121",
+    "data": [
+      {
+        "text": "replace",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " the temperature increased to ",
+        "userDefined": false
+      },
+      {
+        "text": "30",
+        "meta": "@sys.number",
+        "alias": "final-value",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "dba91f84-5325-467c-9084-6a9c63083006",
+    "data": [
+      {
+        "text": "add",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " turning up temperature",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "11da79b2-ea70-4302-b4d3-df5bfbf47038",
+    "data": [
+      {
+        "text": "turn the ",
+        "userDefined": false
+      },
+      {
+        "text": "heater",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " hot till ",
+        "userDefined": false
+      },
+      {
+        "text": "32",
+        "meta": "@sys.number",
+        "alias": "final-value",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "1fa32729-211d-45f7-9cfc-2ba3fcb06846",
+    "data": [
+      {
+        "text": "if the temperature increased to ",
+        "userDefined": false
+      },
+      {
+        "text": "34",
+        "meta": "@sys.number",
+        "alias": "final-value",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "a0cf033c-bfe2-4af7-90ae-7fa2ce7d9a3d",
+    "data": [
+      {
+        "text": "refine the ",
+        "userDefined": false
+      },
+      {
+        "text": "action",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " by increased temperature by ",
+        "userDefined": false
+      },
+      {
+        "text": "2",
+        "meta": "@sys.number",
+        "alias": "change-value",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "4e825a34-31fe-4acb-87ce-0c7bab6afcd1",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " to raising the temperature in ",
+        "userDefined": false
+      },
+      {
+        "text": "air conditioner",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " to ",
+        "userDefined": false
+      },
+      {
+        "text": "26",
+        "meta": "@sys.number",
+        "alias": "final-value",
+        "userDefined": false
+      },
+      {
+        "text": " degrees",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "335215e5-1e83-431c-9298-5b5a7aa70e88",
+    "data": [
+      {
+        "text": "add",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " turning the heating temperature up for ",
+        "userDefined": false
+      },
+      {
+        "text": "4",
+        "meta": "@sys.number",
+        "alias": "change-value",
+        "userDefined": false
+      },
+      {
+        "text": " degrees",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "16819d8c-5b8f-4817-bab7-2ce3e12b9494",
+    "data": [
+      {
+        "text": "warmer for ",
+        "userDefined": false
+      },
+      {
+        "text": "4",
+        "meta": "@sys.number",
+        "alias": "change-value",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "dcc81467-f5b8-4fec-87e2-05cacac3ccf9",
+    "data": [
+      {
+        "text": "turn the temperature level up by ",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "meta": "@sys.number",
+        "alias": "change-value",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "8192f185-15eb-4035-8508-11fb214b962b",
+    "data": [
+      {
+        "text": "when the ",
+        "userDefined": false
+      },
+      {
+        "text": "air conditioner",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " turned hot",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "62af064c-c984-4a78-9f03-bd001bdc4a91",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " it to when the temperature is higher than ",
+        "userDefined": false
+      },
+      {
+        "text": "23",
+        "meta": "@sys.number",
+        "alias": "final-value",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "c3092676-e8f3-44f4-b82f-4c595ea50251",
+    "data": [
+      {
+        "text": "adjust by heating ",
+        "userDefined": false
+      },
+      {
+        "text": "20",
+        "meta": "@sys.number",
+        "alias": "final-value",
+        "userDefined": false
+      },
+      {
+        "text": " degrees hotter",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "d754716a-38a8-4573-87be-09370c53e370",
+    "data": [
+      {
+        "text": "turn heating up",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "11320d8f-415d-4e58-8a08-c434de73c964",
+    "data": [
+      {
+        "text": "if the ",
+        "userDefined": false
+      },
+      {
+        "text": "air-con",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " temperature is more than ",
+        "userDefined": false
+      },
+      {
+        "text": "23",
+        "meta": "@sys.number",
+        "alias": "final-value",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "9760ee14-077f-4bd6-b7ce-d1742fa803e1",
+    "data": [
+      {
+        "text": "if the room temperature increased to ",
+        "userDefined": false
+      },
+      {
+        "text": "24",
+        "meta": "@sys.number",
+        "alias": "final-value",
+        "userDefined": false
+      },
+      {
+        "text": " degrees",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "639fb60a-772f-406c-95df-0bc645e73ec4",
+    "data": [
+      {
+        "text": "adjust to increase the temperature by ",
+        "userDefined": false
+      },
+      {
+        "text": "5",
+        "meta": "@sys.number",
+        "alias": "change-value",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "ac0bdd66-d56f-47be-8401-540c5fed9e53",
+    "data": [
+      {
+        "text": "temperature higher to ",
+        "userDefined": false
+      },
+      {
+        "text": "29",
+        "meta": "@sys.number",
+        "alias": "final-value",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "07722bc4-c669-4509-a45a-1c2f53267157",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "action",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " to heat more",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "edfb0bda-2900-4f22-b39f-3f34610fad63",
+    "data": [
+      {
+        "text": "lift up the ",
+        "userDefined": false
+      },
+      {
+        "text": "heater",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "20",
+        "meta": "@sys.number",
+        "alias": "change-value",
+        "userDefined": false
+      },
+      {
+        "text": " grad",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "e4a61e22-131a-4606-ae2b-ed3ff64b31cc",
+    "data": [
+      {
+        "text": "modify the ",
+        "userDefined": false
+      },
+      {
+        "text": "action",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " to make ",
+        "userDefined": false
+      },
+      {
+        "text": "air conditioner",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " blow warmer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "4a01ffc5-bd21-490a-80af-9c246e1e26ce",
+    "data": [
+      {
+        "text": "turn the temperature up to ",
+        "userDefined": false
+      },
+      {
+        "text": "28",
+        "meta": "@sys.number",
+        "alias": "final-value",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "343422af-a4a9-4896-84e1-d1c24f533775",
+    "data": [
+      {
+        "text": "turn up the temperature by ",
+        "userDefined": false
+      },
+      {
+        "text": "2",
+        "meta": "@sys.number",
+        "alias": "change-value",
+        "userDefined": true
+      },
+      {
+        "text": " degrees",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "ccf21427-89a1-4011-868c-a807a6b52455",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "action",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " to be warm",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  }
+]

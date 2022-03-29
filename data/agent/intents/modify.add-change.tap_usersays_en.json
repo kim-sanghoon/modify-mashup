@@ -1,0 +1,445 @@
+[
+  {
+    "id": "22ddce09-a6eb-40ca-8ff0-cfd096a2019f",
+    "data": [
+      {
+        "text": "Fix it when the button in the ",
+        "userDefined": false
+      },
+      {
+        "text": "lab",
+        "meta": "@place",
+        "alias": "place",
+        "userDefined": false
+      },
+      {
+        "text": " was pressed.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b688204f-bb51-483c-a64b-3070985f34eb",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " it to be ",
+        "userDefined": false
+      },
+      {
+        "text": "triggered",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " only if the button is pushed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "35363b27-26a5-423f-af35-448dc4e73fe8",
+    "data": [
+      {
+        "text": "when I press this button",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e361526d-b0f1-484f-88ba-f8f546ac9c12",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "trigger",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " to if I push the button in my ",
+        "userDefined": false
+      },
+      {
+        "text": "home",
+        "meta": "@place",
+        "alias": "place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8a424a85-ef58-41d2-8521-4f778b97e23d",
+    "data": [
+      {
+        "text": "it should be ",
+        "userDefined": false
+      },
+      {
+        "text": "triggered",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " with button pressed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "85eab9ce-78e5-4ce7-9d45-3b170e143fa9",
+    "data": [
+      {
+        "text": "also check that the button\u0027s tapped",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a036a414-2478-4fb4-80ea-0241e1f71ddb",
+    "data": [
+      {
+        "text": "I want to ",
+        "userDefined": false
+      },
+      {
+        "text": "trigger",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " it when the ",
+        "userDefined": false
+      },
+      {
+        "text": "bedroom",
+        "meta": "@place",
+        "alias": "place",
+        "userDefined": false
+      },
+      {
+        "text": " button is pushed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c93bcfef-030f-4408-a9cc-e346fddff370",
+    "data": [
+      {
+        "text": "also check that the button\u0027s pressed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d70487f2-015e-4eac-a645-422af5b9d5e0",
+    "data": [
+      {
+        "text": "add",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "trigger",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " of pressing the ",
+        "userDefined": false
+      },
+      {
+        "text": "office",
+        "meta": "@place",
+        "alias": "place",
+        "userDefined": false
+      },
+      {
+        "text": " button",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "75003b7b-6968-4c90-9695-5c416dd674bd",
+    "data": [
+      {
+        "text": "adjust the ",
+        "userDefined": false
+      },
+      {
+        "text": "trigger",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " to if I tap the button on the ",
+        "userDefined": false
+      },
+      {
+        "text": "living room",
+        "meta": "@place",
+        "alias": "place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "43a81694-2a1a-4383-9256-31e75cbc8bb0",
+    "data": [
+      {
+        "text": "append",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " a ",
+        "userDefined": false
+      },
+      {
+        "text": "trigger",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " of tapping the button",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ab7cb203-4a01-4ec5-b7b1-36491e4a9553",
+    "data": [
+      {
+        "text": "when the tap button on my ",
+        "userDefined": false
+      },
+      {
+        "text": "office",
+        "meta": "@place",
+        "alias": "place",
+        "userDefined": false
+      },
+      {
+        "text": " desk",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5da6e9eb-7d5c-4fae-922f-eaed222a8bee",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "trigger",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " to tapping the button on the ",
+        "userDefined": false
+      },
+      {
+        "text": "living room",
+        "meta": "@place",
+        "alias": "place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a9cd1994-607f-4a86-8d5b-6227681661c6",
+    "data": [
+      {
+        "text": "modify",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "trigger",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " to if the button is tapped",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "549e9cd2-72b1-42ad-9ba8-0116022d003b",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " it to when the ",
+        "userDefined": false
+      },
+      {
+        "text": "kitchen",
+        "meta": "@place",
+        "alias": "place",
+        "userDefined": false
+      },
+      {
+        "text": " button is pressed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "46091d25-7453-465e-8af9-cd432d97a082",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "trigger",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " to be activated by tap button in the ",
+        "userDefined": false
+      },
+      {
+        "text": "living room",
+        "meta": "@place",
+        "alias": "place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b4512de1-d8d3-47b2-be56-956d4ccdd9d2",
+    "data": [
+      {
+        "text": "if the tap button was pressed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

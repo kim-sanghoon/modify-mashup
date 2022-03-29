@@ -1,0 +1,243 @@
+[
+  {
+    "id": "a68eb75d-c002-4dab-b53f-52dfc33dbeb9",
+    "data": [
+      {
+        "text": "The ",
+        "userDefined": false
+      },
+      {
+        "text": "light",
+        "userDefined": false
+      },
+      {
+        "text": " is so strong that it’s dazzling",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "eb119bbe-fa82-4180-8052-a5629a0f1efd",
+    "data": [
+      {
+        "text": "I want darker room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "0adfc1b3-1fc2-48b5-a6d5-21676a251bc1",
+    "data": [
+      {
+        "text": "it seems a little bit bright",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "4818f9e7-62fc-4e58-be20-b6c7e372a3dc",
+    "data": [
+      {
+        "text": "why is the ",
+        "userDefined": false
+      },
+      {
+        "text": "TV",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "bright",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "4caab865-afa3-4c55-a9c4-1bcffbf49961",
+    "data": [
+      {
+        "text": "why is the room so bright",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "1d654588-87d6-458d-bdbe-93112d5c3eba",
+    "data": [
+      {
+        "text": "I want dark room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "57c2519a-8b36-4da0-b65f-9e2057385c95",
+    "data": [
+      {
+        "text": "the room is not dark",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "d01eb4ed-21c8-470b-a6ab-9522f2b17390",
+    "data": [
+      {
+        "text": "the brightness level is too high",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "cf467e0b-dd36-4206-9a64-49c428d0a566",
+    "data": [
+      {
+        "text": "the room is ",
+        "userDefined": false
+      },
+      {
+        "text": "bright",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "b4407f59-cf74-4b56-bfaa-afae2805fcfd",
+    "data": [
+      {
+        "text": "the ",
+        "userDefined": false
+      },
+      {
+        "text": "light",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " is so bright",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "89d10591-0f44-4062-946c-38227deeedb4",
+    "data": [
+      {
+        "text": "the ",
+        "userDefined": false
+      },
+      {
+        "text": "TV",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " brightness is too much",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "7f914456-b94e-48f1-a666-8add0a146b45",
+    "data": [
+      {
+        "text": "it\u0027s too bright",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "6eb7fe46-9af7-4e92-9f6b-af4f696c9d71",
+    "data": [
+      {
+        "text": "it\u0027s bright",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "data": [
+      {
+        "text": "the ",
+        "userDefined": false
+      },
+      {
+        "text": "lamp",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " is too ",
+        "userDefined": false
+      },
+      {
+        "text": "bright",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  }
+]

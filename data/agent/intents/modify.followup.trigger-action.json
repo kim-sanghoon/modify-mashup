@@ -1,0 +1,80 @@
+{
+  "id": "941bd22e-cae1-43ff-a394-05ed8b081353",
+  "name": "modify.followup.trigger-action",
+  "auto": true,
+  "contexts": [
+    "implicature",
+    "search",
+    "trigger-action-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "modify.followup.trigger-action",
+      "affectedContexts": [
+        {
+          "name": "implicature",
+          "lifespan": 5
+        },
+        {
+          "name": "search",
+          "lifespan": 5
+        },
+        {
+          "name": "trigger-action-followup",
+          "lifespan": 0
+        }
+      ],
+      "parameters": [
+        {
+          "id": "60f7246e-d690-4d5f-a8c5-cfca253a5bfa",
+          "name": "trigger-action",
+          "required": true,
+          "dataType": "@trigger-action",
+          "value": "$trigger-action",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Could you tell me again which section to modify, trigger or action?"
+            },
+            {
+              "lang": "en-us",
+              "value": "Could you tell me again which section to modify, trigger or action?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en-us",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,60 @@
+{
+  "id": "57788728-0672-4d6f-aa30-45ad953da9fe",
+  "parentId": "7afb3dcc-c17a-43fd-acda-026bd50bcee3",
+  "rootParentId": "7afb3dcc-c17a-43fd-acda-026bd50bcee3",
+  "name": "modify.undo - no",
+  "auto": true,
+  "contexts": [
+    "implicature",
+    "search",
+    "modifyundo-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "modifyundo.modifyundo-no",
+      "affectedContexts": [
+        {
+          "name": "modifyundo-followup",
+          "lifespan": 0
+        },
+        {
+          "name": "finish",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Okay, how would you like to modify it?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en-us",
+          "speech": [
+            "Okay, how would you like to modify it?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

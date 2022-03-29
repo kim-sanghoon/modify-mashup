@@ -1,0 +1,81 @@
+[
+  {
+    "value": "mother",
+    "synonyms": [
+      "mother",
+      "mom",
+      "mommy",
+      "mum"
+    ]
+  },
+  {
+    "value": "father",
+    "synonyms": [
+      "father",
+      "dad",
+      "daddy"
+    ]
+  },
+  {
+    "value": "sister",
+    "synonyms": [
+      "sister",
+      "younger sister",
+      "older sister"
+    ]
+  },
+  {
+    "value": "brother",
+    "synonyms": [
+      "brother",
+      "younger brother",
+      "older brother"
+    ]
+  },
+  {
+    "value": "family",
+    "synonyms": [
+      "family",
+      "home"
+    ]
+  },
+  {
+    "value": "anyone",
+    "synonyms": [
+      "anyone",
+      "anybody",
+      "everyone",
+      "everybody"
+    ]
+  },
+  {
+    "value": "school",
+    "synonyms": [
+      "school",
+      "lab",
+      "institute",
+      "professor"
+    ]
+  },
+  {
+    "value": "workplace",
+    "synonyms": [
+      "workplace",
+      "company",
+      "office",
+      "workspace",
+      "work",
+      "boss",
+      "senior"
+    ]
+  },
+  {
+    "value": "friend",
+    "synonyms": [
+      "friend",
+      "friends",
+      "mate",
+      "mates"
+    ]
+  }
+]

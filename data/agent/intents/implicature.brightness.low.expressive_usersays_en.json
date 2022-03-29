@@ -1,0 +1,207 @@
+[
+  {
+    "id": "70894846-66f4-4d4e-ab3e-19fc73b55a58",
+    "data": [
+      {
+        "text": "why does it dim",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "85a4a9c7-a3e9-4790-b241-7f1c0d0acf25",
+    "data": [
+      {
+        "text": "it should be ",
+        "userDefined": false
+      },
+      {
+        "text": "bright",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4edbb8c9-ec45-4bd1-951b-bf5a4cdf7736",
+    "data": [
+      {
+        "text": "the room seems a little bit dark",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2068c481-1a7e-47e9-9953-d3e8a62959eb",
+    "data": [
+      {
+        "text": "why is the room dark",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a7e9fcc3-3038-4780-887a-79d601405935",
+    "data": [
+      {
+        "text": "I want bright room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "acbd11ad-69a3-4263-8203-05b400654533",
+    "data": [
+      {
+        "text": "it\u0027s not that bright",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0e27a196-265c-4b12-a3d1-5d98aa26fcfd",
+    "data": [
+      {
+        "text": "the ",
+        "userDefined": false
+      },
+      {
+        "text": "light",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " brightness level is too low",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5c7f08ca-d42d-40d4-930f-fcab0402d247",
+    "data": [
+      {
+        "text": "the ",
+        "userDefined": false
+      },
+      {
+        "text": "TV",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " is too dark",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9c227650-18b1-4f01-9d86-2dab86d45f56",
+    "data": [
+      {
+        "text": "the room is so ",
+        "userDefined": false
+      },
+      {
+        "text": "black",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "490733c2-f56d-45f9-bc65-650ecbaacf1d",
+    "data": [
+      {
+        "text": "it\u0027s dark",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4d66b0cc-e269-4997-be65-9c92f7d5c7da",
+    "data": [
+      {
+        "text": "it is too dark",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "data": [
+      {
+        "text": "the room\u0027s too dark",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "data": [
+      {
+        "text": "the ",
+        "userDefined": false
+      },
+      {
+        "text": "lighting system",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " has become slightly darker",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

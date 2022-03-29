@@ -1,0 +1,168 @@
+[
+  {
+    "id": "71d6b4d4-c0c4-4d81-8f96-875367c5418a",
+    "data": [
+      {
+        "text": "hey we need to decrease the room temperature",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1e991729-4070-48dc-8b96-2f43ec65228c",
+    "data": [
+      {
+        "text": "stop heating",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4802e089-0c08-412a-95a6-a452ef50564b",
+    "data": [
+      {
+        "text": "less heating",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "57cd4364-6cea-4838-a056-4cc4db567aed",
+    "data": [
+      {
+        "text": "make ",
+        "userDefined": false
+      },
+      {
+        "text": "cooler",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "82957ddb-a11a-4be7-b5d6-680846e66495",
+    "data": [
+      {
+        "text": "cold ",
+        "userDefined": false
+      },
+      {
+        "text": "air conditioner",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4180b2d6-8038-40b6-8df7-eec4c515d26e",
+    "data": [
+      {
+        "text": "little less temperature",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9b86267b-bca8-48d4-92a1-a9bd1dc9fc77",
+    "data": [
+      {
+        "text": "cool down the air",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3c2ed332-9c21-464d-b301-782116e47be9",
+    "data": [
+      {
+        "text": "start cooling",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d024e7c1-6a3f-41e8-b56e-75fdd95bcd1b",
+    "data": [
+      {
+        "text": "make me feel cold",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b1482b3a-2c1c-45fa-9bc0-129718d98f29",
+    "data": [
+      {
+        "text": "more cold environment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6638cc32-5f6b-4dfb-8193-ae4fb69fcefc",
+    "data": [
+      {
+        "text": "make me chilled",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ea7629cc-4d20-4c92-9de2-e23f07216090",
+    "data": [
+      {
+        "text": "make this room cool",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

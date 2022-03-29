@@ -1,0 +1,459 @@
+[
+  {
+    "id": "06e342ab-9bb4-4795-821f-351921eaf915",
+    "data": [
+      {
+        "text": "what happened",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "0749f412-d5a3-48ae-85b2-18d846fc67ee",
+    "data": [
+      {
+        "text": "tell me the trigger",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "234450ba-57f0-4cbd-a8e7-5f79cf1f4a94",
+    "data": [
+      {
+        "text": "tell me the detail",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "7b34c289-5385-4484-99dd-95a8402a2bec",
+    "data": [
+      {
+        "text": "I want to check the trigger",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "7fca673c-fa9f-4274-84ea-d54a0596f715",
+    "data": [
+      {
+        "text": "why it has been activated",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "3762b325-147b-4b63-bd5e-73973a1c6106",
+    "data": [
+      {
+        "text": "the detail",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "89162cab-77bc-41ec-9563-91ebd80029fc",
+    "data": [
+      {
+        "text": "why did it occur",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "7821bd09-5ff3-4309-ad46-8d64aeca0974",
+    "data": [
+      {
+        "text": "why",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "51babb93-164f-4753-9d94-7308d98768d5",
+    "data": [
+      {
+        "text": "what\u0027s the reason",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "0cca66b3-87d4-4f0c-9cff-d7726adba64d",
+    "data": [
+      {
+        "text": "explain me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "c11c47d8-2066-416e-b1c5-4fae3412b5b5",
+    "data": [
+      {
+        "text": "I don\u0027t understand why",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "fd30b813-3f76-40e8-b2a2-e325e3948efa",
+    "data": [
+      {
+        "text": "oh really",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "79fd288e-11cd-46a0-8141-3aaee266fa5b",
+    "data": [
+      {
+        "text": "could you tell me in more detail",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "b1d547ca-c586-4be1-9fb2-c526ab99cc02",
+    "data": [
+      {
+        "text": "really why",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "ce0503aa-2308-4a9c-8d40-f351756f6814",
+    "data": [
+      {
+        "text": "I mean the detail",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "0311f7e9-cb08-4d04-b0da-145df84d841e",
+    "data": [
+      {
+        "text": "why do you think so",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "584290bf-daf2-4fe9-8b9c-efea61a55700",
+    "data": [
+      {
+        "text": "could you explain more",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "f2eb7c64-6edc-44c2-8cb5-aba4d42ecef7",
+    "data": [
+      {
+        "text": "could you tell me more detail",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "a45aca18-3f43-4b8d-b0bb-445016a4e6ef",
+    "data": [
+      {
+        "text": "could you tell me more",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "35452017-6e95-4acf-b36f-4fb0c0908dae",
+    "data": [
+      {
+        "text": "what\u0027s that",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "644d5b2a-4904-4d92-867f-0b6b6b0c48ef",
+    "data": [
+      {
+        "text": "the rule information",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "3da669f2-2ddd-41c5-be90-5078e4eaef4f",
+    "data": [
+      {
+        "text": "tell me the rule",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "75755182-fbe5-4c60-9cf4-8a9ae32ad65f",
+    "data": [
+      {
+        "text": "what was that",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "330bcfa6-bc49-48a7-a11b-7fec3feb41b7",
+    "data": [
+      {
+        "text": "how is it activated",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "ca253ec6-7235-4a64-8a93-61205fbc79e6",
+    "data": [
+      {
+        "text": "trigger details",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "e2cc3bda-0149-4ddb-8e2d-cb301e257958",
+    "data": [
+      {
+        "text": "show me the trigger",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "2a75ef9a-2ed9-4f93-ac60-3e9690f2d949",
+    "data": [
+      {
+        "text": "why is it happened",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "c24438eb-9ead-4fe9-be3a-228917555292",
+    "data": [
+      {
+        "text": "I want to check the detailed information",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "22f7803f-df41-4139-841a-bc67113d9b0b",
+    "data": [
+      {
+        "text": "could you tell me in detail",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "5e528cc4-10ff-4636-bcbd-b38bec2a2a36",
+    "data": [
+      {
+        "text": "trigger info",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "a96c26c9-b92b-4ec3-bb0d-4bfe3eaf21a9",
+    "data": [
+      {
+        "text": "what\u0027s trigger",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "611eef2b-2ecd-45c4-914c-22012753ee49",
+    "data": [
+      {
+        "text": "what is the trigger",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "4e957287-9e65-4969-927a-4ffced8eb24c",
+    "data": [
+      {
+        "text": "which trigger activate it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "data": [
+      {
+        "text": "which trigger activated ",
+        "userDefined": false
+      },
+      {
+        "text": "a day",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "data": [
+      {
+        "text": "check the trigger",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  }
+]

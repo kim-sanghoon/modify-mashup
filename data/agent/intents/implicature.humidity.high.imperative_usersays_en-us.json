@@ -1,0 +1,67 @@
+[
+  {
+    "id": "60c1bfc5-8881-4460-8dcb-e54737c1cc93",
+    "data": [
+      {
+        "text": "remove the humid air",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "53fb91be-cf41-4e46-b887-cf7deac9d0a6",
+    "data": [
+      {
+        "text": "make the room dry",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "0cad7a90-acb3-45d8-ba35-d0540d262beb",
+    "data": [
+      {
+        "text": "dehydrate the air",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "8b91f74d-7471-48d4-9451-8a9f7587b0c2",
+    "data": [
+      {
+        "text": "make the air dry",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "bfaeaaf8-3bcd-46ad-9920-42c6d35167d3",
+    "data": [
+      {
+        "text": "decrease the humidity level",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "id": "7236c6f0-7ebd-460e-9ddf-c11345327f96",
+    "data": [
+      {
+        "text": "lower the air quality",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "e2443c6a-4ccb-4904-bc88-9765ad6bafc0",
+    "data": [
+      {
+        "text": "make the air dirty",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "85b3a4a6-b7b9-45a7-be3b-5dfc0d406b84",
+    "data": [
+      {
+        "text": "decrease the air quality",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  }
+]

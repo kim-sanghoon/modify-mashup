@@ -1,0 +1,70 @@
+{
+  "id": "451a915f-7733-4e29-95d1-56bc12892d76",
+  "name": "modify.followup.no",
+  "auto": true,
+  "contexts": [
+    "implicature",
+    "search",
+    "confirm"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "modify.followup.no",
+      "affectedContexts": [
+        {
+          "name": "confirm",
+          "lifespan": 0
+        },
+        {
+          "name": "implicature",
+          "lifespan": 5
+        },
+        {
+          "name": "search",
+          "lifespan": 5
+        },
+        {
+          "name": "modify-params",
+          "lifespan": 0
+        },
+        {
+          "name": "finish",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Okay, please tell me a command for modification."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en-us",
+          "speech": [
+            "Okay, please tell me a command for modification."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

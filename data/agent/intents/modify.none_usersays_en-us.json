@@ -1,0 +1,404 @@
+[
+  {
+    "id": "9935b8dd-562d-47f7-8ad8-696666881f58",
+    "data": [
+      {
+        "text": "I want to adjust it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "65a954a7-ad3f-4462-aaab-f08a93d04b9a",
+    "data": [
+      {
+        "text": "yeah I need to ",
+        "userDefined": false
+      },
+      {
+        "text": "modify",
+        "meta": "@add-change",
+        "alias": "add-change-none",
+        "userDefined": false
+      },
+      {
+        "text": " that",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "6ccb8b44-3a7c-4721-9fce-9d6848b9a7ee",
+    "data": [
+      {
+        "text": "start the modification",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "e3e89faf-0912-4d20-a84b-5eb50d9f5f01",
+    "data": [
+      {
+        "text": "let\u0027s start modification",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "e29035d0-e6ab-416c-9a7a-2565d25c1b8e",
+    "data": [
+      {
+        "text": "I want to fix the ",
+        "userDefined": false
+      },
+      {
+        "text": "trigger",
+        "meta": "@trigger-action",
+        "alias": "trigger-action-none",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "a0f44e01-b082-43f9-a117-f56b16411c88",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change-none",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "trigger",
+        "meta": "@trigger-action",
+        "alias": "trigger-action-none",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "42c28825-e447-4e8f-b17c-dd70624d4146",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change-none",
+        "userDefined": true
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "trigger",
+        "meta": "@trigger-action",
+        "alias": "trigger-action-none",
+        "userDefined": false
+      },
+      {
+        "text": " to",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "3210018f-7797-4183-8b8f-e7363991e799",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change-none",
+        "userDefined": true
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "triggering condition",
+        "meta": "@trigger-action",
+        "alias": "trigger-action-none",
+        "userDefined": false
+      },
+      {
+        "text": " to",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "afb60166-2e1e-4a78-aac9-deb86dedc9d0",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change-none",
+        "userDefined": true
+      },
+      {
+        "text": " it to",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "67041e48-f8f1-4e7c-90bb-7b7bffdc91fb",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change-none",
+        "userDefined": true
+      },
+      {
+        "text": " it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "5efac825-c3b3-4d82-a84b-dc57997a7e23",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change-none",
+        "userDefined": true
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "action",
+        "meta": "@trigger-action",
+        "alias": "trigger-action-none",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "5ca64dfe-291a-431c-a4bf-69a124902c46",
+    "data": [
+      {
+        "text": "I need some ",
+        "userDefined": false
+      },
+      {
+        "text": "changes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "b4569245-5a72-4fdf-ae9c-ceda1785feac",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change-none",
+        "userDefined": true
+      },
+      {
+        "text": " mode",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "a8bc3c92-f122-48a6-a2a6-7c62af3a65e9",
+    "data": [
+      {
+        "text": "modification mode",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "1a3d91ea-f2cb-4b51-9757-5454f01169de",
+    "data": [
+      {
+        "text": "could you fix it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "4e8cb78e-2882-41d8-be82-d86d95b60bee",
+    "data": [
+      {
+        "text": "I want to ",
+        "userDefined": false
+      },
+      {
+        "text": "adjust",
+        "userDefined": true
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "action",
+        "meta": "@trigger-action",
+        "alias": "trigger-action-none",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "c0e6fc94-a5d4-4257-91e1-9a9f2ad7b19e",
+    "data": [
+      {
+        "text": "adjust",
+        "userDefined": true
+      },
+      {
+        "text": " it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "5884270f-8650-4b82-b8f8-4724761c7596",
+    "data": [
+      {
+        "text": "it needs to be ",
+        "userDefined": false
+      },
+      {
+        "text": "adjusted",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "65c51bfb-0007-4e68-8aac-b35b9f433865",
+    "data": [
+      {
+        "text": "let\u0027s ",
+        "userDefined": false
+      },
+      {
+        "text": "modify",
+        "meta": "@add-change",
+        "alias": "add-change-none",
+        "userDefined": true
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "action",
+        "meta": "@trigger-action",
+        "alias": "trigger-action-none",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "d8775ba5-52dc-4e69-8c1e-df8ac6c8c89c",
+    "data": [
+      {
+        "text": "I\u0027d like to ",
+        "userDefined": false
+      },
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change-none",
+        "userDefined": true
+      },
+      {
+        "text": " it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  }
+]

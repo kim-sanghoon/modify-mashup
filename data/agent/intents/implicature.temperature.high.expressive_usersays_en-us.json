@@ -1,0 +1,456 @@
+[
+  {
+    "id": "02e99485-0611-4d00-82b7-7410ebb54180",
+    "data": [
+      {
+        "text": "it is hot weather",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "e6b61057-66bf-4d1e-8843-ee242bddd73a",
+    "data": [
+      {
+        "text": "I feel heat",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "452c505b-246d-44f7-a037-85617981b9fd",
+    "data": [
+      {
+        "text": "I feel a little Heat",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "b253742d-9469-4eca-b0fd-60a992fed3c5",
+    "data": [
+      {
+        "text": "it\u0027s hot",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 3,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "13c81417-4d89-4213-a3cf-4e5be844d1a5",
+    "data": [
+      {
+        "text": "the room temperature is too high",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "d6093256-7ed0-4c13-a530-6031d6e488c9",
+    "data": [
+      {
+        "text": "it\u0027s really hot",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "ebbab57b-bdc1-4c45-b830-77a2125d2588",
+    "data": [
+      {
+        "text": "it\u0027s slightly too warm",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "005adeb9-cd8c-4ef3-a492-b87a3ece8004",
+    "data": [
+      {
+        "text": "no I mean it\u0027s hot",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "c4d4a472-fc8d-4da3-88b8-305ddc0f69cf",
+    "data": [
+      {
+        "text": "no I feel hot",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "c6884845-0379-4f8e-8e96-1bf55f9aa485",
+    "data": [
+      {
+        "text": "the wind is very hot today",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "707ddc85-079f-4c6a-b737-9baeca95ba5d",
+    "data": [
+      {
+        "text": "the room\u0027s really hot today",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "13839a9f-d0a7-4afe-b6e9-1088be56397a",
+    "data": [
+      {
+        "text": "it\u0027s too hot",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "b507b6fd-654a-4b19-8d46-2acdaeac0dfe",
+    "data": [
+      {
+        "text": "really high temperature ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "e3b862f8-1939-445f-b170-897dfa0618c7",
+    "data": [
+      {
+        "text": "the air is hot",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "53c71891-dd40-4b73-8802-2a9f8f9d8e80",
+    "data": [
+      {
+        "text": "I\u0027m getting hot",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "5cce21c9-ab0a-421d-a434-d99747323687",
+    "data": [
+      {
+        "text": "too warm",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "585e4375-fe94-4278-8946-0746efb6da6a",
+    "data": [
+      {
+        "text": "where did this hot air come from",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "c71a1d99-8926-4e9c-9b57-33a6f42db3ec",
+    "data": [
+      {
+        "text": "why is the temperature high",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "160cc551-da06-4820-83a8-35771fd724d4",
+    "data": [
+      {
+        "text": "why is the room so hot",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "de5282eb-1b01-4845-a8f8-b82e6a162f80",
+    "data": [
+      {
+        "text": "today",
+        "userDefined": false
+      },
+      {
+        "text": "\u0027s temperature is high",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "756181f4-b4ec-4ef2-b460-7a0e7b0ae711",
+    "data": [
+      {
+        "text": "the wind is not that chilling",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "64c1406a-1d0c-4fe9-9f52-59e29574b2ad",
+    "data": [
+      {
+        "text": "I need cooling",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "862a1c4c-23d8-4305-a996-4ce4c00b2cfa",
+    "data": [
+      {
+        "text": "I want to be cold",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "ba081afe-a442-4b43-bc83-b02a198dde3f",
+    "data": [
+      {
+        "text": "I feel the hot air",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "1f7a322a-100d-4c90-abfa-a95a828b6a74",
+    "data": [
+      {
+        "text": "the ",
+        "userDefined": false
+      },
+      {
+        "text": "air conditioner",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " is not cooling me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "05b82da2-d957-449d-87f4-8d73019bdec1",
+    "data": [
+      {
+        "text": "the air is not chilling",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "226df0f0-d2ac-4d6f-aee4-a2e2c742a0e5",
+    "data": [
+      {
+        "text": "my home is hot",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "e80f1d5b-2859-42da-ad6b-131e664fa103",
+    "data": [
+      {
+        "text": "home is hot",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "d6f401da-6da3-4851-a6fa-8f4018c19106",
+    "data": [
+      {
+        "text": "the house seems a little hot",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "cec2267f-e9d3-4550-936c-5e08c7c2a0ff",
+    "data": [
+      {
+        "text": "the house is a little hot",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "data": [
+      {
+        "text": "I feel a little heat",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "data": [
+      {
+        "text": "I feel Heat",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "data": [
+      {
+        "text": "the ",
+        "userDefined": false
+      },
+      {
+        "text": "air conditioner",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " is not cool",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  }
+]

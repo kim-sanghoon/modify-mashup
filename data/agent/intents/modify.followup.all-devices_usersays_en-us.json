@@ -1,0 +1,192 @@
+[
+  {
+    "id": "77814f72-3c20-4a40-916f-1612738d7890",
+    "data": [
+      {
+        "text": "the ",
+        "userDefined": false
+      },
+      {
+        "text": "computer",
+        "meta": "@network-devices",
+        "alias": "network-devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "d4b04374-2f31-48fa-b56a-bd84914a0d2e",
+    "data": [
+      {
+        "text": "my ",
+        "userDefined": false
+      },
+      {
+        "text": "pc",
+        "meta": "@network-devices",
+        "alias": "network-devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "a5e9076e-d868-4aeb-b66e-0a84e1c5392c",
+    "data": [
+      {
+        "text": "the room ",
+        "userDefined": false
+      },
+      {
+        "text": "lightings",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "c427c56b-2908-4a66-a4a2-5408a4e409d1",
+    "data": [
+      {
+        "text": "windows",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "70db9542-8440-447f-82ff-3ac9fc328a3f",
+    "data": [
+      {
+        "text": "vacuum cleaner",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "4e9d89e9-e44e-4b11-97b9-1405b9a5f6e8",
+    "data": [
+      {
+        "text": "mobile phone",
+        "meta": "@network-devices",
+        "alias": "network-devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "fa09f9f9-10ed-4fe6-8cd2-4a57d643d100",
+    "data": [
+      {
+        "text": "that ",
+        "userDefined": false
+      },
+      {
+        "text": "lamp",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "0dbfcbb9-fc4c-4ef3-a467-113ce432d80b",
+    "data": [
+      {
+        "text": "the current ",
+        "userDefined": false
+      },
+      {
+        "text": "music",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " playback",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "de130dd5-7492-4aef-a011-6a1433cba286",
+    "data": [
+      {
+        "text": "the ",
+        "userDefined": false
+      },
+      {
+        "text": "office",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "server",
+        "meta": "@network-devices",
+        "alias": "network-devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "02e19bd0-3bcf-48a4-9c02-7cba5bcf287c",
+    "data": [
+      {
+        "text": "my ",
+        "userDefined": false
+      },
+      {
+        "text": "laptop",
+        "meta": "@network-devices",
+        "alias": "network-devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en-us",
+    "updated": 0
+  }
+]

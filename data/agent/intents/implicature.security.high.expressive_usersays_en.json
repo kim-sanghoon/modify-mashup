@@ -1,0 +1,150 @@
+[
+  {
+    "id": "a541840a-c104-4aad-acbc-02bd2855fce9",
+    "data": [
+      {
+        "text": "the room should be less safe",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6d3caae3-3f73-49d8-ae20-665339be6976",
+    "data": [
+      {
+        "text": "why is the security level too high",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4f136e1b-6f81-4d8f-96dd-e645e6752aad",
+    "data": [
+      {
+        "text": "why is the room too safe",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4a534788-02dc-4b9f-ab93-da8342ea75e3",
+    "data": [
+      {
+        "text": "CCTV",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " looks too safe",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2253d77d-2503-4828-9e3f-e6f01a79553d",
+    "data": [
+      {
+        "text": "the room should be vulnerable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c1d5ada8-a521-4c32-8fb3-e4795a02b3e4",
+    "data": [
+      {
+        "text": "I feel too secured",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c8f7df30-35f9-4ea2-940f-32cab53405b0",
+    "data": [
+      {
+        "text": "the security is too safe",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "539e1552-370b-49ce-a3a4-2f2ff29e0a46",
+    "data": [
+      {
+        "text": "it\u0027s too safe",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6ae64156-368a-43b6-81c7-7cad751ad6b5",
+    "data": [
+      {
+        "text": "I want this room to be more dangerous",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "680c9e1e-4c5c-4357-a382-e30de3904c52",
+    "data": [
+      {
+        "text": "I feel too safe",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "data": [
+      {
+        "text": "the room security is good",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

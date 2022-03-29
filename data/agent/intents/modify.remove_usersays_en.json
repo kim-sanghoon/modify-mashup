@@ -1,0 +1,286 @@
+[
+  {
+    "id": "71ab85de-aa0e-4ba6-9080-8729fa67c9a9",
+    "data": [
+      {
+        "text": "remove it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "494670c9-90f5-4c2c-881a-76962d4dce58",
+    "data": [
+      {
+        "text": "maybe it is no longer needed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f9f76bab-7339-4352-bae3-2f7ac741ca6d",
+    "data": [
+      {
+        "text": "also remove it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b6288d64-4e7c-460e-b36d-6fe8ca284128",
+    "data": [
+      {
+        "text": "I think it is no longer needed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a0d04972-d25a-4d5b-9518-c63d76d2f5d4",
+    "data": [
+      {
+        "text": "disable temperature settings when I leave",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7128fd3e-98a4-4eb6-8463-38f040f30c7a",
+    "data": [
+      {
+        "text": "stop turning on the device when I wake up",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f6b126d5-5145-4dde-a6ed-ceb9f27076c4",
+    "data": [
+      {
+        "text": "I don\u0027t need it anymore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f1aafb3e-a9d4-4337-853b-6cc12077378d",
+    "data": [
+      {
+        "text": "remove",
+        "userDefined": false
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "action",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bb97b48c-55ab-4261-8d70-5f610350b6af",
+    "data": [
+      {
+        "text": "no more need of it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "da2affcb-1aa7-46b6-8e67-e6d63173a583",
+    "data": [
+      {
+        "text": "I don\u0027t want to keep it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "079a631e-db15-419c-9444-8aa7009620c9",
+    "data": [
+      {
+        "text": "please ",
+        "userDefined": false
+      },
+      {
+        "text": "remove",
+        "userDefined": false
+      },
+      {
+        "text": " it from mashups",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "33977a86-c55c-4a27-8e0d-62d313682c1e",
+    "data": [
+      {
+        "text": "destroy the ",
+        "userDefined": false
+      },
+      {
+        "text": "trigger",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0f8566ce-7622-45a2-830a-e26bbe6eb4f9",
+    "data": [
+      {
+        "text": "could you ",
+        "userDefined": false
+      },
+      {
+        "text": "delete",
+        "userDefined": false
+      },
+      {
+        "text": " the rule",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "205a0116-353e-48ed-8e76-454a34d57825",
+    "data": [
+      {
+        "text": "it isn\u0027t needed anymore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "76ecb21c-5f68-462a-8216-78cfa8e0ed66",
+    "data": [
+      {
+        "text": "I think it should be ",
+        "userDefined": false
+      },
+      {
+        "text": "removed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1bf2b5d5-0de5-4b3c-8c69-cd8c948ef84f",
+    "data": [
+      {
+        "text": "I want to get rid of it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b1d4a31e-3a75-49c5-8ada-52eca55417c6",
+    "data": [
+      {
+        "text": "remove",
+        "userDefined": false
+      },
+      {
+        "text": " it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "57fbf650-86d6-49c2-9a6f-2f030bf30bb2",
+    "data": [
+      {
+        "text": "delete",
+        "userDefined": false
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "action",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

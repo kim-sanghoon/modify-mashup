@@ -1,0 +1,131 @@
+[
+  {
+    "id": "4499d213-40fc-46f1-b7ff-791d0087764b",
+    "data": [
+      {
+        "text": "security on",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "79e3bc12-f839-4506-9272-e103b434c705",
+    "data": [
+      {
+        "text": "make me feel safe",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ebcc0598-08d3-4fc7-a073-75e768241902",
+    "data": [
+      {
+        "text": "make it safe",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4d20300d-cd70-4f6a-813a-563ab8651d57",
+    "data": [
+      {
+        "text": "detect any strangers",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "957ceabd-d7bb-4eae-bf69-727f9677a45e",
+    "data": [
+      {
+        "text": "start security",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0644daae-3bd3-4256-8a1c-a0e83231a929",
+    "data": [
+      {
+        "text": "make this room secured",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "70fd1d42-4b1d-4e99-993b-2e17b34595ad",
+    "data": [
+      {
+        "text": "turn on the ",
+        "userDefined": false
+      },
+      {
+        "text": "CCTV",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b2df55c4-3fcb-41dc-83e9-c009d6704016",
+    "data": [
+      {
+        "text": "activate the ",
+        "userDefined": false
+      },
+      {
+        "text": "security system",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9a640edb-0344-42ee-8b18-6846e87462b5",
+    "data": [
+      {
+        "text": "increase the security level",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

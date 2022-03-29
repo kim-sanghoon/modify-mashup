@@ -1,0 +1,25 @@
+[
+  {
+    "value": "trigger",
+    "synonyms": [
+      "trigger",
+      "triggering condition",
+      "condition"
+    ]
+  },
+  {
+    "value": "action",
+    "synonyms": [
+      "action",
+      "actuation"
+    ]
+  },
+  {
+    "value": "parameter",
+    "synonyms": [
+      "parameter",
+      "argument",
+      "value"
+    ]
+  }
+]

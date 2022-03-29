@@ -1,0 +1,155 @@
+[
+  {
+    "id": "dba1cc42-9dcb-489d-ac6e-f49827870452",
+    "data": [
+      {
+        "text": "make the room temp high",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "c3fae976-6109-452c-820b-6c06efae6255",
+    "data": [
+      {
+        "text": "make hotter",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "b742cfa1-45b3-47e1-ba78-640ce3563e3b",
+    "data": [
+      {
+        "text": "more warm environment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "877f34a0-47df-47bc-9674-3cf9096a9266",
+    "data": [
+      {
+        "text": "warmer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "9286569c-b801-435a-8f15-94157af921ec",
+    "data": [
+      {
+        "text": "make this room warm",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "e7f004f0-ac5b-472b-8304-d77b67719862",
+    "data": [
+      {
+        "text": "make me feel hot",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "2cd53c31-d9ec-488e-9cef-a39302075974",
+    "data": [
+      {
+        "text": "warm up the air",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "45867b20-7ed0-486b-9185-e1c7984584e8",
+    "data": [
+      {
+        "text": "little more temperature",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "b3922339-0e9e-4bc7-9394-c6ac1fb83663",
+    "data": [
+      {
+        "text": "make the ",
+        "userDefined": false
+      },
+      {
+        "text": "air conditioner",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " hot",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "468677ca-dc62-44a5-827f-400e12f1adce",
+    "data": [
+      {
+        "text": "make the room warm",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "99d23db9-f1ec-435c-ab9c-a60035feeb24",
+    "data": [
+      {
+        "text": "more heating",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "id": "35784849-1d68-497b-9f40-29e792751689",
+  "name": "devices",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

@@ -1,0 +1,467 @@
+[
+  {
+    "id": "e70001f3-5f43-44f7-8cb1-8f4be5b8080e",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": false
+      },
+      {
+        "text": " it to when I leave ",
+        "userDefined": false
+      },
+      {
+        "text": "home",
+        "meta": "@place",
+        "alias": "place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "c67a5154-cd52-4f22-93c7-1c7a19ab6c0f",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": false
+      },
+      {
+        "text": " it to when I leave my ",
+        "userDefined": false
+      },
+      {
+        "text": "office",
+        "meta": "@place",
+        "alias": "place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "43927dda-53f4-4228-b113-5fd4e77dc25d",
+    "data": [
+      {
+        "text": "fix it to when I leave ",
+        "userDefined": false
+      },
+      {
+        "text": "home",
+        "meta": "@place",
+        "alias": "place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "ce2b5b44-92f9-42b4-a032-02f3451fcaba",
+    "data": [
+      {
+        "text": "when I leave ",
+        "userDefined": false
+      },
+      {
+        "text": "home",
+        "meta": "@place",
+        "alias": "place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "4cb1135e-fb86-46f3-8383-5b5b8b68fd10",
+    "data": [
+      {
+        "text": "turn it on only when I leave ",
+        "userDefined": false
+      },
+      {
+        "text": "home",
+        "meta": "@place",
+        "alias": "place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "67909d14-02bc-4245-8ec8-a79303d34480",
+    "data": [
+      {
+        "text": "Run it when I leave the ",
+        "userDefined": false
+      },
+      {
+        "text": "garage",
+        "meta": "@place",
+        "alias": "place",
+        "userDefined": false
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "78fd666a-5bd7-444a-ad93-8968b639fca1",
+    "data": [
+      {
+        "text": "if I exit the room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "cb7b9691-4bd0-4834-8ed2-f5a9a170cd1e",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "trigger",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " to if I leave ",
+        "userDefined": false
+      },
+      {
+        "text": "home",
+        "meta": "@place",
+        "alias": "place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "d6687b50-7675-45d5-b50c-92675284a994",
+    "data": [
+      {
+        "text": "when I leave",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "23072c41-19cf-4583-9352-c06c2c255da7",
+    "data": [
+      {
+        "text": "it should be ",
+        "userDefined": false
+      },
+      {
+        "text": "triggered",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " if I leave the ",
+        "userDefined": false
+      },
+      {
+        "text": "workspace",
+        "meta": "@place",
+        "alias": "place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "db9b6420-72b8-4d43-9d9d-e5f9749bff89",
+    "data": [
+      {
+        "text": "I want to ",
+        "userDefined": false
+      },
+      {
+        "text": "trigger",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " it when I quit ",
+        "userDefined": false
+      },
+      {
+        "text": "kitchen",
+        "meta": "@place",
+        "alias": "place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "410ef1d6-63e1-4e22-9fe8-8fa496d1a1bf",
+    "data": [
+      {
+        "text": "also check that I left my ",
+        "userDefined": false
+      },
+      {
+        "text": "office",
+        "meta": "@place",
+        "alias": "place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "6cbe7449-afc7-4347-a7f7-5ee27fc1e30c",
+    "data": [
+      {
+        "text": "add",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "trigger",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " of leaving ",
+        "userDefined": false
+      },
+      {
+        "text": "home",
+        "meta": "@place",
+        "alias": "place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "6190ff99-8365-476c-a07e-643d44e01d34",
+    "data": [
+      {
+        "text": "adjust the ",
+        "userDefined": false
+      },
+      {
+        "text": "trigger",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " to when I leave ",
+        "userDefined": false
+      },
+      {
+        "text": "home",
+        "meta": "@place",
+        "alias": "place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "0ea55013-d896-48a9-959b-c55718f147aa",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " it to be ",
+        "userDefined": false
+      },
+      {
+        "text": "triggered",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " if I quit the ",
+        "userDefined": false
+      },
+      {
+        "text": "bedroom",
+        "meta": "@place",
+        "alias": "place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "10d15840-3dae-4249-b589-4d8b5ed58ba0",
+    "data": [
+      {
+        "text": "when I leave the ",
+        "userDefined": false
+      },
+      {
+        "text": "office",
+        "meta": "@place",
+        "alias": "place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "0386ed0c-e9d6-4133-8166-28beaf638f7e",
+    "data": [
+      {
+        "text": "modify",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "trigger",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " to when I exit the ",
+        "userDefined": false
+      },
+      {
+        "text": "garage",
+        "meta": "@place",
+        "alias": "place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "eedb99ad-840f-4aca-8df1-250da7ec7d37",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " it to when I get out of my ",
+        "userDefined": false
+      },
+      {
+        "text": "office",
+        "meta": "@place",
+        "alias": "place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "f4ae3997-0225-46ce-b962-178c3f2ea710",
+    "data": [
+      {
+        "text": "if I leave ",
+        "userDefined": false
+      },
+      {
+        "text": "home",
+        "meta": "@place",
+        "alias": "place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  }
+]

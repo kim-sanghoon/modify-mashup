@@ -1,0 +1,142 @@
+[
+  {
+    "id": "2c0b277c-af26-41fa-897d-66a18e38680d",
+    "data": [
+      {
+        "text": "why the humidity level is low",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "d5a0aeab-421f-4f2c-b284-397f4f25885a",
+    "data": [
+      {
+        "text": "why is it so dry",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "ae6ceb72-b95d-4b27-9e2b-75f24a541bc1",
+    "data": [
+      {
+        "text": "it\u0027s really dry",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "fea96cae-38f6-471b-afec-8825863c7b40",
+    "data": [
+      {
+        "text": "I want more humid air",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "bad5f6ef-47df-4893-9b54-c04eb18f3699",
+    "data": [
+      {
+        "text": "the ",
+        "userDefined": false
+      },
+      {
+        "text": "dehumidifier",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": true
+      },
+      {
+        "text": " should stop working",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "c2c664ba-363b-4c4d-9f4b-3144fd5f4445",
+    "data": [
+      {
+        "text": "the air needs more moisture",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "6a55d6bd-8801-40bf-862d-c521b0ec836b",
+    "data": [
+      {
+        "text": "dry weather",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "71011cc2-ab06-45cc-9583-615a1de11dd8",
+    "data": [
+      {
+        "text": "I need more humidity",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "0eb19508-8037-4f7a-9586-491dd8f689a1",
+    "data": [
+      {
+        "text": "my skin is so dry now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "af3545a8-9c4d-4008-a2fd-60d19d46ce1e",
+    "data": [
+      {
+        "text": "the air is too dry",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  }
+]

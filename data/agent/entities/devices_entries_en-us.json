@@ -1,0 +1,140 @@
+[
+  {
+    "value": "alarm",
+    "synonyms": [
+      "alarm",
+      "notification",
+      "alarms",
+      "alarming sound"
+    ]
+  },
+  {
+    "value": "dish washer",
+    "synonyms": [
+      "dish washer",
+      "dishwasher"
+    ]
+  },
+  {
+    "value": "air purifier",
+    "synonyms": [
+      "air purifier",
+      "purifier"
+    ]
+  },
+  {
+    "value": "washing machine",
+    "synonyms": [
+      "washing machine",
+      "washer"
+    ]
+  },
+  {
+    "value": "vacuum",
+    "synonyms": [
+      "vacuum",
+      "vacuum cleaner",
+      "vacuum machine"
+    ]
+  },
+  {
+    "value": "heater",
+    "synonyms": [
+      "heater",
+      "heating system"
+    ]
+  },
+  {
+    "value": "dehumidifier",
+    "synonyms": [
+      "dehumidifier"
+    ]
+  },
+  {
+    "value": "humidifier",
+    "synonyms": [
+      "humidifier"
+    ]
+  },
+  {
+    "value": "watering",
+    "synonyms": [
+      "watering",
+      "water valve",
+      "watering system"
+    ]
+  },
+  {
+    "value": "air conditioner",
+    "synonyms": [
+      "air conditioner",
+      "cooler",
+      "cooling system",
+      "air-con"
+    ]
+  },
+  {
+    "value": "window",
+    "synonyms": [
+      "window",
+      "windows",
+      "window frame",
+      "windowframe"
+    ]
+  },
+  {
+    "value": "drying machine",
+    "synonyms": [
+      "dryer",
+      "drying machine"
+    ]
+  },
+  {
+    "value": "security system",
+    "synonyms": [
+      "security system",
+      "doorlock",
+      "door lock",
+      "surveillance",
+      "surveillance system",
+      "CCTV",
+      "security camera",
+      "security"
+    ]
+  },
+  {
+    "value": "light",
+    "synonyms": [
+      "light",
+      "light bulbs",
+      "lightings",
+      "lighting",
+      "lighting system",
+      "lamp"
+    ]
+  },
+  {
+    "value": "audio",
+    "synonyms": [
+      "audio",
+      "music player",
+      "speaker",
+      "speakers",
+      "music",
+      "hi-fi"
+    ]
+  },
+  {
+    "value": "tv",
+    "synonyms": [
+      "tv",
+      "television",
+      "tv set",
+      "tv sets",
+      "tv screen",
+      "TV",
+      "TVs",
+      "monitor"
+    ]
+  }
+]

@@ -1,0 +1,277 @@
+[
+  {
+    "id": "5692c131-160e-4e17-a529-93dd91e60180",
+    "data": [
+      {
+        "text": "when the presence is detected in my ",
+        "userDefined": false
+      },
+      {
+        "text": "office",
+        "meta": "@place",
+        "alias": "place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "a2de5e95-4eb9-40cc-a4b2-9d7d2b071945",
+    "data": [
+      {
+        "text": "Let me know if someone comes to my ",
+        "userDefined": false
+      },
+      {
+        "text": "office",
+        "meta": "@place",
+        "alias": "place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "0754e8dd-96e9-40bb-a1cd-5b98977b1ae7",
+    "data": [
+      {
+        "text": "please check if someone is in the ",
+        "userDefined": false
+      },
+      {
+        "text": "living room",
+        "meta": "@place",
+        "alias": "place",
+        "userDefined": false
+      },
+      {
+        "text": " while I\u0027m on travel",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "148cbd32-0b23-41e3-9cd0-43647cadcb9c",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "triggering condition",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " to when someone is detected in my ",
+        "userDefined": false
+      },
+      {
+        "text": "garage",
+        "meta": "@place",
+        "alias": "place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "6e3ba006-78d8-403e-b5ea-0e22879918c4",
+    "data": [
+      {
+        "text": "if someone is detected to be at ",
+        "userDefined": false
+      },
+      {
+        "text": "home",
+        "meta": "@place",
+        "alias": "place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "b8964001-b6ac-454e-aee8-0dd57f670da8",
+    "data": [
+      {
+        "text": "when a presence is detected while I\u0027m on leave",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "d4140238-9795-4c48-900d-025fadbb9b1a",
+    "data": [
+      {
+        "text": "modify",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " it to when the ",
+        "userDefined": false
+      },
+      {
+        "text": "office",
+        "meta": "@place",
+        "alias": "place",
+        "userDefined": false
+      },
+      {
+        "text": " presence sensor is activated",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "cec91cc0-fe2f-49f0-ad3c-c549bfe77e3d",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " it to if a presence is detected",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "e87b62b5-d70f-4a56-8e64-f838c70ea529",
+    "data": [
+      {
+        "text": "make it activated when a presence is detected",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "dfc2eb6b-1d9f-4778-b808-ab34951bb960",
+    "data": [
+      {
+        "text": "if a presence sensor is activated while I\u0027m not at ",
+        "userDefined": false
+      },
+      {
+        "text": "home",
+        "meta": "@place",
+        "alias": "place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "8cefa21a-a6b4-4304-89fd-7f1477573322",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "trigger",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " to when someone is at ",
+        "userDefined": false
+      },
+      {
+        "text": "home",
+        "meta": "@place",
+        "alias": "place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "ce6ee3b2-c50c-477d-9883-dbc8123614a3",
+    "data": [
+      {
+        "text": "when a presence is detected in the ",
+        "userDefined": false
+      },
+      {
+        "text": "living room",
+        "meta": "@place",
+        "alias": "place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "0f00c72c-b5c8-46ab-8d87-a78b7f7b649d",
+    "data": [
+      {
+        "text": "if a presence is detected",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  }
+]

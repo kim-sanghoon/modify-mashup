@@ -1,0 +1,292 @@
+[
+  {
+    "id": "a785cd5f-9e7f-4a6f-a669-9bc1438dcd55",
+    "data": [
+      {
+        "text": "air condition is bad",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "a4370fb8-2649-49b1-b4f9-bb0ab9122c6c",
+    "data": [
+      {
+        "text": "air is bad",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "94a83f9a-7279-4f36-bfd7-7e66eae7676b",
+    "data": [
+      {
+        "text": "the air quality is not quite good ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "c6fd0284-20b1-433d-afa1-9c2baab9dff4",
+    "data": [
+      {
+        "text": "I mean the air quality is not good",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "7d4c27a8-b41f-43b1-82f8-28b9f1feef89",
+    "data": [
+      {
+        "text": "why low air quality",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "62619c5a-53a4-452f-ba55-49e4b2c376fa",
+    "data": [
+      {
+        "text": "why is the air quality low",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "c3eecda1-9850-4763-9419-775c7dd51723",
+    "data": [
+      {
+        "text": "why is the air so dirty",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "3b4c3ae9-5b12-41e3-b8ff-9e749ca62f35",
+    "data": [
+      {
+        "text": "I want to breathe clean air",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "65551e78-8568-4fd4-981a-2b7d70ec6f43",
+    "data": [
+      {
+        "text": "the air\u0027s dirty",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "ce7f9178-7890-4190-a195-9cd4673da748",
+    "data": [
+      {
+        "text": "air cleaning is needed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "2b74c5ef-744d-47d1-82fd-0d6203de4b64",
+    "data": [
+      {
+        "text": "the air is not clean",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "8098cdab-d78f-4cd9-87e0-584be24b9af8",
+    "data": [
+      {
+        "text": "I need fresh air",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "1f49e082-f3b3-4012-922d-bcd4a12e9f15",
+    "data": [
+      {
+        "text": "I can\u0027t breathe",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "b7b0562a-3a2b-48f0-bacc-76807d6c1158",
+    "data": [
+      {
+        "text": "what\u0027s that smell",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "9957d92b-7ec0-48fc-81aa-325a937a08c9",
+    "data": [
+      {
+        "text": "the air quality is too low",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "ed987160-d0f0-4545-8200-1a88f4f0a616",
+    "data": [
+      {
+        "text": "I feel disgusting smell",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "f7783ae5-dc84-434a-9296-fb02b6a0e51e",
+    "data": [
+      {
+        "text": "the air quality is bad",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "e3ff8926-d140-4c8f-940e-c9a643267d58",
+    "data": [
+      {
+        "text": "the room air quality is too bad",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "19e43579-0f73-4c0a-913d-f6de2c99f90d",
+    "data": [
+      {
+        "text": "I feel bad on air",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "7c67a777-02ff-4c3c-bc52-c5e0179fd4b0",
+    "data": [
+      {
+        "text": "air status is not that good",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "041ef2e7-273e-416a-a9e5-8f6158102a9f",
+    "data": [
+      {
+        "text": "air feels not good",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "e8752bbb-8f8c-4997-bb8f-438b46b31f36",
+    "data": [
+      {
+        "text": "air quality is not good",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "value": "append",
+    "synonyms": [
+      "add",
+      "attach",
+      "append",
+      "include"
+    ]
+  },
+  {
+    "value": "replace",
+    "synonyms": [
+      "change",
+      "replace",
+      "alter",
+      "edit",
+      "modify"
+    ]
+  }
+]

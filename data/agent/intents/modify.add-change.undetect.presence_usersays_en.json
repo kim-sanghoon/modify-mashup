@@ -1,0 +1,265 @@
+[
+  {
+    "id": "e4d2efa2-31cf-4a0c-aa12-47b6e0bab9e7",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "trigger",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " to when no presence is detected in the ",
+        "userDefined": false
+      },
+      {
+        "text": "living room",
+        "meta": "@place",
+        "alias": "place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6a496031-2d32-4696-8aa1-31e45720906a",
+    "data": [
+      {
+        "text": "if no one is detected at ",
+        "userDefined": false
+      },
+      {
+        "text": "home",
+        "meta": "@place",
+        "alias": "place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3493ff79-d2cf-4477-9787-fc92716bdf6d",
+    "data": [
+      {
+        "text": "if the ",
+        "userDefined": false
+      },
+      {
+        "text": "office",
+        "meta": "@place",
+        "alias": "place",
+        "userDefined": false
+      },
+      {
+        "text": " presence sensor is deactivated while I\u0027m not in there",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7008e7d9-811a-4520-b407-97f8773e5bb7",
+    "data": [
+      {
+        "text": "when a presence is no longer detected while I\u0027m on leave",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9ba9f83e-a4d0-4690-a590-b89ca063a33a",
+    "data": [
+      {
+        "text": "modify",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " it to when the ",
+        "userDefined": false
+      },
+      {
+        "text": "office",
+        "meta": "@place",
+        "alias": "place",
+        "userDefined": false
+      },
+      {
+        "text": " presence sensor is deactivated",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7461673c-48b9-46e5-b038-2ac803c52f8f",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " it to if a presence is not detected",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "09ad80b6-e604-410f-87f5-95c86da81547",
+    "data": [
+      {
+        "text": "make it activated when a presence is no longer detected",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b3280f31-5156-4f6b-9542-7479085f8cf5",
+    "data": [
+      {
+        "text": "when the presence sensor is no longer detected",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c71a7d65-6590-46ee-9940-c2dfd5fa8304",
+    "data": [
+      {
+        "text": "if a presence sensor is deactivated while I\u0027m not at ",
+        "userDefined": false
+      },
+      {
+        "text": "home",
+        "meta": "@place",
+        "alias": "place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "23ae0a15-12e1-4517-a40c-109183fdc210",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "trigger",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " to when no one is at ",
+        "userDefined": false
+      },
+      {
+        "text": "home",
+        "meta": "@place",
+        "alias": "place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "57b73da0-7663-495d-bc42-1e98fa58db59",
+    "data": [
+      {
+        "text": "when a presence is no longer detected in my ",
+        "userDefined": false
+      },
+      {
+        "text": "office",
+        "meta": "@place",
+        "alias": "place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "dbefa943-dc35-488f-add7-d2bc90620d8f",
+    "data": [
+      {
+        "text": "if a presence is not detected",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "06877f70-a804-479d-ba39-0cb5a97b76d9",
+    "data": [
+      {
+        "text": "if a presence is no longer detected",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,85 @@
+{
+  "id": "0065c352-678f-4479-8783-0f30a86a47dd",
+  "name": "modify.followup.all-devices",
+  "auto": true,
+  "contexts": [
+    "search",
+    "implicature",
+    "all-devices-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "modify.followup.all-devices",
+      "affectedContexts": [
+        {
+          "name": "search",
+          "lifespan": 5
+        },
+        {
+          "name": "implicature",
+          "lifespan": 5
+        },
+        {
+          "name": "all-devices-followup",
+          "lifespan": 0
+        }
+      ],
+      "parameters": [
+        {
+          "id": "c6d1415e-0069-4dca-8f4d-73d535461b54",
+          "name": "network-devices",
+          "required": false,
+          "dataType": "@network-devices",
+          "value": "$network-devices",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "4a2cf934-79c9-430f-9854-26f6b7b9d179",
+          "name": "devices",
+          "required": false,
+          "dataType": "@devices",
+          "value": "$devices",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en-us",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

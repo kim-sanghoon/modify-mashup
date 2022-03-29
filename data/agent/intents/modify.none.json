@@ -1,0 +1,92 @@
+{
+  "id": "589dcc58-4387-40b8-a419-9fe134b34a01",
+  "name": "modify.none",
+  "auto": true,
+  "contexts": [
+    "implicature",
+    "search"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "implicature",
+          "lifespan": 5
+        },
+        {
+          "name": "search",
+          "lifespan": 5
+        },
+        {
+          "name": "none-params",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "c4212374-44ba-444a-9d6a-6b2b862ea09b",
+          "name": "trigger-action-none",
+          "required": false,
+          "dataType": "@trigger-action",
+          "value": "$trigger-action-none",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "5a51fe28-c41d-4f1f-83a6-aa5484a5c65d",
+          "name": "add-change-none",
+          "required": false,
+          "dataType": "@add-change",
+          "value": "$add-change-none",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sure, how do you want to edit it?",
+            "Got it, what do you want to change it into?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en-us",
+          "speech": [
+            "Sure, how do you want to edit it?",
+            "Got it, what do you want to change it into?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

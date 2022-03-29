@@ -1,0 +1,48 @@
+[
+  {
+    "value": "sunny",
+    "synonyms": [
+      "sunny",
+      "clear"
+    ]
+  },
+  {
+    "value": "cloudy",
+    "synonyms": [
+      "cloudy",
+      "partly cloudly",
+      "cloud"
+    ]
+  },
+  {
+    "value": "rainy",
+    "synonyms": [
+      "rainy",
+      "raining",
+      "rain",
+      "storm",
+      "thunderstorm"
+    ]
+  },
+  {
+    "value": "snowy",
+    "synonyms": [
+      "snowy",
+      "snow"
+    ]
+  },
+  {
+    "value": "windy",
+    "synonyms": [
+      "windy",
+      "wind"
+    ]
+  },
+  {
+    "value": "foggy",
+    "synonyms": [
+      "foggy",
+      "fog"
+    ]
+  }
+]

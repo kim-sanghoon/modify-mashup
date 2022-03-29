@@ -1,0 +1,9 @@
+{
+  "id": "a6bca898-6307-4011-abc6-eb46b59d9787",
+  "name": "trigger-action",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

@@ -1,0 +1,319 @@
+[
+  {
+    "id": "4b5c4167-63f6-4d8a-83d3-275158bee66e",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "trigger",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " to when I got called",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "692f6c17-9699-4106-96ff-52152449320a",
+    "data": [
+      {
+        "text": "start the ",
+        "userDefined": false
+      },
+      {
+        "text": "action",
+        "userDefined": false
+      },
+      {
+        "text": " only when I receive a call",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "9ec929a4-ebc1-4e7a-9849-3a46131f1d82",
+    "data": [
+      {
+        "text": "modify",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " it to if I get a call from my ",
+        "userDefined": false
+      },
+      {
+        "text": "family",
+        "meta": "@person",
+        "alias": "person",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "f0a6e30d-3b68-428e-b21b-3dddbb45b283",
+    "data": [
+      {
+        "text": "whenever I get a call",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "72243b84-3b1e-4ea7-9b1f-73047bcc628d",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " it to if I receive a phone call",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "63e8b556-3705-4799-b61f-49a438b1b15d",
+    "data": [
+      {
+        "text": "modify",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "trigger",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " to if I get a call from my ",
+        "userDefined": false
+      },
+      {
+        "text": "boss",
+        "meta": "@person",
+        "alias": "person",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "417875cb-282b-4c5b-b913-b00e021059ee",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " it to when I answer the phone from my ",
+        "userDefined": false
+      },
+      {
+        "text": "mom",
+        "meta": "@person",
+        "alias": "person",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "888e5179-dddd-4cfb-8f6f-c27329ad83ba",
+    "data": [
+      {
+        "text": "when I get a call from ",
+        "userDefined": false
+      },
+      {
+        "text": "school",
+        "meta": "@person",
+        "alias": "person",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "fb4044e0-92b6-4825-90d7-0fd1253c5a9b",
+    "data": [
+      {
+        "text": "if ",
+        "userDefined": false
+      },
+      {
+        "text": "someone",
+        "userDefined": true
+      },
+      {
+        "text": " calls me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "859b4c99-28bc-412e-9c1f-aa74ac1b520e",
+    "data": [
+      {
+        "text": "set a ",
+        "userDefined": false
+      },
+      {
+        "text": "trigger",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " to if I receive a call from ",
+        "userDefined": false
+      },
+      {
+        "text": "office",
+        "meta": "@person",
+        "alias": "person",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "7dbd1d2a-165c-4e48-b92b-7cdcf7d0352d",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "trigger",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " to when I get a call from ",
+        "userDefined": false
+      },
+      {
+        "text": "anybody",
+        "meta": "@person",
+        "alias": "person",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "a339a474-f497-46f1-9c6c-398589cc7c25",
+    "data": [
+      {
+        "text": "if I got a ",
+        "userDefined": false
+      },
+      {
+        "text": "phone",
+        "userDefined": false
+      },
+      {
+        "text": " call from my ",
+        "userDefined": false
+      },
+      {
+        "text": "professor",
+        "meta": "@person",
+        "alias": "person",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "754f175e-246e-4bcf-ace9-e112db454a46",
+    "data": [
+      {
+        "text": "when I receive a call from my ",
+        "userDefined": false
+      },
+      {
+        "text": "mom",
+        "meta": "@person",
+        "alias": "person",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  }
+]

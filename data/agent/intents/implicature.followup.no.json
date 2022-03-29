@@ -1,0 +1,47 @@
+{
+  "id": "d6fa0c8e-9824-40bf-92c7-2c76b187b18c",
+  "name": "implicature.followup.no",
+  "auto": true,
+  "contexts": [
+    "implicature",
+    "implicature-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "implicature.followup.no",
+      "affectedContexts": [
+        {
+          "name": "implicature-followup",
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en-us",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

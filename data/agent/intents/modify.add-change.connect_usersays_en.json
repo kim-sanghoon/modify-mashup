@@ -1,0 +1,389 @@
+[
+  {
+    "id": "91c634d2-5ddb-4ce9-9958-c48bfc19a3a6",
+    "data": [
+      {
+        "text": "When I leave, connect to the ",
+        "userDefined": false
+      },
+      {
+        "text": "computing",
+        "meta": "@network-devices",
+        "alias": "network-devices",
+        "userDefined": false
+      },
+      {
+        "text": " device instead of turning on the IoT device",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "41d35683-ea77-4048-a2f5-8d8946ed9229",
+    "data": [
+      {
+        "text": "connect to the device",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b216f4d3-2d2b-44ad-b059-919a908522d4",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " to if ",
+        "userDefined": false
+      },
+      {
+        "text": "pc",
+        "meta": "@network-devices",
+        "alias": "network-devices",
+        "userDefined": false
+      },
+      {
+        "text": " connection is started",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "87138fc4-0887-4073-9ccf-db27c8693710",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " it to when the ",
+        "userDefined": false
+      },
+      {
+        "text": "computer",
+        "meta": "@network-devices",
+        "alias": "network-devices",
+        "userDefined": false
+      },
+      {
+        "text": " is connected",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0b4c7baa-1f21-4e08-9ba7-7e5154b83569",
+    "data": [
+      {
+        "text": "when the ",
+        "userDefined": false
+      },
+      {
+        "text": "server",
+        "meta": "@network-devices",
+        "alias": "network-devices",
+        "userDefined": false
+      },
+      {
+        "text": " connection is made",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c11b118e-6ae7-4662-8805-c90ff70d3b1e",
+    "data": [
+      {
+        "text": "if the link with my ",
+        "userDefined": false
+      },
+      {
+        "text": "laptop",
+        "meta": "@network-devices",
+        "alias": "network-devices",
+        "userDefined": false
+      },
+      {
+        "text": " was established",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "466246f7-eeba-46c8-b819-1b30fd660137",
+    "data": [
+      {
+        "text": "if the connection to my ",
+        "userDefined": false
+      },
+      {
+        "text": "office",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "computer",
+        "meta": "@network-devices",
+        "alias": "network-devices",
+        "userDefined": false
+      },
+      {
+        "text": " is made",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "82f69be9-9963-428f-8536-2f50ba1369e8",
+    "data": [
+      {
+        "text": "when the ",
+        "userDefined": false
+      },
+      {
+        "text": "server",
+        "meta": "@network-devices",
+        "alias": "network-devices",
+        "userDefined": false
+      },
+      {
+        "text": " is connected",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1a4bbb2c-91e7-4518-bf2a-24f621415c33",
+    "data": [
+      {
+        "text": "if the ",
+        "userDefined": false
+      },
+      {
+        "text": "server",
+        "meta": "@network-devices",
+        "alias": "network-devices",
+        "userDefined": false
+      },
+      {
+        "text": " is connected",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5e5d0791-4610-4c21-bfd7-fc1822ab1ca0",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "trigger",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " to if my ",
+        "userDefined": false
+      },
+      {
+        "text": "mobile phone",
+        "meta": "@network-devices",
+        "alias": "network-devices",
+        "userDefined": false
+      },
+      {
+        "text": " is connected",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "988ad034-3ce2-4ab1-babf-f39bd6ccea46",
+    "data": [
+      {
+        "text": "refine the ",
+        "userDefined": false
+      },
+      {
+        "text": "trigger",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " to when my ",
+        "userDefined": false
+      },
+      {
+        "text": "computer",
+        "meta": "@network-devices",
+        "alias": "network-devices",
+        "userDefined": false
+      },
+      {
+        "text": " is connected",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e4f87fdb-2124-40da-9327-fd6f5c347e58",
+    "data": [
+      {
+        "text": "modify",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "action",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " to connect the ",
+        "userDefined": false
+      },
+      {
+        "text": "pc",
+        "meta": "@network-devices",
+        "alias": "network-devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3f9c8289-d24c-4c82-a349-f1d92e632c7a",
+    "data": [
+      {
+        "text": "make a connection to the ",
+        "userDefined": false
+      },
+      {
+        "text": "computer",
+        "meta": "@network-devices",
+        "alias": "network-devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6d9f04ca-4933-4620-a52a-90784b536b0e",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " it to establish a connection to my ",
+        "userDefined": false
+      },
+      {
+        "text": "mobile phone",
+        "meta": "@network-devices",
+        "alias": "network-devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5a3bd76e-9537-4e26-b684-8583d17b7783",
+    "data": [
+      {
+        "text": "connect to my ",
+        "userDefined": false
+      },
+      {
+        "text": "server",
+        "meta": "@network-devices",
+        "alias": "network-devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

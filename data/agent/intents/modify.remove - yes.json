@@ -1,0 +1,62 @@
+{
+  "id": "689eff6d-5b68-4bab-9fe3-0a586a28e064",
+  "parentId": "bf57b93c-b9d7-4f21-ba4a-bda485ded6c3",
+  "rootParentId": "bf57b93c-b9d7-4f21-ba4a-bda485ded6c3",
+  "name": "modify.remove - yes",
+  "auto": true,
+  "contexts": [
+    "implicature",
+    "search",
+    "modifyremove-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "modify.remove.yes",
+      "affectedContexts": [
+        {
+          "name": "modifyremove-followup",
+          "lifespan": 0
+        },
+        {
+          "name": "implicature",
+          "lifespan": 5
+        },
+        {
+          "name": "search",
+          "lifespan": 5
+        },
+        {
+          "name": "finish",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en-us",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

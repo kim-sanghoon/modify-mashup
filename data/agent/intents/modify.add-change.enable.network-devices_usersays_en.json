@@ -1,0 +1,540 @@
+[
+  {
+    "id": "9ca9eb1a-f102-4b3c-98c4-f73aca311873",
+    "data": [
+      {
+        "text": "After receiving a message, turn on ",
+        "userDefined": false
+      },
+      {
+        "text": "computer",
+        "meta": "@network-devices",
+        "alias": "network-devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d6498986-a0c3-40c1-8184-f8bc3de03ba4",
+    "data": [
+      {
+        "text": "on every Monday, turn on the ",
+        "userDefined": false
+      },
+      {
+        "text": "computer",
+        "meta": "@network-devices",
+        "alias": "network-devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6ebb5d5c-98b0-4dc7-b927-946184b52632",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "action",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " to turning on the ",
+        "userDefined": false
+      },
+      {
+        "text": "computer",
+        "meta": "@network-devices",
+        "alias": "network-devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5f9c7b8c-1a7f-4f7a-b548-14b5c9425f53",
+    "data": [
+      {
+        "text": "also ",
+        "userDefined": false
+      },
+      {
+        "text": "add",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " turning on my ",
+        "userDefined": false
+      },
+      {
+        "text": "desktop computer",
+        "meta": "@network-devices",
+        "alias": "network-devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e7e41170-4e70-45c0-95fb-30528ce2f5c2",
+    "data": [
+      {
+        "text": "modify",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " it to when the desktop ",
+        "userDefined": false
+      },
+      {
+        "text": "pc",
+        "meta": "@network-devices",
+        "alias": "network-devices",
+        "userDefined": false
+      },
+      {
+        "text": " is on",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4c972237-3d56-436b-975a-a4724501406c",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " it to if the ",
+        "userDefined": false
+      },
+      {
+        "text": "server",
+        "meta": "@network-devices",
+        "alias": "network-devices",
+        "userDefined": false
+      },
+      {
+        "text": " is working",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bd8dcf37-96d5-4f6d-8a74-bf4d69e621f7",
+    "data": [
+      {
+        "text": "if the ",
+        "userDefined": false
+      },
+      {
+        "text": "computer",
+        "meta": "@network-devices",
+        "alias": "network-devices",
+        "userDefined": false
+      },
+      {
+        "text": " started working",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0fd0b293-f542-48e5-a8f9-16f62de1e669",
+    "data": [
+      {
+        "text": "modify",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "trigger",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " to if the ",
+        "userDefined": false
+      },
+      {
+        "text": "server",
+        "meta": "@network-devices",
+        "alias": "network-devices",
+        "userDefined": false
+      },
+      {
+        "text": " is powered on",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "93c2c270-2324-431b-8ce0-78196266db35",
+    "data": [
+      {
+        "text": "edit",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "trigger",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " to if the ",
+        "userDefined": false
+      },
+      {
+        "text": "computer",
+        "meta": "@network-devices",
+        "alias": "network-devices",
+        "userDefined": false
+      },
+      {
+        "text": " is turned on",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ba8111f3-f064-4036-b660-a773612242ae",
+    "data": [
+      {
+        "text": "if my ",
+        "userDefined": false
+      },
+      {
+        "text": "laptop",
+        "meta": "@network-devices",
+        "alias": "network-devices",
+        "userDefined": false
+      },
+      {
+        "text": " is on",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bd0eab87-3b40-4950-930f-e983f46d9b02",
+    "data": [
+      {
+        "text": "if my ",
+        "userDefined": false
+      },
+      {
+        "text": "mobile phone",
+        "meta": "@network-devices",
+        "alias": "network-devices",
+        "userDefined": false
+      },
+      {
+        "text": " is not working",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "af4a8a7c-da48-44a0-8f48-6f9314c481d0",
+    "data": [
+      {
+        "text": "when my ",
+        "userDefined": false
+      },
+      {
+        "text": "workstation",
+        "meta": "@network-devices",
+        "alias": "network-devices",
+        "userDefined": false
+      },
+      {
+        "text": " is turned on",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6f881c37-1cb1-4db4-b4f0-e2028664cae8",
+    "data": [
+      {
+        "text": "turn on my ",
+        "userDefined": false
+      },
+      {
+        "text": "phone",
+        "meta": "@network-devices",
+        "alias": "network-devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "98634618-c604-4e1b-b612-3b474cc99735",
+    "data": [
+      {
+        "text": "add",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " power the ",
+        "userDefined": false
+      },
+      {
+        "text": "computer",
+        "meta": "@network-devices",
+        "alias": "network-devices",
+        "userDefined": false
+      },
+      {
+        "text": " on",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "413643d3-32f3-4195-817c-1860cf75e740",
+    "data": [
+      {
+        "text": "attach",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " enabling the ",
+        "userDefined": false
+      },
+      {
+        "text": "laptop",
+        "meta": "@network-devices",
+        "alias": "network-devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "374f002b-f043-4c9a-bf68-6af0b974c6d4",
+    "data": [
+      {
+        "text": "refine the ",
+        "userDefined": false
+      },
+      {
+        "text": "trigger",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " to when the ",
+        "userDefined": false
+      },
+      {
+        "text": "lab server",
+        "meta": "@network-devices",
+        "alias": "network-devices",
+        "userDefined": false
+      },
+      {
+        "text": " is turned on",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "be99cc3b-7a62-4d4a-9ca2-8298ecdd5d10",
+    "data": [
+      {
+        "text": "modify",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "action",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " to turn on the ",
+        "userDefined": false
+      },
+      {
+        "text": "smartphone",
+        "meta": "@network-devices",
+        "alias": "network-devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bf37876e-1f18-47ce-a48e-501cd2cf220d",
+    "data": [
+      {
+        "text": "power on the ",
+        "userDefined": false
+      },
+      {
+        "text": "tablet",
+        "meta": "@network-devices",
+        "alias": "network-devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "394708ed-b16c-4387-aba6-8a4fbc08fc5f",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " it to start my ",
+        "userDefined": false
+      },
+      {
+        "text": "server",
+        "meta": "@network-devices",
+        "alias": "network-devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6e72a53b-ddc3-4272-855c-33a607787326",
+    "data": [
+      {
+        "text": "turn the ",
+        "userDefined": false
+      },
+      {
+        "text": "computer",
+        "meta": "@network-devices",
+        "alias": "network-devices",
+        "userDefined": false
+      },
+      {
+        "text": " on",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

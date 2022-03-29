@@ -1,0 +1,209 @@
+[
+  {
+    "id": "691777b1-ce27-4604-966f-97ed93cd2083",
+    "data": [
+      {
+        "text": "modify",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " it to if I send a message to my ",
+        "userDefined": false
+      },
+      {
+        "text": "mom",
+        "meta": "@person",
+        "alias": "person",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "51d553a5-f683-44a9-bd1c-598e79ff3add",
+    "data": [
+      {
+        "text": "make it ",
+        "userDefined": false
+      },
+      {
+        "text": "triggered",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " whenever I text a message to him",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "69775ec6-8607-48ed-9d38-bfb2929ae925",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " it to if I sends a text to my ",
+        "userDefined": false
+      },
+      {
+        "text": "office",
+        "meta": "@person",
+        "alias": "person",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b3e05eb8-2131-4101-9df0-2c9153b91931",
+    "data": [
+      {
+        "text": "when I text my ",
+        "userDefined": false
+      },
+      {
+        "text": "mate",
+        "meta": "@person",
+        "alias": "person",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "230d569a-f682-4f0c-ab8f-5b68ca9d3957",
+    "data": [
+      {
+        "text": "when I send a message",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b0af809d-76a3-49fb-b8d3-1f1032a9ed18",
+    "data": [
+      {
+        "text": "if I send message to ",
+        "userDefined": false
+      },
+      {
+        "text": "office",
+        "meta": "@person",
+        "alias": "person",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b087f9f2-30dc-4c28-a84f-e362083a6105",
+    "data": [
+      {
+        "text": "set a ",
+        "userDefined": false
+      },
+      {
+        "text": "trigger",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " of when I sent a message to my ",
+        "userDefined": false
+      },
+      {
+        "text": "dad",
+        "meta": "@person",
+        "alias": "person",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fd522869-38c4-47c5-a4d7-bfbe61550286",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "trigger",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " to if I chat with my ",
+        "userDefined": false
+      },
+      {
+        "text": "friends",
+        "meta": "@person",
+        "alias": "person",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8d209bb3-1a9a-4e13-bd6d-646482a32024",
+    "data": [
+      {
+        "text": "when I send a message to my ",
+        "userDefined": false
+      },
+      {
+        "text": "mother",
+        "meta": "@person",
+        "alias": "person",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

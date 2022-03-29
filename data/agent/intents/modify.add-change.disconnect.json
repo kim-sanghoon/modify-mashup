@@ -1,0 +1,123 @@
+{
+  "id": "7d6fd652-2bb2-4fa0-a3cf-d97c28c8a80a",
+  "name": "modify.add-change.disconnect",
+  "auto": true,
+  "contexts": [
+    "implicature",
+    "search"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "modify.disconnect",
+      "affectedContexts": [
+        {
+          "name": "implicature",
+          "lifespan": 5
+        },
+        {
+          "name": "search",
+          "lifespan": 5
+        },
+        {
+          "name": "modify-params",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "46cd5003-d893-4bb8-b6af-1ab45b7e2f4e",
+          "name": "network-devices",
+          "required": true,
+          "dataType": "@network-devices",
+          "value": "$network-devices",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is the name of the device?"
+            },
+            {
+              "lang": "en",
+              "value": "Which device do you want to check the connection to?"
+            },
+            {
+              "lang": "en",
+              "value": "Which device do you want to check?"
+            },
+            {
+              "lang": "en-us",
+              "value": "What is the name of the device?"
+            },
+            {
+              "lang": "en-us",
+              "value": "Which device do you want to check the connection to?"
+            },
+            {
+              "lang": "en-us",
+              "value": "Which device do you want to check?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "181c3d05-7165-4305-b1b0-952953fdcf6c",
+          "name": "trigger-action",
+          "required": false,
+          "dataType": "@trigger-action",
+          "value": "$trigger-action",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "4f056005-ecbf-4cf3-95e2-90d2b83a862a",
+          "name": "add-change",
+          "required": false,
+          "dataType": "@add-change",
+          "value": "$add-change",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en-us",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

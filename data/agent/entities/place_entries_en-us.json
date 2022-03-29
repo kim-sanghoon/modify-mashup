@@ -1,0 +1,69 @@
+[
+  {
+    "value": "home",
+    "synonyms": [
+      "home",
+      "my house",
+      "house",
+      "apartment",
+      "residency"
+    ]
+  },
+  {
+    "value": "school",
+    "synonyms": [
+      "school",
+      "university",
+      "college",
+      "institution"
+    ]
+  },
+  {
+    "value": "office",
+    "synonyms": [
+      "office",
+      "workplace",
+      "workspace",
+      "lab",
+      "laboratory",
+      "office room",
+      "work"
+    ]
+  },
+  {
+    "value": "garage",
+    "synonyms": [
+      "garage",
+      "car port",
+      "basement"
+    ]
+  },
+  {
+    "value": "living room",
+    "synonyms": [
+      "living room",
+      "lounge",
+      "front room",
+      "family room",
+      "TV room"
+    ]
+  },
+  {
+    "value": "bedroom",
+    "synonyms": [
+      "bedroom",
+      "bed room",
+      "master bedroom"
+    ]
+  },
+  {
+    "value": "kitchen",
+    "synonyms": [
+      "kitchen",
+      "dining room",
+      "cooking area",
+      "cookery",
+      "dining place"
+    ]
+  }
+]

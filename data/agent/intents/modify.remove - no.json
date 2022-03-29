@@ -1,0 +1,60 @@
+{
+  "id": "8e213c1c-cb66-470e-b6e6-499348ddfe6d",
+  "parentId": "bf57b93c-b9d7-4f21-ba4a-bda485ded6c3",
+  "rootParentId": "bf57b93c-b9d7-4f21-ba4a-bda485ded6c3",
+  "name": "modify.remove - no",
+  "auto": true,
+  "contexts": [
+    "implicature",
+    "search",
+    "modifyremove-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "modify.remove.no",
+      "affectedContexts": [
+        {
+          "name": "modifyremove-followup",
+          "lifespan": 0
+        },
+        {
+          "name": "finish",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Aborted. How would you like to modify it?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en-us",
+          "speech": [
+            "Aborted. How would you like to modify it?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

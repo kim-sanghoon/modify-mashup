@@ -1,0 +1,60 @@
+[
+  {
+    "value": "computer",
+    "synonyms": [
+      "computer",
+      "pc",
+      "Mac",
+      "desktop computer",
+      "PC",
+      "personal computer"
+    ]
+  },
+  {
+    "value": "laptop",
+    "synonyms": [
+      "laptop",
+      "notebook pc",
+      "portable computer",
+      "notebook",
+      "laptop computer",
+      "notebook PC"
+    ]
+  },
+  {
+    "value": "tablet",
+    "synonyms": [
+      "tablet",
+      "tablet PC",
+      "tablet pc",
+      "iPad",
+      "galaxy tab"
+    ]
+  },
+  {
+    "value": "mobile",
+    "synonyms": [
+      "mobile",
+      "cell phone",
+      "handheld",
+      "mobile phone",
+      "phone",
+      "smartphone",
+      "iPhone",
+      "galaxy",
+      "cell-phone",
+      "cellular phone"
+    ]
+  },
+  {
+    "value": "server",
+    "synonyms": [
+      "server",
+      "workstation",
+      "server computer",
+      "lab server",
+      "super computer",
+      "supercomputer"
+    ]
+  }
+]

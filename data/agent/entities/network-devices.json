@@ -1,0 +1,9 @@
+{
+  "id": "506dac3f-a122-45f7-940f-8a3c886e6075",
+  "name": "network-devices",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

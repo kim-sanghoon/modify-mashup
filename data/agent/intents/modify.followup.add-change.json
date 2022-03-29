@@ -1,0 +1,80 @@
+{
+  "id": "fe3aff09-f1c0-4d64-9c83-a16ff14ed304",
+  "name": "modify.followup.add-change",
+  "auto": true,
+  "contexts": [
+    "search",
+    "implicature",
+    "add-change-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "modify.followup.add-change",
+      "affectedContexts": [
+        {
+          "name": "search",
+          "lifespan": 5
+        },
+        {
+          "name": "implicature",
+          "lifespan": 5
+        },
+        {
+          "name": "add-change-followup",
+          "lifespan": 0
+        }
+      ],
+      "parameters": [
+        {
+          "id": "44da8319-327e-4351-8e60-16b83b3820f8",
+          "name": "add-change",
+          "required": true,
+          "dataType": "@add-change",
+          "value": "$add-change",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Sorry, but I couldn\u0027t hear what you choose between to replace or to append."
+            },
+            {
+              "lang": "en-us",
+              "value": "Sorry, but I couldn\u0027t hear what you choose between to replace or to append."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en-us",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

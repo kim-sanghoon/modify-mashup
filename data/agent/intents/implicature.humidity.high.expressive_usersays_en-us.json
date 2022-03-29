@@ -1,0 +1,194 @@
+[
+  {
+    "id": "007abcfa-721f-44ce-8a94-c788a84c1b55",
+    "data": [
+      {
+        "text": "it\u0027s really humid",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "dd309bc8-32bf-480f-a919-953b6ebc8518",
+    "data": [
+      {
+        "text": "Today is really humid day",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "16e503c5-68ed-47f9-ba70-379ef0e453ac",
+    "data": [
+      {
+        "text": "it\u0027s humid",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "0710a69b-b96b-443b-8ae9-620df83567a0",
+    "data": [
+      {
+        "text": "It looks like the humidity in the room today is a bit high.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "2f7bed78-3170-4d37-9244-ca4860a695b3",
+    "data": [
+      {
+        "text": "It\u0027s too humid here.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "fe1faff4-e6d6-41a7-8448-5eb16c209f00",
+    "data": [
+      {
+        "text": "why is the humidity level high",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "ba124d67-cef8-4d03-89e5-3cc4553a5348",
+    "data": [
+      {
+        "text": "why is it so humid",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "00d8d627-08f3-4d48-987b-7fcfc8c2ebef",
+    "data": [
+      {
+        "text": "the ",
+        "userDefined": false
+      },
+      {
+        "text": "humidifier",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " makes too soggy air",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "22bee1e3-fc8b-445b-9179-cff67ac5abcc",
+    "data": [
+      {
+        "text": "the room is so humid",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "2c9bb872-4124-480c-9af6-1e19def12e7d",
+    "data": [
+      {
+        "text": "the humidity level is too high",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "c7836418-3239-4a07-b663-312ef87404fa",
+    "data": [
+      {
+        "text": "the air humidity makes me sweat",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "a94fac32-c5ea-4212-827c-b79e97f08e08",
+    "data": [
+      {
+        "text": "too high humidity level",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "33883598-e19e-436a-8434-c954ebd96ac0",
+    "data": [
+      {
+        "text": "I want dry air",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "8f46e3bc-9423-46fa-8f8b-2f2cb7290b4c",
+    "data": [
+      {
+        "text": "the air is too soggy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  }
+]

@@ -1,0 +1,89 @@
+[
+  {
+    "id": "99cd859f-7ce2-4c01-be35-a4f7fc54eb68",
+    "data": [
+      {
+        "text": "louder",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "76baffb9-a9c7-4386-b43a-93351efa61d4",
+    "data": [
+      {
+        "text": "make higher volume level",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3bcc692d-fc49-4127-b982-02fb78f7ba64",
+    "data": [
+      {
+        "text": "make the ",
+        "userDefined": false
+      },
+      {
+        "text": "audio",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " large",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c8217b5a-35fa-47af-976f-46236e55f6f1",
+    "data": [
+      {
+        "text": "larger sound volume",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7e63c1a7-4fe3-4062-b20b-1a16ad59ba3d",
+    "data": [
+      {
+        "text": "increase the volume",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "data": [
+      {
+        "text": "volume up",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

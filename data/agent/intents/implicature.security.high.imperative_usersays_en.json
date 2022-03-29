@@ -1,0 +1,151 @@
+[
+  {
+    "id": "41e5c3e4-ae27-4cd0-b302-ff4f04e9ca5d",
+    "data": [
+      {
+        "text": "make me feel unsafe",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d7ee12c6-8a50-43a3-8cfe-43520d328cb5",
+    "data": [
+      {
+        "text": "stop security",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c9c422c3-7dfb-4968-925c-3ef3d2755fde",
+    "data": [
+      {
+        "text": "security off",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "154f8337-1211-497d-9d1e-a5ffc7453ddd",
+    "data": [
+      {
+        "text": "make this room dangerous",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e109807e-9cf6-45b7-b265-497355c174ee",
+    "data": [
+      {
+        "text": "make the room unsafe",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "31cfb44d-4010-4a67-a127-3d62cacfde20",
+    "data": [
+      {
+        "text": "make it defenseless",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "00666d3c-aef4-4a55-9f66-74dea879728c",
+    "data": [
+      {
+        "text": "deactivate ",
+        "userDefined": false
+      },
+      {
+        "text": "surveillance system",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3c331023-b644-4ca1-b341-6858f25cd4e3",
+    "data": [
+      {
+        "text": "make the room open",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f656c678-0309-4b71-9f74-04af3013b1e7",
+    "data": [
+      {
+        "text": "make security vulnerability",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4a94c5d5-e7cb-4283-bc38-1464160790f9",
+    "data": [
+      {
+        "text": "make this room vulnerable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8d67a0c8-df09-44fe-99e9-f1618ecc581d",
+    "data": [
+      {
+        "text": "decrease the security level",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

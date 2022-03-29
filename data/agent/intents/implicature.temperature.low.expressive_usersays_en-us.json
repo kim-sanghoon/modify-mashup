@@ -1,0 +1,290 @@
+[
+  {
+    "id": "09812f21-be62-4ab1-a3ab-377829b57986",
+    "data": [
+      {
+        "text": "the wind is very cold",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "3892a6cb-44ed-4c7f-8104-2b8cfdaf1b6e",
+    "data": [
+      {
+        "text": "the room\u0027s getting ice",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "d09a40f2-d4c7-44cc-88ed-ab4688d8fd1b",
+    "data": [
+      {
+        "text": "I need hot air",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "40961c8b-3863-405a-9aed-63a5b627b64b",
+    "data": [
+      {
+        "text": "I want to be hot",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "0b1f286f-364b-4dde-bf92-3424e61b6a75",
+    "data": [
+      {
+        "text": "I need to be warmer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "659569c4-a9a4-4dff-9e57-e3c00075d0a9",
+    "data": [
+      {
+        "text": "the wind is freezing",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "2b02f6e0-539b-4179-afa6-5a87c2df7336",
+    "data": [
+      {
+        "text": "today",
+        "userDefined": false
+      },
+      {
+        "text": "\u0027s temperature is low",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "b18e3f6f-5f18-41a1-80d6-f79d9c03cf80",
+    "data": [
+      {
+        "text": "today",
+        "userDefined": false
+      },
+      {
+        "text": "\u0027s really cold",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "abf6077e-003f-40c9-a048-7b0b9eb3c078",
+    "data": [
+      {
+        "text": "why is the temperature low",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "f59b754a-b7f1-4448-b5e3-827205d27c33",
+    "data": [
+      {
+        "text": "why is it so cold",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "e2e6851f-c607-4f60-aeda-0aa97b8e0d5c",
+    "data": [
+      {
+        "text": "where did this cold come from",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "496bb9e6-1c4d-4012-bd5a-12e4ae190b8c",
+    "data": [
+      {
+        "text": "the air is not warm",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "61580ebb-1b10-4de2-88fc-a678ee7b3ae9",
+    "data": [
+      {
+        "text": "the ",
+        "userDefined": false
+      },
+      {
+        "text": "air conditioner",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " is too cold",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "5a9f01ef-7b60-438c-b8b6-c8b15c30aa83",
+    "data": [
+      {
+        "text": "the ",
+        "userDefined": false
+      },
+      {
+        "text": "heater",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " is not warm",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "b2432307-a4ea-4158-be61-e9f32ebc9ef5",
+    "data": [
+      {
+        "text": "it\u0027s freezing here",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "f4ff3140-e33b-44e1-9801-6a4a92c00ac5",
+    "data": [
+      {
+        "text": "I\u0027m getting cold",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "8bf80ba4-14ff-4e67-9b0e-9c4b11a06dd8",
+    "data": [
+      {
+        "text": "the air is blowing too cold",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "b72c4038-01d3-41c8-9d05-a8b2832ffef3",
+    "data": [
+      {
+        "text": "I want to be warm",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "dea64c32-901d-44a6-b4e9-d49a729edf99",
+    "data": [
+      {
+        "text": "I feel so cold",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "674f8b28-4d0e-4f31-935a-77f06f12f932",
+    "data": [
+      {
+        "text": "it\u0027s cold",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  }
+]

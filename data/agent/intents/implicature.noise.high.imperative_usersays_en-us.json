@@ -1,0 +1,196 @@
+[
+  {
+    "id": "38bb989e-1e86-4439-9435-ac36ca09dff1",
+    "data": [
+      {
+        "text": "volume down",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "dedd9727-7a27-4f53-938d-ce348cad7152",
+    "data": [
+      {
+        "text": "turn down ",
+        "userDefined": false
+      },
+      {
+        "text": "speaker",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "f433639c-b900-4f4d-8a78-741c4111b21d",
+    "data": [
+      {
+        "text": "turn down the ",
+        "userDefined": false
+      },
+      {
+        "text": "speaker",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "5c4c27a9-279c-4e97-985c-e75d8f72c661",
+    "data": [
+      {
+        "text": "turn the ",
+        "userDefined": false
+      },
+      {
+        "text": "speaker",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " down",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "0deffdb7-d037-4fb7-8dd2-1ab4f963609e",
+    "data": [
+      {
+        "text": "make the room quiet",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "c6465925-c064-4aa1-acdf-ae9dffa2b73d",
+    "data": [
+      {
+        "text": "quieter",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "8032bd39-8f0e-47f8-a77f-1eb42c3a285e",
+    "data": [
+      {
+        "text": "mute the ",
+        "userDefined": false
+      },
+      {
+        "text": "audio",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "d076e73c-8213-4624-829b-1c9e22f817f5",
+    "data": [
+      {
+        "text": "reduce the loud noise",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "4c51cfbb-ecb9-46ca-be0a-4683f9f23f98",
+    "data": [
+      {
+        "text": "make the ",
+        "userDefined": false
+      },
+      {
+        "text": "TV",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " quiet",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "990d39ed-8f27-48ca-83bd-0cc63754930a",
+    "data": [
+      {
+        "text": "decrease the noise level",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "afef2e09-120b-4e37-8bb1-609577a5447d",
+    "data": [
+      {
+        "text": "what the hell is the noise",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "c7b5f33f-97a2-4d91-bdbb-295440289dd7",
+    "data": [
+      {
+        "text": "what\u0027s the noise",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  }
+]

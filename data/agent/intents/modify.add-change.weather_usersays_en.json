@@ -1,0 +1,588 @@
+[
+  {
+    "id": "b9b20203-22db-4855-bf28-70e09999bc99",
+    "data": [
+      {
+        "text": "include",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": false
+      },
+      {
+        "text": " when it ",
+        "userDefined": false
+      },
+      {
+        "text": "rains",
+        "meta": "@weather",
+        "alias": "weather",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2ed41151-712f-41bb-9574-a0a169c86bc5",
+    "data": [
+      {
+        "text": "rains",
+        "meta": "@weather",
+        "alias": "weather",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "06ecdfbd-cffb-4f99-a902-a49ed2a05178",
+    "data": [
+      {
+        "text": "this should be activated when the weather is cold",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "87bb6441-b75c-4918-8eed-d003be0ea504",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " it to ",
+        "userDefined": false
+      },
+      {
+        "text": "clear",
+        "meta": "@weather",
+        "alias": "weather",
+        "userDefined": false
+      },
+      {
+        "text": " weather",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bdfe0acd-fc95-4529-aa52-d3077a20f528",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " it to ",
+        "userDefined": false
+      },
+      {
+        "text": "rainy",
+        "meta": "@weather",
+        "alias": "weather",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7ddb6033-db44-48b1-95dd-174b3b5e7ff7",
+    "data": [
+      {
+        "text": "rainy",
+        "meta": "@weather",
+        "alias": "weather",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "eb9ed090-14e1-480f-894d-2f281c52d95e",
+    "data": [
+      {
+        "text": "If it looks like it\u0027s ",
+        "userDefined": false
+      },
+      {
+        "text": "raining",
+        "meta": "@weather",
+        "alias": "weather",
+        "userDefined": true
+      },
+      {
+        "text": ", run it.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "07b47dc5-5093-44a5-86c5-b572cc2fbd7d",
+    "data": [
+      {
+        "text": "When it ",
+        "userDefined": false
+      },
+      {
+        "text": "rains",
+        "meta": "@weather",
+        "alias": "weather",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "55a44436-43f2-46a1-a6ae-ca81be0e724b",
+    "data": [
+      {
+        "text": "make it ",
+        "userDefined": false
+      },
+      {
+        "text": "triggered",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " if it ",
+        "userDefined": false
+      },
+      {
+        "text": "rains",
+        "meta": "@weather",
+        "alias": "weather",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8f83a329-daa3-4c09-be05-4434d005f1dd",
+    "data": [
+      {
+        "text": "adjust the ",
+        "userDefined": false
+      },
+      {
+        "text": "trigger",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " parameter to ",
+        "userDefined": false
+      },
+      {
+        "text": "snowy",
+        "meta": "@weather",
+        "alias": "weather",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9be41510-4f98-4dc5-823e-bf5929e8c6ff",
+    "data": [
+      {
+        "text": "rain",
+        "meta": "@weather",
+        "alias": "weather",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "98582b93-9919-4d9a-84ac-6a38d4e538e0",
+    "data": [
+      {
+        "text": "while it\u0027s ",
+        "userDefined": false
+      },
+      {
+        "text": "sunny",
+        "meta": "@weather",
+        "alias": "weather",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ea3267de-dc48-4036-8451-0b43175f8a34",
+    "data": [
+      {
+        "text": "when ",
+        "userDefined": false
+      },
+      {
+        "text": "raining",
+        "meta": "@weather",
+        "alias": "weather",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "00fb79c2-4c28-487a-9c71-5ea239242a62",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "trigger",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " to if it ",
+        "userDefined": false
+      },
+      {
+        "text": "rains",
+        "meta": "@weather",
+        "alias": "weather",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6278f0a3-58ab-4894-b06d-27daf98090b8",
+    "data": [
+      {
+        "text": "it should be ",
+        "userDefined": false
+      },
+      {
+        "text": "triggered",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " if it ",
+        "userDefined": false
+      },
+      {
+        "text": "snows",
+        "meta": "@weather",
+        "alias": "weather",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "281d32d0-0b4b-4b78-a8d4-73766961d1d5",
+    "data": [
+      {
+        "text": "I want to ",
+        "userDefined": false
+      },
+      {
+        "text": "trigger",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " it when it ",
+        "userDefined": false
+      },
+      {
+        "text": "rains",
+        "meta": "@weather",
+        "alias": "weather",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8ff8e9bf-ae3f-4a56-8af5-79ce960cf920",
+    "data": [
+      {
+        "text": "also check if it\u0027s ",
+        "userDefined": false
+      },
+      {
+        "text": "foggy",
+        "meta": "@weather",
+        "alias": "weather",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "42053741-ac50-447b-b6d6-0097eda310d0",
+    "data": [
+      {
+        "text": "adjust the ",
+        "userDefined": false
+      },
+      {
+        "text": "triggering condition",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " to ",
+        "userDefined": false
+      },
+      {
+        "text": "raining",
+        "meta": "@weather",
+        "alias": "weather",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "298fe095-e7a0-4b6f-a237-714f0ec0e186",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " it to if it is ",
+        "userDefined": false
+      },
+      {
+        "text": "snowy",
+        "meta": "@weather",
+        "alias": "weather",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d73101ee-9079-4493-8bbe-38a1ccb685d6",
+    "data": [
+      {
+        "text": "also check it ",
+        "userDefined": false
+      },
+      {
+        "text": "sunny",
+        "meta": "@weather",
+        "alias": "weather",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "36a3b834-3bbd-4c98-a5ba-6362adc2cec7",
+    "data": [
+      {
+        "text": "append",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " a ",
+        "userDefined": false
+      },
+      {
+        "text": "trigger",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " of when it\u0027s ",
+        "userDefined": false
+      },
+      {
+        "text": "cloudy",
+        "meta": "@weather",
+        "alias": "weather",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "af05120d-0096-4272-90c6-73d6e253b357",
+    "data": [
+      {
+        "text": "when the weather\u0027s ",
+        "userDefined": false
+      },
+      {
+        "text": "clear",
+        "meta": "@weather",
+        "alias": "weather",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "14522c34-e68c-4551-b5e3-7886bf2e9425",
+    "data": [
+      {
+        "text": "change",
+        "meta": "@add-change",
+        "alias": "add-change",
+        "userDefined": true
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "trigger",
+        "meta": "@trigger-action",
+        "alias": "trigger-action",
+        "userDefined": false
+      },
+      {
+        "text": " to ",
+        "userDefined": false
+      },
+      {
+        "text": "raining",
+        "meta": "@weather",
+        "alias": "weather",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5cf3f060-c7e2-4d59-9ba4-ffb42ac03ea7",
+    "data": [
+      {
+        "text": "if it ",
+        "userDefined": false
+      },
+      {
+        "text": "rains",
+        "meta": "@weather",
+        "alias": "weather",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "data": [
+      {
+        "text": "open it when the weather is ",
+        "userDefined": false
+      },
+      {
+        "text": "clear",
+        "meta": "@weather",
+        "alias": "weather",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

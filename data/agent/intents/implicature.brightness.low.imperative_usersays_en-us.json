@@ -1,0 +1,145 @@
+[
+  {
+    "id": "ac616f91-c020-4d7c-869f-04626cefcbb7",
+    "data": [
+      {
+        "text": "make more ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "7dd624c3-b338-444d-ac30-c73736fef9c9",
+    "data": [
+      {
+        "text": "make the brightness level high",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "36e158f6-c97c-433a-a01a-c6b1c74a982d",
+    "data": [
+      {
+        "text": "brighter",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "596e8ce0-cac4-4501-92c8-fa50c8e6ea00",
+    "data": [
+      {
+        "text": "let the brightness go up",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "273af7a4-49ce-4865-8563-e898aaa53270",
+    "data": [
+      {
+        "text": "brightness up",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "fffc5a76-2a12-46cd-aa6a-82908c5b684f",
+    "data": [
+      {
+        "text": "turn ",
+        "userDefined": false
+      },
+      {
+        "text": "TV",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " brightness up",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "8d138591-4477-48b2-af14-a3b6cb45afc3",
+    "data": [
+      {
+        "text": "make the ",
+        "userDefined": false
+      },
+      {
+        "text": "light",
+        "meta": "@devices",
+        "alias": "devices",
+        "userDefined": false
+      },
+      {
+        "text": " brighter",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "9d551b65-d483-4862-8002-a8fa48c33b4b",
+    "data": [
+      {
+        "text": "make the room bright",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "58f29958-bc25-4139-bdeb-df14c706fa98",
+    "data": [
+      {
+        "text": "increase brightness",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  }
+]

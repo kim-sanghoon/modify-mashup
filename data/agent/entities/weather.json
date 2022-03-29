@@ -1,0 +1,9 @@
+{
+  "id": "f6269ebf-e0dd-4ad0-a005-021d731ea1fb",
+  "name": "weather",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

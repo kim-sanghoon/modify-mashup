@@ -1,0 +1,52 @@
+{
+  "id": "31c41588-d56f-4a2e-bc30-da60b89b0876",
+  "name": "modify.finish",
+  "auto": true,
+  "contexts": [
+    "implicature",
+    "search",
+    "finish"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "modify.finish",
+      "affectedContexts": [
+        {
+          "name": "implicature",
+          "lifespan": 0
+        },
+        {
+          "name": "search",
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en-us",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
