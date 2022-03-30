@@ -2,6 +2,9 @@
 
 This repository contains the back-end implementation of CoMMA, a conversational mashup modification agent.
 
+The paper is published in the CHI 2022 conference as follows: https://doi.org/10.1145/3491102.3517655
+(Open Access on ACM DL)
+
 ### Preparing for the installation
 The implementation has been tested on Python 3.5.
 
